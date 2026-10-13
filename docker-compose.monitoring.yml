@@ -1,0 +1,240 @@
+name: accidents-monitoring
+
+services:
+
+  loki:
+    image: grafana/loki:3.5.3
+    container_name: accidents-loki
+    command:
+      - -config.file=/etc/loki/config.yml
+    volumes:
+      - ./monitoring/loki/loki.yml:/etc/loki/config.yml:ro
+      - loki-data:/loki
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--spider", "http://localhost:3100/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+    networks:
+      - default
+      - accidents-shared-network
+    restart: unless-stopped
+
+  alloy:
+    image: grafana/alloy:v1.9.2
+    container_name: accidents-alloy
+    command:
+      - run
+      - /etc/alloy/config.alloy
+      - --storage.path=/var/lib/alloy/data
+    # Docker's socket is required by loki.source.docker. Alloy is the sole
+    # monitoring service running as root, and the socket is mounted read-only.
+    user: "0:0"
+    volumes:
+      - ./monitoring/alloy/config.alloy:/etc/alloy/config.alloy:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - alloy-data:/var/lib/alloy/data
+    depends_on:
+      loki:
+        condition: service_healthy
+    networks:
+      - default
+      - accidents-shared-network
+    restart: unless-stopped
+
+  prometheus:
+
+    image: prom/prometheus:v3.14.0
+
+    container_name: accidents-prometheus
+
+    ports:
+      - "9090:9090"
+
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus-data:/prometheus
+
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - default
+      - accidents-shared-network
+
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:9090/-/healthy"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+    depends_on:
+      sustainability-exporter: { condition: service_healthy }
+      drift-exporter: { condition: service_healthy }
+      ml-exporter: { condition: service_healthy }
+
+    
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+      - --storage.tsdb.retention.time=180d
+      - --storage.tsdb.retention.size=8GB
+      - --web.enable-lifecycle
+
+
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:13.2.0
+
+    container_name: accidents-grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      prometheus: { condition: service_healthy }
+    networks:
+      - default
+      - accidents-shared-network
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+    environment:
+      GF_SLACK_WEBHOOK: ${GF_SLACK_WEBHOOK}
+    restart: unless-stopped
+
+  sustainability-exporter:
+    build: .
+    command: >
+      uvicorn
+      monitoring.exporters.sustainability.sustain_metrics:app
+      --host 0.0.0.0
+      --port 8002
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./reports/carbon:/app/reports/carbon:ro
+    networks:
+      - default
+      - accidents-shared-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0) if urllib.request.urlopen('http://127.0.0.1:8002/health',timeout=2).status==200 else sys.exit(1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+    restart: unless-stopped
+
+
+  drift-exporter:
+    build: .
+
+    command: >
+      uvicorn
+      monitoring.exporters.drift.drift_metrics:app
+      --host 0.0.0.0
+      --port 8001
+
+    ports:
+      - "8001:8001"
+
+    volumes:
+      - ./monitoring/drift:/app/monitoring/drift:ro
+
+    networks:
+      - default
+      - accidents-shared-network
+    
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0) if urllib.request.urlopen('http://127.0.0.1:8001/health',timeout=2).status==200 else sys.exit(1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+    restart: unless-stopped
+
+  ml-exporter:
+    build: .
+    command: >
+      uvicorn
+      monitoring.exporters.ml.ml_metrics:app
+      --host 0.0.0.0
+      --port 8003
+    ports:
+      - "8003:8003"
+    volumes:
+      - ./monitoring/ml:/app/monitoring/ml:ro
+    networks:
+      - default
+      - accidents-shared-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0) if urllib.request.urlopen('http://127.0.0.1:8003/health',timeout=2).status==200 else sys.exit(1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+    restart: unless-stopped
+    
+  node-exporter:
+    image: prom/node-exporter:v1.9.1
+    container_name: accidents-node-exporter
+    command:
+      - --path.procfs=/host/proc
+      - --path.sysfs=/host/sys
+      - --path.rootfs=/rootfs
+      - --collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    ports:
+      - "9100:9100"
+    networks:
+      - default
+      - accidents-shared-network
+    restart: unless-stopped
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49.1
+    container_name: accidents-cadvisor
+    command:
+      - --docker=unix:///docker.sock
+      - --containerd=/run/containerd/containerd.sock
+      - --containerd-namespace=moby
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      # Keep the socket outside the read-only /var/run directory mount.
+      - /var/run/docker.sock:/docker.sock:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    ports:
+      - "8081:8080"
+    networks:
+      - default
+      - accidents-shared-network
+    restart: unless-stopped
+
+
+
+volumes:
+  alloy-data:
+  grafana-data:
+  loki-data:
+  prometheus-data:
+
+  
+
+networks:
+  default:
+
+  accidents-shared-network:
+
+    name: accidents-shared-network
+    external: true

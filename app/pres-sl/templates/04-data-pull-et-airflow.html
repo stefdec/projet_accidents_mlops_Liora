@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidents MLOps | Data Pull et Airflow</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context"><span>04 / 08</span><i></i><span>Orchestration</span></div>
+                    <h1 class="slide-title">Une chaîne hebdomadaire, automatique et conditionnelle</h1>
+                    <p class="slide-lead">Airflow orchestre la collecte, le versionnement, l'entraînement et le
+                        déploiement du champion.</p>
+                </div>
+            </header>
+
+            <section class="airflow-workbench workbench content-inset"
+                aria-label="DAG Airflow et garanties d'exécution">
+                <div class="airflow-rules">
+                    <article class="airflow-rule"><span class="panel-label">Relances</span>
+                        <h2>3 tentatives</h2>
+                        <p>2 à 5 minutes selon la tâche.</p>
+                    </article>
+                    <article class="airflow-rule"><span class="panel-label">Concurrence</span>
+                        <h2>1 run actif</h2>
+                        <p>Pool <em>train</em> à un slot.</p>
+                    </article>
+                    <article class="airflow-rule"><span class="panel-label">Déploiement</span>
+                        <h2>Conditionnel</h2>
+                        <p>Pas de promotion = pas de reload.</p>
+                    </article>
+                </div>
+                <div class="airflow-dag diagram-grid">
+                    <img src="../assets/images/airflow_dag2.png"
+                        alt="Graphe du DAG Airflow, de la collecte au déploiement conditionnel">
+                </div>
+            </section>
+
+            <section class="airflow-takeaway takeaway content-inset">
+                <span class="panel-label">À retenir</span>
+                <strong>Un candidat moins performant s’arrête dans le DAG ; le champion en production reste
+                    inchangé.</strong>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

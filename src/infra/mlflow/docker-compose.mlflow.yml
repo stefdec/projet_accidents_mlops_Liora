@@ -1,0 +1,69 @@
+name: accidents-mlops
+
+services:
+  mlflow-db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${MLFLOW_DB_NAME:-mlflow}
+      POSTGRES_USER: ${MLFLOW_DB_USER:-mlflow}
+      POSTGRES_PASSWORD: ${MLFLOW_DB_PASSWORD:-change-me-local-only}
+    volumes:
+      - ../../../data/mlflow/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    networks:
+      - mlflow_internal
+
+  mlflow-server:
+    build:
+      context: ../../..
+      dockerfile: src/infra/mlflow/Dockerfile
+      args:
+        MLFLOW_VERSION: 3.15.2
+        FASTAPI_VERSION: 0.141.1
+        STARLETTE_VERSION: 1.6.0
+        ANYIO_VERSION: 4.14.2
+        UVICORN_VERSION: 0.52.4
+        APP_UID: ${LOCAL_UID:-1000}
+        APP_GID: ${LOCAL_GID:-1000}
+    restart: unless-stopped
+    depends_on:
+      mlflow-db:
+        condition: service_healthy
+    command:
+      - server
+      - --host=0.0.0.0
+      - --port=5001
+      - --backend-store-uri=postgresql+psycopg2://${MLFLOW_DB_USER:-mlflow}:${MLFLOW_DB_PASSWORD:-change-me-local-only}@mlflow-db:5432/${MLFLOW_DB_NAME:-mlflow}
+      - --artifacts-destination=/mlartifacts
+      - --allowed-hosts=${MLFLOW_ALLOWED_HOSTS:-localhost:5000,127.0.0.1:5000,localhost:5001,127.0.0.1:5001,mlflow-server:5001}
+    ports:
+      - "${MLFLOW_PORT:-5001}:5001"
+    volumes:
+      - ../../../data/mlflow/artifacts:/mlartifacts
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://127.0.0.1:5001/health', timeout=2)
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - mlflow_internal
+      - accidents-shared-network
+
+networks:
+  mlflow_internal:
+    driver: bridge
+  accidents-shared-network:
+    external: true
+    name: accidents-shared-network

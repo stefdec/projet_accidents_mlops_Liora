@@ -1,0 +1,3682 @@
+[
+  {
+    "path": ".dockerignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "83dbb3d2c0022e2190b0fb0c4ddd319a59006f317e7bae8244e711e4e5449385"
+  },
+  {
+    "path": ".dvcignore",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "1d8fab086da72676386465c4138f22ad6d71c9932a68ef203d1e307e9c3daa1b"
+  },
+  {
+    "path": ".env.example",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "512e3f4a214f8dae8acd34817c9985b892d809d70843455cc53cfcfbbd98c163"
+  },
+  {
+    "path": ".gitignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "ec67a394b794e26254c0a50bccf28152a37dd4cc005fea6c40b0a71afe968a14"
+  },
+  {
+    "path": ".python-version",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+  },
+  {
+    "path": "AGENTS.md",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "11e31df109f4de948b0f0c181fe3f332af8e3320834487affc8cf12a31cc3d30"
+  },
+  {
+    "path": "Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "a210e02ccb441068c7528d28c1d34b8f41042a1452891488396d51d71b92c4fb"
+  },
+  {
+    "path": "Makefile",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "1d480a6af58f1354aef238faa05f8e42604352dea2b21f3cb61e389c76b6be30"
+  },
+  {
+    "path": "PRODUCT.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "3e1fd8b5fe5a8afd81006f32739860532f30fe388329b776ef398622c41a8976"
+  },
+  {
+    "path": "README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "7e6f02df446a181968d758111650cf28ad710b4487e6b4e118aba1723bf99bde"
+  },
+  {
+    "path": "README_PIPELINE.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "1438d5adb76dcbd42994559ddfe5a0a66b181a5bcf7519ed19c8f531125a6a89"
+  },
+  {
+    "path": "README_monitoring.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "ef87fba7393d048c6025a7ac157388c2ef1aa8703eb88b957c9115a8a8804c81"
+  },
+  {
+    "path": "app/pres-sl/.gitignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b"
+  },
+  {
+    "path": "app/pres-sl/.streamlit/config.toml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "88ce2b8a689f62c4ac417b147232cc529ba074102909ac84795425eb62b60ea5"
+  },
+  {
+    "path": "app/pres-sl/README.md",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "da9c880ea6b0e463f10ac59a9e651e2cc9c23e577e5c4e4f75ea507f4712c054"
+  },
+  {
+    "path": "app/pres-sl/app.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.navigation",
+      "components.renderer",
+      "streamlit"
+    ],
+    "sha256": "acf3fd77687caab2f36fb327b03b2738353b08518f72007ecd44b8b81b24b852"
+  },
+  {
+    "path": "app/pres-sl/assets/fonts/space-grotesk-400.ttf",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "ec926d5065eaca49a48f96e312bbae0bbc5733c24215cf5dfabbdccee926fef7"
+  },
+  {
+    "path": "app/pres-sl/assets/fonts/space-grotesk-500.ttf",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "3e699ead1876244fa392243054ddefe7cf631b488438828a8a100731a22ab995"
+  },
+  {
+    "path": "app/pres-sl/assets/fonts/space-grotesk-600.ttf",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "6c0346b8d297ebdc225832833e03e884a26ad99d265ecd3924d46e1ba285ea87"
+  },
+  {
+    "path": "app/pres-sl/assets/fonts/space-grotesk-700.ttf",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "3e756954468ff1cb302dae0414262e72f76a67d87bef3fa1f3226cd0fb9b2d85"
+  },
+  {
+    "path": "app/pres-sl/assets/images/airflow_dag2.png",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "db35fce1d0062a201c6e77702012179860d149f0767d0c936adc55fc4855e134"
+  },
+  {
+    "path": "app/pres-sl/assets/images/archi.png",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "a62cdfcf99a936f7f1ccdafb6a6dee5d81f6c5c5382bc8c4e9a09c7b27fefe8b"
+  },
+  {
+    "path": "app/pres-sl/assets/images/auth.png",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "c838c272f0042da271cef086ea5a1e0ef256f4c6a9408eb123d5bcb74b9b3a76"
+  },
+  {
+    "path": "app/pres-sl/assets/images/daghub.png",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "f6c27fc9dbca222e1ba6895f0a5489cb244179187348473bbb6df1c8aec5708d"
+  },
+  {
+    "path": "app/pres-sl/assets/images/dagshub2.jpg",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "6097145ad150d5207756eea8c5104b773bb776a60ae05e3c7cfcac2d0bcc7569"
+  },
+  {
+    "path": "app/pres-sl/assets/images/graf.jpg",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "226ef4dd322876e5f42f543e8896e2dafaab23ff3a2555fb0f44d632f88c1b44"
+  },
+  {
+    "path": "app/pres-sl/assets/images/loop.png",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "4fb6e23568c96c419ca3da9b0b8c5e9daee871cf341de0aba38ce1783ca654cd"
+  },
+  {
+    "path": "app/pres-sl/assets/images/mlflow.jpeg",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "d6ee17b6993a55f47c0a54fea67010d421af5409af337692734a079e4a764b21"
+  },
+  {
+    "path": "app/pres-sl/assets/images/ui1.jpg",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "bae848a9541b772dbccdce2559cfa64f519d2337734bb6572f7df8217e6a141a"
+  },
+  {
+    "path": "app/pres-sl/assets/images/ui2.jpg",
+    "category": "probablement utilisé",
+    "evidence": "Assets du composant actif; renderer embarque les références des templates et du CSS, usage individuel à comparer avant suppression",
+    "imports": [],
+    "sha256": "14f9398ff5fbf81a6842e1bb15a36daaec90c27e003fdbd2e402a51c1820cfbf"
+  },
+  {
+    "path": "app/pres-sl/components/navigation.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "components.renderer",
+      "json",
+      "pages",
+      "pages.registry"
+    ],
+    "sha256": "30de969cb12493c298070b541cb042beffccc156f9dd18937a4e3b9fa86d99c2"
+  },
+  {
+    "path": "app/pres-sl/components/renderer.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "base64",
+      "mimetypes",
+      "pathlib",
+      "re",
+      "streamlit.components.v1"
+    ],
+    "sha256": "c06a71647bab5e94e7142511a250b87d618b873049afafb3aa3f393fd710bcc5"
+  },
+  {
+    "path": "app/pres-sl/pages/architecture_lancement.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "f5d6e5b707538fa482a5f50cd1391fd48cd8639c048c06836ed8d14ace014b83"
+  },
+  {
+    "path": "app/pres-sl/pages/authentification_jwt.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "1db74c5775a1b87c0bef682601eb32941cb0b9e2c65dd842688914ffddae3bbc"
+  },
+  {
+    "path": "app/pres-sl/pages/conclusion.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "a8258f6217cc1ce48e569637bb0a1120e9ac294489f40c9025f08838b5ac0615"
+  },
+  {
+    "path": "app/pres-sl/pages/data_pull_airflow.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "5052427fe506fec1c0dfde76950cc0380095845aee61736448d2b3982ab75c9a"
+  },
+  {
+    "path": "app/pres-sl/pages/demonstration_ui.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "475d33aa0396676b13b8239e84119b94762fbc192545a5d9afb886676cd6d474"
+  },
+  {
+    "path": "app/pres-sl/pages/dvc_dagshub.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "3e6556adc260a30b454f6faa82142c3a2a6a75965d86e1eab8f6bd6e9b19aadb"
+  },
+  {
+    "path": "app/pres-sl/pages/monitoring_observabilite.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "a3046c3424015e0ba4297df0ca6087fa2627a9a370dac9e62a5d50d6c01260d8"
+  },
+  {
+    "path": "app/pres-sl/pages/registry.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "09b73eb105923386683fee850b71304ee5ed0fe1460c0dbd6384a958d2b2c79d"
+  },
+  {
+    "path": "app/pres-sl/pages/train_mlflow_predict.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "components.renderer"
+    ],
+    "sha256": "6881fa1278d57ec9658a3156c0bab77cc2e8c07ed22f959fe7e392626d0163b3"
+  },
+  {
+    "path": "app/pres-sl/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "f8486a618a8d9113c3f24f2eb56c1b82f4e09d06fa21de70d36f4f71a062d9aa"
+  },
+  {
+    "path": "app/pres-sl/styles/global.css",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "3d2dec24c4b299808e3debd63582099d6e15ea1cccd1b800fbc86fa888d3f278"
+  },
+  {
+    "path": "app/pres-sl/templates/01-architecture-et-lancement.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "aa8dc62f72db3c8c32c18a6d3334edcd4ac285d9983b33590ca58169918d68cd"
+  },
+  {
+    "path": "app/pres-sl/templates/02-authentification-et-jwt.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "0aa07e9bf6ab30196e16b88f4403d99e336a9ce7d14a93ea64bdd9f362131a9a"
+  },
+  {
+    "path": "app/pres-sl/templates/03-train-mlflow-et-predict.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "469e3ddbbed1abd35a2391f9b30957c6c5b946684cf9a820598d73a14815a70e"
+  },
+  {
+    "path": "app/pres-sl/templates/04-data-pull-et-airflow.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "51c90dace50e8027fd1af844d0d139bbf3eb728e3c09633264890dfb5d745850"
+  },
+  {
+    "path": "app/pres-sl/templates/05-dvc-et-dagshub.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "1596a574917752425cac36b5613519ef2b15cfab5c0b6cef988e48ba6b9e1ff1"
+  },
+  {
+    "path": "app/pres-sl/templates/06-monitoring-et-observabilite.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "c59cb5b89b53dc5087da7a8c3341ccec177d8ab2096e447d400ab8c983eb5fb7"
+  },
+  {
+    "path": "app/pres-sl/templates/07-demonstration-ui.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "9ab7b7e12b2bddb0ac1460d9babccd6db9876da3a0e3fcfbbecd533164b6a348"
+  },
+  {
+    "path": "app/pres-sl/templates/08-conclusion.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "3495b80d5fd644bb377121b3f2f20cd5356bff845bb4affbe25c24c787264599"
+  },
+  {
+    "path": "app/pres-sl/tests/test_slides_01_04.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "pages",
+      "pathlib",
+      "sys"
+    ],
+    "sha256": "74a7d823afda691a9fee0727c8c864dc199cc510776aaf61976a4693af582f4b"
+  },
+  {
+    "path": "app/pres-sl/tests/test_slides_05_08.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "pages",
+      "pathlib",
+      "sys"
+    ],
+    "sha256": "ff0355eaaa0679f46adc32cbd2ce0e7edc339877ed75b8f2b093fc71dedcbbbc"
+  },
+  {
+    "path": "app/presentation/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "1e66dc0ab05de0dc355d4cbc83aa0b34cbc3e7dca62e289b343408636311c380"
+  },
+  {
+    "path": "app/presentation/assets/graph1.jpg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "ca24bbfb4b478d3ee75acf88683e281d55a495786bdf247422c804b2735810e4"
+  },
+  {
+    "path": "app/presentation/components/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "08733fe5a6b919ca452fb9177b5caacd253c65913cf04466b795da047c3a15f2"
+  },
+  {
+    "path": "app/presentation/components/navigation.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config",
+      "st_tailwind",
+      "streamlit"
+    ],
+    "sha256": "bf8071603eb44cf3c392a6c348bd38e4d1ddfb45c4dd6d09a59225caa2e1e31f"
+  },
+  {
+    "path": "app/presentation/components/slides.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config",
+      "html",
+      "streamlit"
+    ],
+    "sha256": "9e0aa6ef563f819fc4fc842bbf2bbe786d5b4fba7c53a81bbf15d716e67c6516"
+  },
+  {
+    "path": "app/presentation/config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "dataclasses",
+      "streamlit"
+    ],
+    "sha256": "8eda435829e6757c063b870234cfc1c549adeef696db728c29fdd44f5c457c75"
+  },
+  {
+    "path": "app/presentation/pages/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "ea65ee56e520f06142b390152cf30af6d60915e9d03d62dbfa1d06a155c89c14"
+  },
+  {
+    "path": "app/presentation/pages/airflow.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "0205557414a6694ca0a60f2f7b45e8944fc2e798f3678b254c1adf0bd287eff6"
+  },
+  {
+    "path": "app/presentation/pages/architecture.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.components.slides",
+      "app.presentation.config",
+      "streamlit"
+    ],
+    "sha256": "327153c06d4a015771e77131e2f421162fbe4ee767e71f49f620fa306bd40b29"
+  },
+  {
+    "path": "app/presentation/pages/authentication.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "4ef5313ac671ad447b124d248c250e538c4a46b0ad73c110562558d0c00e6c06"
+  },
+  {
+    "path": "app/presentation/pages/conclusion.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "9006676b42981a71c4cc2638f79a1c6b77fb7f8993b02cadb4cca2d2904a8548"
+  },
+  {
+    "path": "app/presentation/pages/deck.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config",
+      "app.presentation.pages.airflow",
+      "app.presentation.pages.architecture",
+      "app.presentation.pages.authentication",
+      "app.presentation.pages.conclusion",
+      "app.presentation.pages.dvc",
+      "app.presentation.pages.monitoring",
+      "app.presentation.pages.training_mlflow_predict",
+      "app.presentation.pages.ui_demo",
+      "collections.abc"
+    ],
+    "sha256": "7de57baff1f40b15ca684c67f982635b667c12b2250a8f2dc06eb85bd4a86a3b"
+  },
+  {
+    "path": "app/presentation/pages/dvc.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "07431c9db925c0bb0d4cd8f745b2df9f9560ec0bf55a57086c28a25bb0eb5d92"
+  },
+  {
+    "path": "app/presentation/pages/monitoring.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "8ea2f9e4473c7e50cf26fbef5631b19d8c5266bc65539701b9ef7c9b30952561"
+  },
+  {
+    "path": "app/presentation/pages/training_mlflow_predict.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "1d5cb3fd1548c2bb23c666b478c08c460bc479c02002f40a44924067651b7266"
+  },
+  {
+    "path": "app/presentation/pages/ui_demo.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config"
+    ],
+    "sha256": "02c0393bfd788c8325740f644db420d846fc130d821c3b816af7578eb1062d19"
+  },
+  {
+    "path": "app/presentation/styles/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "e292ca2df1a592900bd3e28cecfa6739ba35743b68a2a9b8c02f0b7785299558"
+  },
+  {
+    "path": "app/presentation/styles/architecture.css",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "f58863b15fa76477f5ce5275dc1ee00192cfd50a360cd1c2392d6debad0875c3"
+  },
+  {
+    "path": "app/presentation/styles/global.css",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "1f3c0cf0cae3a733b2dbe1b25e39e6bde4cd10f147affc136a885a87f40aae78"
+  },
+  {
+    "path": "app/presentation/styles/theme.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "fe18825283d104da93a5b755636607e1352a23f9b6ddac7777335aafd0200fba"
+  },
+  {
+    "path": "app/presentation/tests/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "4935fa7549a15830e984cc06125560567694fa7b019a27e484b7ea0e6b0c9d75"
+  },
+  {
+    "path": "app/presentation/tests/test_app.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.config",
+      "app.presentation.pages.deck",
+      "pathlib",
+      "streamlit.testing.v1"
+    ],
+    "sha256": "88996395f99d467066751c0df9690c92ec094782ab9f60beadd2e205b7297708"
+  },
+  {
+    "path": "app/sl_OCS_v1/Dockerfile",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "980a532ba8328183496d85232aca98e1214d49d02adf539562fd72bb852f854e"
+  },
+  {
+    "path": "app/sl_OCS_v1/README.md",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "311ceff0fc5e82a40a8cdd63e655f4113e9a3d285f3db5f9256801ba5c161311"
+  },
+  {
+    "path": "app/sl_OCS_v1/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "558550400efd32c9e65eae9075404d591321c53422b1c3e350a84ac9a4da973b"
+  },
+  {
+    "path": "app/sl_OCS_v1/api_client.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "os",
+      "requests",
+      "typing"
+    ],
+    "sha256": "e0e4067fc1c92460125d558d4e0f6addc7464415d4dc2372ded8f20699cd296d"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "be8dd394045125888dd6ddeae8112ed58f00942ce4d098b989f5e583a2067c52"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/labels.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "117d376ac30c8f763e5108b37ace9c31ab2ceafc09c25b6fea4486242f6d2a5c"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/questions.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "658ee091d5e6f2620bfacf5852430180c1333edc36d3b6254e960f8570cf8a18"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/scenarios.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "cda89b0a5974a372286d0dcdcd1fc510acd468bda8e901a9800a3628dd4cdbd4"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/ui_config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "422eea61f47dd39ceba9919c46359e61523abae6169ada43ebd823d50a5c3ae5"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "9ce08dc6bd8219449f3086b9e1e2c843bdd7448d8473bc7d1954c28c1f8a5511"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/call_form.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.assets.labels",
+      "app.sl_OCS_v1.assets.ui_config",
+      "app.sl_OCS_v1.utils.config",
+      "app.sl_OCS_v1.utils.formatting",
+      "streamlit"
+    ],
+    "sha256": "1206337ef018c66e5b2c2b6478a257d46e37fea10bf8f0b85ce83b1e38a3f390"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/results.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.assets.labels",
+      "app.sl_OCS_v1.assets.ui_config",
+      "app.sl_OCS_v1.utils.prediction",
+      "json",
+      "streamlit"
+    ],
+    "sha256": "aab774b25e52b4f06550f1cb2791f4cf272aff15259e83af23f69dbf1f2abe81"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/scenario_selector.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.assets.labels",
+      "app.sl_OCS_v1.assets.scenarios",
+      "app.sl_OCS_v1.assets.ui_config",
+      "app.sl_OCS_v1.utils.formatting",
+      "streamlit"
+    ],
+    "sha256": "e991e73d798aeedb6c0c80de02074459e7365d31a891083e8cb20587ca12c67f"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/sidebar.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.api_client",
+      "dataclasses",
+      "streamlit"
+    ],
+    "sha256": "1646fc90a5250e9793a96b59598cfbb98ac385e8f34ab9f72343adcc8844c5fa"
+  },
+  {
+    "path": "app/sl_OCS_v1/pages/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eb8f668c12ca7f3ca4e39c34f8158a46caf0b0da74806f4db53dd34dea097b24"
+  },
+  {
+    "path": "app/sl_OCS_v1/pages/regulation.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.api_client",
+      "app.sl_OCS_v1.assets.ui_config",
+      "app.sl_OCS_v1.components.call_form",
+      "app.sl_OCS_v1.components.results",
+      "app.sl_OCS_v1.components.scenario_selector",
+      "app.sl_OCS_v1.components.sidebar",
+      "app.sl_OCS_v1.styles.theme",
+      "app.sl_OCS_v1.utils.prediction",
+      "streamlit",
+      "time"
+    ],
+    "sha256": "95fb001849c560a3641a4b171e329f008ddf215b39cd3c97870e5f2ce4715b5e"
+  },
+  {
+    "path": "app/sl_OCS_v1/requirements.txt",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "bc902451aa7060e64ba641d6a64ecb286b95733f68920f79dcfd751e9535bcd4"
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "7a8dcb238c0b256cabdbb10d45f2b214ee7de68062fbce23dd7299350be35b94"
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/app.css",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "0ae353a8b059b53fb17fd97edf79ba33a23a9f9799d6f0e0ad33c7f0689e18c3"
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/theme.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "0e75b8f04260ba68e6cd20d396f45c3d376c6ed374f3fb9383304452237ef072"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "b417b7d0c3057abdd5011f1546e2a4c63798603022dafd686f22a4ae12ae9dca"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_api_client.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.api_client",
+      "pytest"
+    ],
+    "sha256": "499df98443981064b1ab83aef74d79a2d1089b0ed0cc810674b2876cb344eb83"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_prediction.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.utils.config",
+      "app.sl_OCS_v1.utils.prediction",
+      "json"
+    ],
+    "sha256": "c6aa572647b2baa07dac2df114d72a469e6ab83ac2d1939247473e58c1dbcb6e"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_streamlit_app.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_OCS_v1.assets.scenarios",
+      "pathlib",
+      "streamlit.testing.v1"
+    ],
+    "sha256": "a7c95263d2d2e90a77582e2687cb17d6366e34dfd7ad38fefa077c971daf5ff1"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "bcb138de6b2a040ffcd4c6eb7beb8c7c5f062ca8dbb80ca22a0d781db5f3af7f"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "bf2af0bfd0ff7d5e16b577ed2550266b94d339e1f8bf76f893c27b55fa74096a"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/formatting.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.assets.labels",
+      "app.sl_OCS_v1.utils.config",
+      "math"
+    ],
+    "sha256": "f88fc21373f16abce1d43e017ece6ce63f52d130e7e908db6ef556e43f84750b"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/prediction.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.assets.questions",
+      "app.sl_OCS_v1.assets.ui_config",
+      "app.sl_OCS_v1.utils.config",
+      "app.sl_OCS_v1.utils.formatting"
+    ],
+    "sha256": "b7b9168cbdd23423fe9f78fbaab1559cf5d3a27890a2ad87eb541030e3f3f8e8"
+  },
+  {
+    "path": "app/sl_app/README_SL_APP_SHARED_INFERENCE.md",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "d777cdd47e58b56072f084feba2e427d33c176b277dcd85213bb73563c03936c"
+  },
+  {
+    "path": "app/sl_app/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "ed9fb96a4f0e9a8b577a96b14d49166c19b85021ada83c90999ceb62af595a27"
+  },
+  {
+    "path": "app/sl_app/assets/logo.svg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "79e5fd1f7cd117a38992005c0199a06c9f181e9fbdd5d58815b9bca737941089"
+  },
+  {
+    "path": "app/sl_app/components/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "30aafff5a48a718908b88cba3f6404b1880aa62180f770026a89c484de372d32"
+  },
+  {
+    "path": "app/sl_app/components/audio_recorder.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_app.config",
+      "app.sl_app.utils.realtime",
+      "collections.abc",
+      "dataclasses",
+      "streamlit"
+    ],
+    "sha256": "6376ae2b8d172486bba156445875295c8bdbfbc66a2b8b476a454846d57b66ab"
+  },
+  {
+    "path": "app/sl_app/components/cards.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_app.components.icons",
+      "html",
+      "streamlit"
+    ],
+    "sha256": "340b656e8a3cd37ece30088f1502c4e733ce14b41ed8cd78ee0c41a08f7e0959"
+  },
+  {
+    "path": "app/sl_app/components/icons.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "73f8d7a18a64b0ee514d4b7f8697dcd6d98e30be132c158173bd8b9da69ae3ff"
+  },
+  {
+    "path": "app/sl_app/components/layout.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_app.components.icons",
+      "app.sl_app.config",
+      "html",
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "6abfbbf911e70127e69e3cd298b5934646e950f96f950377e2f981c78d36c5a4"
+  },
+  {
+    "path": "app/sl_app/config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "dataclasses"
+    ],
+    "sha256": "e6f213e62b2afe66793e97f14dff79ca6dbe595f4d06e39386e64b25475ad116"
+  },
+  {
+    "path": "app/sl_app/pages/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "c9f536581437b6aa8d006552c8020e02af02acad2b2c2977a31f0a82f773acfd"
+  },
+  {
+    "path": "app/sl_app/pages/demo_rt.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_app.components.audio_recorder",
+      "app.sl_app.components.cards",
+      "app.sl_app.components.layout",
+      "app.sl_app.utils.meteo",
+      "app.sl_app.utils.prediction",
+      "app.sl_app.utils.realtime",
+      "collections.abc",
+      "datetime",
+      "json",
+      "pathlib",
+      "streamlit",
+      "subprocess",
+      "sys"
+    ],
+    "sha256": "49f7d46c9c243f91f0ae031e666dcc1c1c8a655125a001135f40fed6c3ca9760"
+  },
+  {
+    "path": "app/sl_app/pages/demo_video.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_app.components.layout",
+      "streamlit"
+    ],
+    "sha256": "ceee91f0ba7865d956fca99b8919cfb48178bbeaeb5381d0811751dc0f980bea"
+  },
+  {
+    "path": "app/sl_app/pages/home.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_app.components.cards",
+      "app.sl_app.components.icons",
+      "app.sl_app.config",
+      "streamlit"
+    ],
+    "sha256": "c095191e1591ac1a953846cafa2a4a74b1b9f87175305a132beb2a871202181d"
+  },
+  {
+    "path": "app/sl_app/styles/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "acb43ff1540fb7de9c66e1732748b527bd96a12fc4145def7fc28049ee1518ff"
+  },
+  {
+    "path": "app/sl_app/styles/global.css",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "fd09a66df13d368ed5ff3e9e7f39e5bcd07a48bd5bcead94c9b8814ef4c2f015"
+  },
+  {
+    "path": "app/sl_app/styles/theme.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_app.config",
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "86ab80c7ba01dccc0b2dad67c88f28acae69daed19d5da1f47ef1c48e78657f2"
+  },
+  {
+    "path": "app/sl_app/tests/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "41a4ef4ab02ca33fdc88ffdf720d5a74a8cc5ad93a83b4269a45b6a6687deba2"
+  },
+  {
+    "path": "app/sl_app/tests/test_prediction.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_app.utils.prediction",
+      "json",
+      "pathlib",
+      "projet_accidents_mlops.inference",
+      "subprocess",
+      "sys"
+    ],
+    "sha256": "f30c4618e11bcd79436f8159adfdae0ee4240f435b319a20a6e9c3cd5ab83819"
+  },
+  {
+    "path": "app/sl_app/tests/test_realtime_form_sync.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_app.components.audio_recorder",
+      "pathlib",
+      "streamlit.testing.v1",
+      "unittest"
+    ],
+    "sha256": "06cda5ba123bebc19f253cac0a002698d7ec4661689e7f243e86172be71eeec9"
+  },
+  {
+    "path": "app/sl_app/utils/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "9de7246e9057232e2173e2606d87d4db396456eb48772a6d095ea600e635c16e"
+  },
+  {
+    "path": "app/sl_app/utils/category_contract.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "types",
+      "typing"
+    ],
+    "sha256": "dadfbd1775c7aed8cd4a3974d4e4e77cde6b19504f5109852b31347478a64489"
+  },
+  {
+    "path": "app/sl_app/utils/meteo.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "math",
+      "requests"
+    ],
+    "sha256": "d43bcafa0caa41be8d063af19763652a7463f451d460ec97c2566e4fc7ae9f32"
+  },
+  {
+    "path": "app/sl_app/utils/prediction.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_app.utils.category_contract",
+      "app.sl_app.utils.realtime",
+      "datetime",
+      "math",
+      "numpy",
+      "projet_accidents_mlops.inference",
+      "typing"
+    ],
+    "sha256": "49b8ce5bdf3cfc91a9e0ce866950f49979bf79bfc060287e2b9556748671ca1e"
+  },
+  {
+    "path": "app/sl_app/utils/prediction_worker.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "json",
+      "projet_accidents_mlops.inference",
+      "sys"
+    ],
+    "sha256": "1ad31abe1a5ab73258fcc8fb3e82a29ddf7ac39a9ad03d0a8d9ab7c7c9bff2f2"
+  },
+  {
+    "path": "app/sl_app/utils/realtime.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_app.utils.category_contract",
+      "dataclasses",
+      "datetime",
+      "dotenv",
+      "json",
+      "math",
+      "os",
+      "re",
+      "typing",
+      "unicodedata",
+      "urllib.error",
+      "urllib.request"
+    ],
+    "sha256": "be17da8f90de8e301b80a0c7634f7177fa9aea4fc8eec51b32c07f5c82b65656"
+  },
+  {
+    "path": "app/sl_legacy/README_PATCH.md",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "051c8cf0c9c7f989ea9880c8c3df84f4b83c997b71ee41daf1174439c42ce6fa"
+  },
+  {
+    "path": "app/sl_legacy/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/assets/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/assets/labels.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "117d376ac30c8f763e5108b37ace9c31ab2ceafc09c25b6fea4486242f6d2a5c"
+  },
+  {
+    "path": "app/sl_legacy/assets/questions.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "fb400cd0212686a862c5ff2e5a4e268147dda8e608f93d8459acaacf3b65aa3b"
+  },
+  {
+    "path": "app/sl_legacy/assets/scenarios.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "baf29bc0741fc8e33232a468e1da34c0c076131c6adecc66c793fd15084cdad8"
+  },
+  {
+    "path": "app/sl_legacy/assets/ui_config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__"
+    ],
+    "sha256": "446862f651d8fd3be6717052b6fe2a0fd670c76143413e8f50bc88cfa2e935ec"
+  },
+  {
+    "path": "app/sl_legacy/components/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/components/call_form.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.assets.labels",
+      "app.sl_legacy.assets.ui_config",
+      "app.sl_legacy.utils.config",
+      "app.sl_legacy.utils.formatting",
+      "numpy",
+      "streamlit"
+    ],
+    "sha256": "741dc66b9b8f1c29ca088fc5fa4f2bded79621389698b511e0ed321133c56be3"
+  },
+  {
+    "path": "app/sl_legacy/components/results.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.assets.labels",
+      "app.sl_legacy.assets.ui_config",
+      "app.sl_legacy.utils.formatting",
+      "app.sl_legacy.utils.prediction",
+      "pandas",
+      "streamlit"
+    ],
+    "sha256": "1e658db7ec5146e54b8ba548e9579fca30d8e6834ca6ea53e57b8642e9d0d9d7"
+  },
+  {
+    "path": "app/sl_legacy/components/scenario_selector.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.assets.labels",
+      "app.sl_legacy.assets.scenarios",
+      "app.sl_legacy.assets.ui_config",
+      "app.sl_legacy.utils.formatting",
+      "streamlit"
+    ],
+    "sha256": "c11ed2bb125fbab64fda975238109bf087bcd31d15d36cacca7895c780afa0ce"
+  },
+  {
+    "path": "app/sl_legacy/components/sidebar.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "projet_accidents_mlops.inference",
+      "streamlit"
+    ],
+    "sha256": "fdcd022998309c3a0985aecd3481970545c045f6f5a3c523260ce0851e714501"
+  },
+  {
+    "path": "app/sl_legacy/pages/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/pages/regulation.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.assets.ui_config",
+      "app.sl_legacy.components.call_form",
+      "app.sl_legacy.components.results",
+      "app.sl_legacy.components.scenario_selector",
+      "app.sl_legacy.components.sidebar",
+      "app.sl_legacy.styles.theme",
+      "app.sl_legacy.utils.prediction",
+      "streamlit",
+      "time"
+    ],
+    "sha256": "3b7189a24bf450fe8eafd423ead365c3b8dee91af2212ea2eda6dea77aad66dc"
+  },
+  {
+    "path": "app/sl_legacy/styles/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/styles/app.css",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "ec9711b308aff5579745326c12eb77a68b932baf1ba16f5100846fc9d97d2d77"
+  },
+  {
+    "path": "app/sl_legacy/styles/theme.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.paths",
+      "streamlit"
+    ],
+    "sha256": "a6291b82cf040f7b5bd222b13c73e8f7e3e8292da6f124414e78c11360677fc4"
+  },
+  {
+    "path": "app/sl_legacy/tests/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/tests/test_feature_engineering.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.feature_engineering"
+    ],
+    "sha256": "09811785ff9d614f2342731c2991183a5a2d10c8bceb8c56602404171166d179"
+  },
+  {
+    "path": "app/sl_legacy/tests/test_neighbors.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.neighbors",
+      "pandas"
+    ],
+    "sha256": "2f4de1d44944f776eeecf5750875453f01aecda3da4f836a53bede62f31244e8"
+  },
+  {
+    "path": "app/sl_legacy/tests/test_prediction.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.prediction",
+      "numpy",
+      "pandas"
+    ],
+    "sha256": "f712c05861e82ecab54af5cf0de71c62f6d572ccdf66692a76b36a5ada076d37"
+  },
+  {
+    "path": "app/sl_legacy/utils/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49"
+  },
+  {
+    "path": "app/sl_legacy/utils/config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "os"
+    ],
+    "sha256": "659e066960f35575ee3b2384f3d5b562a329284b991d4c8207ea6649756be8da"
+  },
+  {
+    "path": "app/sl_legacy/utils/feature_engineering.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.config",
+      "app.sl_legacy.utils.formatting",
+      "numpy",
+      "pandas"
+    ],
+    "sha256": "5435024fe059e91bb329292e7277edb3ee5f0920d906a66d0f8754e6b70161ae"
+  },
+  {
+    "path": "app/sl_legacy/utils/formatting.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.assets.labels",
+      "app.sl_legacy.assets.ui_config",
+      "app.sl_legacy.utils.config",
+      "pandas",
+      "re",
+      "unicodedata"
+    ],
+    "sha256": "e4bdb44ff0b20b2db1eb460c796995b16b35e0c488757e1e88591f4f6a58a663"
+  },
+  {
+    "path": "app/sl_legacy/utils/loaders.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.neighbors",
+      "app.sl_legacy.utils.paths",
+      "dataclasses",
+      "json",
+      "lightgbm",
+      "pandas",
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "754e545b79d0e3238bc4bb832f6fe1c5c01dd412458a0a83518d540fa85c2710"
+  },
+  {
+    "path": "app/sl_legacy/utils/neighbors.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.utils.config",
+      "app.sl_legacy.utils.formatting",
+      "dataclasses",
+      "numpy",
+      "pandas"
+    ],
+    "sha256": "5e25b206e21487064536d791eca92a0e1abe7b2b0a9cbcbc523b5801afcfb8d7"
+  },
+  {
+    "path": "app/sl_legacy/utils/paths.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "pathlib"
+    ],
+    "sha256": "6cd84aa04ec108668c3c3c1cfe6cad8b59180f4a4e32e80c8109800fcf100846"
+  },
+  {
+    "path": "app/sl_legacy/utils/prediction.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "app.sl_legacy.assets.questions",
+      "app.sl_legacy.assets.ui_config",
+      "app.sl_legacy.utils.formatting",
+      "numpy",
+      "projet_accidents_mlops.inference"
+    ],
+    "sha256": "5ca1ec00fbcb38b2bc2bcaacd2875d148f42a763fc39cb8e364b21df8025b32a"
+  },
+  {
+    "path": "app/soutenance/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "c5fb0b1bc6c48a7dba9a9d60aa6a5a078d0f0ca9e6dfd0c75a6de93a58b68382"
+  },
+  {
+    "path": "app/soutenance/assets/README.md",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "fbf469f1c057facf2a092ec2439d105193a7ea14b54b7a2f548d887e82d4b43a"
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly-graph.png",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "a9fda028b4167eae1e6e9a4a624d7dbaf5caf02467b8fa811529549f86961f8c"
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly-zoom.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "060f3609098090a03483b8ee8961ddf2eb2b1f76e1b9202f3a17418bb3e30aa0"
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "842e25025d9d8ab7567039d708b4031c5b827333b607ac3aa751a51c33e5e64c"
+  },
+  {
+    "path": "app/soutenance/assets/architecture-complete.mmd",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "f4ecbc911d85f67857e6e01302c6b958e37d3ea15b233fde54b62bfd13fc857e"
+  },
+  {
+    "path": "app/soutenance/assets/authentication-train-predict.txt.sh",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "099aa44240548b01f24f845b6910ff724bc9b8a194a279bf420870b60ced3067"
+  },
+  {
+    "path": "app/soutenance/assets/dvc-dagshub-graph.png",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "aac64fa23ad6f558fd3fec3e3cd8a205e501b268ccfb23a4892b431bb130aa15"
+  },
+  {
+    "path": "app/soutenance/assets/grafana-overview.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "0cd1f23c695b3a190d4383aba387b85fb997394c97a7c5a7ec9b12f3bd22b05f"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-champion-versions.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "9c2942ce2460c86618c7624ba3acb90f3cc875451072e446d95eb6b2611643f6"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-registry-champion-v2.png",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "36414c62884c0f95f5dd03f85d3a819088d55504b6bef6745724f3eab070b575"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-runs-zoom.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "5c8a24fbf15480ea3593f32a3dffba739ed6d77b314db62128e5e31f8b2ec566"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-runs.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "c9e0d5d405fc40a399a752f9d0f0c9b4fc5b3dec3828c0e1bc3155ac434de49c"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-w12-evaluation.png",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "192e8d1d6945503c9db5a60e2962e5df42b4f95ba9324acde816fd8c8b2951df"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-w12-run-overview.png",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "7ed179a0f65abd91c57938dc2305354ba71a27945acb05258c8b38556bf90978"
+  },
+  {
+    "path": "app/soutenance/assets/ui-accident-entry.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "bae848a9541b772dbccdce2559cfa64f519d2337734bb6572f7df8217e6a141a"
+  },
+  {
+    "path": "app/soutenance/assets/ui-fallback-result.jpeg",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "14f9398ff5fbf81a6842e1bb15a36daaec90c27e003fdbd2e402a51c1820cfbf"
+  },
+  {
+    "path": "app/soutenance/components/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "08733fe5a6b919ca452fb9177b5caacd253c65913cf04466b795da047c3a15f2"
+  },
+  {
+    "path": "app/soutenance/components/diagram.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "json",
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "9b3b9d75767cae6d2931bdb811b9fbd86b83938de1015cc559f5fb0d0a4af371"
+  },
+  {
+    "path": "app/soutenance/components/image_viewer.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.soutenance.components.slides",
+      "base64",
+      "html",
+      "streamlit"
+    ],
+    "sha256": "52a54332ded34620509f68303538ecb51da59d0ce3560ee07d56704253071a23"
+  },
+  {
+    "path": "app/soutenance/components/navigation.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.soutenance.config",
+      "streamlit"
+    ],
+    "sha256": "77fde2029e6cfd885459bea3e8ed39d8ce26b35bf328ecdf921d73c656036f7d"
+  },
+  {
+    "path": "app/soutenance/components/slides.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.soutenance.config",
+      "html",
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "4ca9a3396e3e543f3b5ee79e8d69a831c9b48c433978e8bd66ff3822b4380b72"
+  },
+  {
+    "path": "app/soutenance/config.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "dataclasses",
+      "streamlit"
+    ],
+    "sha256": "51b33b25b896243aff7f3ea201b76ad66c3da0c6cdc35e35a26f5bbb3cde3a83"
+  },
+  {
+    "path": "app/soutenance/pages/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "ea65ee56e520f06142b390152cf30af6d60915e9d03d62dbfa1d06a155c89c14"
+  },
+  {
+    "path": "app/soutenance/pages/deck.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.soutenance.components.diagram",
+      "app.soutenance.components.image_viewer",
+      "app.soutenance.components.slides",
+      "app.soutenance.config",
+      "collections.abc",
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "48c313f83f46cfb615d4f0fff2c80f1582f7a6c955293778ff88ad9613ca208a"
+  },
+  {
+    "path": "app/soutenance/styles/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "ee2c4792ad74ee757f2428b7348e48733b8678e4adeb93cb97f26395f308b119"
+  },
+  {
+    "path": "app/soutenance/styles/global.css",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "91ea55bbc2b3751f7af788778964b8371253927f0c8796be1b7769238adacf1d"
+  },
+  {
+    "path": "app/soutenance/styles/theme.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "pathlib",
+      "streamlit"
+    ],
+    "sha256": "1a80ac65f60e4c869480cbd091cd9878aa4e0f68abc3f7b2227cc738fc19dbd9"
+  },
+  {
+    "path": "app/soutenance/tests/__init__.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "8939f879e5412c357b16e9a389f06d2b3ab2b12f7df747b5ac2e7fd8a673973b"
+  },
+  {
+    "path": "app/soutenance/tests/test_app.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.soutenance.components.image_viewer",
+      "app.soutenance.components.navigation",
+      "app.soutenance.config",
+      "pathlib",
+      "streamlit.testing.v1"
+    ],
+    "sha256": "27e1707b69994a556348466d9493ab69f89e18e7e59265f837077abd6768d065"
+  },
+  {
+    "path": "app-pres.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "streamlit.runtime.scriptrunner",
+      "subprocess",
+      "sys"
+    ],
+    "sha256": "bc6ba8973d6fb4bf2db08d268cb922aefb4091c94c9ba10711f0b418706ea12b"
+  },
+  {
+    "path": "app_presentation.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.presentation.components.navigation",
+      "app.presentation.config",
+      "app.presentation.pages.deck",
+      "app.presentation.styles.theme",
+      "st_tailwind",
+      "streamlit"
+    ],
+    "sha256": "cf608173bde728ccd6df6aa7ac0ca35d65b9b99748fba983eda4fdc6a6c0ab14"
+  },
+  {
+    "path": "app_sl_OCS_v1.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_OCS_v1.pages.regulation"
+    ],
+    "sha256": "5bcfa388eaf2d70d11577dc3d347406e96a74ff06b1b555c857b143b53c0d72a"
+  },
+  {
+    "path": "app_sl_app.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_app.components.layout",
+      "app.sl_app.pages.demo_rt",
+      "app.sl_app.pages.demo_video",
+      "app.sl_app.pages.home",
+      "app.sl_app.styles.theme",
+      "streamlit"
+    ],
+    "sha256": "23871ea95234c7ae1323435d45c6e4691c97273d69d5cca612ab23bd2f9c235d"
+  },
+  {
+    "path": "app_sl_legacy.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.sl_legacy.pages.regulation"
+    ],
+    "sha256": "c497c2a17f4418f931c0e5f4209e86653720c2995ec5c070c6b1b19460d83bf9"
+  },
+  {
+    "path": "app_soutenance.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "app.soutenance.components.navigation",
+      "app.soutenance.config",
+      "app.soutenance.pages.deck",
+      "app.soutenance.styles.theme",
+      "streamlit"
+    ],
+    "sha256": "b606c5fa7c3eeebd11bfc57081b63d19940b5aa85617141b737cb7082c8be686"
+  },
+  {
+    "path": "create_github_issues_generales.sh",
+    "category": "probablement inutilisé",
+    "evidence": "Migration ponctuelle/outil de roadmap/squelette; aucun consommateur dans makefile2.mk ou Compose actif",
+    "imports": [],
+    "sha256": "90e311afb8a4acd0a91253e3317fb30e6193bbddd0e3dc83b7b592c915a90773"
+  },
+  {
+    "path": "docker-compose.apis.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "c20675a97aa2bb8b9d76896c7d1be937d584f0aa78f246522f5f7830a067114d"
+  },
+  {
+    "path": "docker-compose.monitoring.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "30cccf9dfe1a50b366867ee735b93610299b6632985e7d8b885412e450c506f2"
+  },
+  {
+    "path": "docs/README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "3b049d6cf03a6871cc52d55b4700077f797d1ecf179504af9ddb6e47ef3c1b58"
+  },
+  {
+    "path": "docs/airflow/process.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "8e6372e996c3ef39c0de59231ff19618e296ca91e675c7b8072df24044788c48"
+  },
+  {
+    "path": "docs/airflow/process_draft1.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "b94cd91b0255cdf131cfdd57ca38c139b1a14a06323b55dc9c68e2e3e94877e7"
+  },
+  {
+    "path": "docs/api/README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "afa7741d73ebd64a4b4d31b6e8e0a13273b8445706e96bbde87f95c3055e23bc"
+  },
+  {
+    "path": "docs/api/train-api.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "e0c6463597810037d079d32a5b768d008c075e25a1d4dde3ab70fe48da18e431"
+  },
+  {
+    "path": "docs/applications/README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "9b4d9fcfa7e9ddc0b200f25f9ea0999a29895b9d6ae568f0c64ea1fb2bbd49a1"
+  },
+  {
+    "path": "docs/applications/guide-demo-sl-ocs-v1.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "ffba548452cd21cb66f8c3e3040ac814a0d5514c2e4c20692563ef0ed9cb8ea6"
+  },
+  {
+    "path": "docs/applications/guide-interface-urgence-112-18.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "61a635f10b00b8962b6b83817b203700485ae2733d11672927ea330dab3d6eac"
+  },
+  {
+    "path": "docs/audit-yann.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "3ba8455b5ec44987bdc88a75f63618b6d64871cab9aa7f72d8fb45b805149ef4"
+  },
+  {
+    "path": "docs/changes/2026-09-11-fix-portable-docker-permission/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "75c8faac5d8011a45a0403b557a488a034eaf0181ef55bcade48d005e7a6d792"
+  },
+  {
+    "path": "docs/changes/2026-09-11_docs-add_full_documentation/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "055ebbc62883e4235046717c22470add327d01420f78668aad4cffd17da8ffa5"
+  },
+  {
+    "path": "docs/changes/2026-09-11_docs-add_full_documentation/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "15a003d200d6feaa8066bf2f76185cc5ed8feab839e57e4992f5e9374736c279"
+  },
+  {
+    "path": "docs/changes/2026-09-11_feat-add_loki_to_project/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "9be2d2d91f555a494efeb8ef98e5dbeb3871b5072fba09641dcb751745b50447"
+  },
+  {
+    "path": "docs/changes/2026-09-11_feat-add_loki_to_project/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "b0da54696343195578cb093b74dddb5dce80a20cb44a9ed834e099336de5a4e6"
+  },
+  {
+    "path": "docs/changes/2026-09-14_interface/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "e20cab5764b099c3ab43f81159161a2d724b264064dfac12a803b1a23e8d300f"
+  },
+  {
+    "path": "docs/changes/2026-09-14_interface/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "044cd44e6ac187c94f3b570fc73dab7c72d5a7de4f727ca804942a2ae5772774"
+  },
+  {
+    "path": "docs/changes/2026-09-15_feat-run_2_months_of_pull/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "c643702691872fa893b7337fae3085deded4443c6a2b6794f7643afb51ab1805"
+  },
+  {
+    "path": "docs/changes/2026-09-15_fix-publish_weekly_champion_bentoml/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "e2a3b21e21458b15224e711df0b687a46b5c10ac6f989df8c3cb4b043d46f1ed"
+  },
+  {
+    "path": "docs/changes/2026-09-15_interface/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "504adc957f1acf019193d88c588fc1054218e6bd760ecdfd5ea7b34587cd2890"
+  },
+  {
+    "path": "docs/changes/2026-09-15_interface-connexion/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "0cd99e8831a1408293910303043887841ba07d7ce1fb75e98aca03bae4fc7818"
+  },
+  {
+    "path": "docs/changes/2026-09-15_interface-connexion/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "b9efd913830970b4cef5460eeee89ddb55a3c008f721c810289db9570a3779d1"
+  },
+  {
+    "path": "docs/changes/2026-09-16_feat-soutenance-notion-v0/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "63545d7f55adbc2cca34f1e02752b341a6bdbe65fee7865a183149c866e8a602"
+  },
+  {
+    "path": "docs/changes/2026-09-16_interface-connexion/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "fab46727ff88c30a0aa8799ae03f72d7eb50e703992cd4b36f8c7df9a9c05a2f"
+  },
+  {
+    "path": "docs/changes/2026-09-17_design-refactor_pres/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "8f6e8f1e594aac60ead51e38af7b8031c053e6fe05d54b5fb50aac6419f39952"
+  },
+  {
+    "path": "docs/changes/2026-09-17_design-refactor_pres/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "30b680e8ea8ad05b1b116d487a985553bb57132b1fd403f3390b3af72d8e3159"
+  },
+  {
+    "path": "docs/changes/2026-09-21_design-refactor_pres/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "40475a93db5c081ca3112c7b640507558506c8720365bb52c678d44c71f02491"
+  },
+  {
+    "path": "docs/changes/2026-09-21_main/changes.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "fe7a45902e4d8b1d82e09f3472bf928a71243957d6714a89637d3115278a1b91"
+  },
+  {
+    "path": "docs/changes/2026-09-21_main/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "ea479e7de447aed1417a3870263f14e4b6462178ded977e52b729e454e04aa9b"
+  },
+  {
+    "path": "docs/changes/2026-10-13_main/plan.md",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité de la tâche courante, à préserver",
+    "imports": [],
+    "sha256": "11b216289a5c8bbebd27a09ab7bbcd305c1d4020263610696f7038cb08214e30"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "879dc579afc6d101444bd3158046b9c8480d9250b286b9f851dbefa9fc0be05b"
+  },
+  {
+    "path": "docs/ml/GUIDE_ARCHITECTURE_TESTS_MLOPS.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "fcc85b1c9b14f38af293aa70dc19fcbbf9eaccd6878f1816d2aa7762eae600f3"
+  },
+  {
+    "path": "docs/ml/README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "36f0957a929c8447d7abf5f16122c561f6c595a493083683fc540229771a64db"
+  },
+  {
+    "path": "docs/ml/README_MLFLOW.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "a23ae1886a0e43ba40ab2223b0171169d5c6f59d012b661ba8625e45da3ead5c"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "ae4118a8a92c56bc0cc91e84edab1e0fda3d838d53bba2e0372e06aa32604d0a"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "d6f5ebf0825e9656eb5b82d4372008eb35cdd342857a292486e63577de67c2a8"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "8445052b7647d44bbcfbfdb9f06048ca34c0026e1c83d256f394b864a170528d"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "beb0f9c28cfde5bf7c6157ca00f01c5d06aadee40bbf467e13d9a6ef9536c855"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "420961763a7bab3b287d76dcbcb7349a51c3345afa4044433c3739df6810866a"
+  },
+  {
+    "path": "docs/operations/metrics-prometheus.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "5c0fd673dd74b1fb38fd8f5b5a82bd27c576fabda6d349fc437dcba58f26fce0"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "e53b7dbfd2d7be95f3c1360e002974a90bd60d5146b1b5cbe616f984460c0c7f"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "d2feb33d159edb249fa03e99b826f67dd127cb37f8014ef8be21eaa34ab22527"
+  },
+  {
+    "path": "docs/operations/predict-api-v2.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "b5ca323c7d264f3671345fab58a72f5ac5a77691c7b2b273c65e757fbc42da33"
+  },
+  {
+    "path": "docs/operations/pull-data-api.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "c5dcd27bcd410dd9bd4ad31d12d9d22a27ee749d47d822f92ec2f645eb1faf42"
+  },
+  {
+    "path": "docs/operations/train-api.md",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "4b7769f015988cd1310334e916162338ddf7ba4011020f49f95d010a997d33c4"
+  },
+  {
+    "path": "docs/refactor/initial_train/plan_developpement.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "79eba21ceb6a4f0b1f80b064e5ae735916eb2c541c0d09b2505689b12c18de21"
+  },
+  {
+    "path": "docs/refactor/pull_train/plan_implementation.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "7047c94e3803aa5dcf679b40030832c0d6b2630115edbde386785c5f1dbab1df"
+  },
+  {
+    "path": "docs/refactor/pull_train/progress.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "7b9073c17f9ea481014d7807cb2a853217d78288f2ec2afa9353decc1469cb22"
+  },
+  {
+    "path": "docs/refactor/train_api/00_agent_instructions.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "3225c8239adfd0f5b44bbf1d4983cd7d53a047b588c3de648cebb9cd317e55e6"
+  },
+  {
+    "path": "docs/refactor/train_api/01_refactor_report.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "fbab0cf5337ed3bf17cbfb5688570aaadaa54112f92ba85d2ee503c81db2c0a9"
+  },
+  {
+    "path": "docs/refactor/train_api/03_refactor_plan.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "2763dd761e9a18efef30ab537644d4d11fea479bb8576de86cda8225cc9fa275"
+  },
+  {
+    "path": "docs/refactor/train_api/04_dev_plan.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "4718178b818287a0314cd1c2f35a0c3219e0a0e2ec2634a284b3059070d167cc"
+  },
+  {
+    "path": "docs/refactor/train_api/README.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "30287c5374f314b93dc678a14f1847a3aa03f5b2632d422e54e962502c54a58c"
+  },
+  {
+    "path": "docs/refactor/train_api/operations.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "74bd438e83c2ede42ebaea125eb918097b32b651232e9a0120ce656d30a4e66e"
+  },
+  {
+    "path": "docs/refactor/train_api/progress.md",
+    "category": "historique / legacy",
+    "evidence": "Plans/rapports d’anciennes implémentations; confronter aux guides actuels",
+    "imports": [],
+    "sha256": "e4bfb37361d5ad3eb2b944bc260ebc8a3a0dffbccdeb75e9fbd17e8884f4ce46"
+  },
+  {
+    "path": "dvc.lock",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "685b685e5abf0151535ef99dbc1619048f7d71172342116e394a194c8d88a419"
+  },
+  {
+    "path": "dvc.yaml",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "7620035255e4c5f43fb09a3819ea047815ff6f883717484fbef25781a8737d4e"
+  },
+  {
+    "path": "interface/.dockerignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "5985ba75c332d6ce36a2033c285af89089cab26078cbc83d6c903103ed61ecb0"
+  },
+  {
+    "path": "interface/.gitignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "790417f9e3936fc3589f838c75c5e8a8541768ffba5ea7c3e9e56f7429b3199b"
+  },
+  {
+    "path": "interface/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "1f118a9bbdc227d0bb4c85e61619adeb8129c41aae758b4042e9a705aa757921"
+  },
+  {
+    "path": "interface/index.html",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "cffc7c5c81d88b0b5ccb59f48384a4a78dc87b708cb36eb63efb1e58e7b81871"
+  },
+  {
+    "path": "interface/package-lock.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "712e0f9f956d9b438f29bb768be2b2cffb4f35732289a7dc6f4df35ad6115777"
+  },
+  {
+    "path": "interface/package.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "f853882e66c693780d16ad213a60c21c3c1feb9715d6ceee572d35df5865af5e"
+  },
+  {
+    "path": "interface/postcss.config.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27"
+  },
+  {
+    "path": "interface/rapport.md",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "c062d8635c0116c190d115619d99a4d3fdda0bbf7df5747baa6437ec6dd1fc14"
+  },
+  {
+    "path": "interface/server.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "8dc99e37647b0ed2d2a5abc155f83d9fe307e91586822ef12f54a70880dd14e5"
+  },
+  {
+    "path": "interface/src/App.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "dd70cbe6c0235f30ecd839e415f10decffdaae534f4ea18dc5f9814706419abd"
+  },
+  {
+    "path": "interface/src/components/DispatchSecours.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "b4cc9e309a149d9071e33ff6677f9f671467bb93d9977c1da12ed4abddfb5067"
+  },
+  {
+    "path": "interface/src/components/Header.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "15732e8621468fbe92bd6ee100fcab803b30b21c96226551d3c295df2dff1725"
+  },
+  {
+    "path": "interface/src/components/LoginView.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "a253a8fdaa7baf6b63172e79fdeccc4a90fde5a842b89d9f54522aa974da8db9"
+  },
+  {
+    "path": "interface/src/components/OpenStreetMapViewer.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "36c0c3ffd8143cb7dbe8ec18767dc89c06ecc0907c974fada9ba7f565bb4f9db"
+  },
+  {
+    "path": "interface/src/components/PredictionResult.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "3571092e8503e88a70094bec45053d1421f05b818824adbefa3c0ce187084f2d"
+  },
+  {
+    "path": "interface/src/components/SpeedSign.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "945f1e68205208e3287b6ee66d93bea1d2805e9bae14edfe6a3b29cf3ea9e1ff"
+  },
+  {
+    "path": "interface/src/components/Vehicle3DViewer.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "4ceb9877d1a3b19ed99db7872e7c2117c3a7b0f4d99fa11c88fb0d5fc5ef2c37"
+  },
+  {
+    "path": "interface/src/components/zones/CaracteristiquesZone.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "c306b3df0124a8ec80a4962ea08889e41cc3282c73e3f13fd11da261ca0575b4"
+  },
+  {
+    "path": "interface/src/components/zones/LieuxZone.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "329241d9484f531429217dfa6f18acc468ceb516d9554483820107b942853386"
+  },
+  {
+    "path": "interface/src/components/zones/UsagersZone.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "4ccb3401c3cd94b8bda1fa1bd877deacadb99f0c44f8b9630a9c672ea102fa0a"
+  },
+  {
+    "path": "interface/src/components/zones/VehiculesZone.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "4724a84657b819da37d3f1a5750eb13eb0eb71c2a430cf7a920576be983a8e99"
+  },
+  {
+    "path": "interface/src/config/api.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "d95007d07163d32ff5666283275f85467ebdd9836eb17516843f2919f284a286"
+  },
+  {
+    "path": "interface/src/config/constants.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "0b32f9d2c85ebdd32c1706d7bffcfe63314a526f0c88ee135a9363d2b170a3e9"
+  },
+  {
+    "path": "interface/src/index.css",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "6e9502b1ff32e82d5d1b34b602d298925532c08256950c36b0b8d15540632cf6"
+  },
+  {
+    "path": "interface/src/main.jsx",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "acb24feb3540b5ee687f5a65bdbb81fe3644aa19da89256bc24b18d8ee010410"
+  },
+  {
+    "path": "interface/src/services/predictionService.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "fa5ded3b81dc1bdfbdf51da4fb0f740fe700045a395bc1b641265cb2ca2eaf50"
+  },
+  {
+    "path": "interface/src/services/weatherService.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "8fb0806ed94554dec715dc5e12b128e2965e72122f48cdb7836e55b2d853aedb"
+  },
+  {
+    "path": "interface/tailwind.config.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "93ae9cb832756b30fdc07b7689898d891de94b780eea2772d42db31d411e524e"
+  },
+  {
+    "path": "interface/vite.config.js",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "a34f28ba4a6f50a65aeaa04a9350ce91793f0d535dbdaaffa55d1cdaa1fd927d"
+  },
+  {
+    "path": "makefile2.mk",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "782de052f7fedc6dff73776ffedf681fd5e87797efddce914adfb904f484c81c"
+  },
+  {
+    "path": "monitoring/alloy/config.alloy",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "f589bd7f60ab4f800f0a283198fd519dc6f8b5742f8316fb91b89e4a963002a4"
+  },
+  {
+    "path": "monitoring/drift/drift_results.json",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "11fbf53bea67b578623cf5f94ad523dca331ea7c3ac15f5cb6ec7b3d3406eb62"
+  },
+  {
+    "path": "monitoring/drift/prepare_drift_data.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "argparse",
+      "pandas",
+      "pathlib",
+      "projet_accidents_mlops.inference"
+    ],
+    "sha256": "bad5b40fac85d675041bee3cda628e78a07cda9c522785dbf22c6fbabd36f1cd"
+  },
+  {
+    "path": "monitoring/drift/run_drift.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "evidently",
+      "evidently.presets",
+      "json",
+      "pandas",
+      "pathlib",
+      "time"
+    ],
+    "sha256": "d2d6b9b24caec0a901b68a66a5fbfa08e2fdb55f269e3b7fc7bb8252254fbf26"
+  },
+  {
+    "path": "monitoring/drift/run_monitoring.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "argparse",
+      "subprocess",
+      "sys"
+    ],
+    "sha256": "6bb6408c7ca6250e0f614648576fb035870a2f2288a6c8be3791bc05e6d4d47b"
+  },
+  {
+    "path": "monitoring/exporters/drift/drift_metrics.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "fastapi",
+      "fastapi.responses",
+      "json",
+      "pathlib",
+      "prometheus_client"
+    ],
+    "sha256": "65e5cd266871b67443022e6fd24a1e8ba40feb341f0827aef6731bf5a975bf01"
+  },
+  {
+    "path": "monitoring/exporters/ml/ml_metrics.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "fastapi",
+      "fastapi.responses",
+      "json",
+      "pathlib",
+      "prometheus_client"
+    ],
+    "sha256": "8f9815e00db4ae120b52a0d1e0d28b26cf41443f32e591d24b4db0e51057b101"
+  },
+  {
+    "path": "monitoring/exporters/sustainability/sustain_metrics.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "fastapi",
+      "fastapi.responses",
+      "pandas",
+      "pathlib",
+      "prometheus_client"
+    ],
+    "sha256": "da8f15d0536d6a710d42b37fe4342a04681841f9eefdb7daf1bc36ef9e6a7f71"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/api-logs-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "e76e69bdc8aab9abd0ff99f32e9f6e872f92e028e5d8fc499ec49c681cb87fd0"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/cadvisor-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "bc7ec601687725bdc07c4c2d603bb7ac0b2b2c864d3d9b7cb71b44ba1f1e2a2c"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/drift-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "d19ee3233d69528e4f2d8b12d41b83aed2510591fda4a241cfeb550a714ed3a2"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/ml-performance-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "8d794f34c85edd0f1cbc8957edbd8ee4c78d3b2e599be014e59da9320a96b46b"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/node-exporter-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "8d453636c2bc41106ed25b3e40e0845a52672c5396273d6b09ae6ec41232f0cf"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/overview-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "33a4f30fd1f31643f3ca9614ca07694c038d8908c72cc19e6d59ecd31d2f41e1"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/predict-api-v2-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "32a57e85f9f670e792028733593a4ced8db866c17435a666bec71ab3ae1244a1"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/sustainability-dashboard.json",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "0b2d44691a8797259deb38d508e212169da70445087d2e4b37667dca9457a8a6"
+  },
+  {
+    "path": "monitoring/grafana/provisioning/alerting/contact_points.yaml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "d77713ff5bfad47eb8d3af61c64c9a0bdc8fb4cfab96e98376d62ff8eb477b12"
+  },
+  {
+    "path": "monitoring/grafana/provisioning/alerting/rules.yaml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "e20911753f772c06888913eb04530251c0337ece063efd6ddf5399ca2dc62378"
+  },
+  {
+    "path": "monitoring/grafana/provisioning/dashboards/dashboards.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "b4479e01b27231be0ca384cd2f3128faad093889926c0b5475f2df1269d7e7d9"
+  },
+  {
+    "path": "monitoring/grafana/provisioning/datasources/loki.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "f28cc185427d97ecf97068320205e7a4519d492a1de7bf5fc21f1e9a73b51795"
+  },
+  {
+    "path": "monitoring/grafana/provisioning/datasources/prometheus.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "11ab38f35308237b03b7ceef561a52474ce9f8c20d185b444bf20a2c66a99a50"
+  },
+  {
+    "path": "monitoring/loki/loki.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "f9feeb3ea28397649eb67b4fa6c36e4378098468d650cee04b3b4df6c2d7a734"
+  },
+  {
+    "path": "monitoring/ml/model_performance.json",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [],
+    "sha256": "32fc5ef84fad2a93ba930e723b0098c67e668cb3c1ba2a13c454c343fede0828"
+  },
+  {
+    "path": "monitoring/ml/run_model_performance.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "__future__",
+      "argparse",
+      "json",
+      "os",
+      "pandas",
+      "pathlib",
+      "projet_accidents_mlops.inference",
+      "projet_accidents_mlops.tracking",
+      "projet_accidents_mlops.weekly_data",
+      "time"
+    ],
+    "sha256": "8a3f21f45341917574d70311b333cdd02bca4cda4672cb768e04f5493bf694e8"
+  },
+  {
+    "path": "monitoring/prometheus/prometheus.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "65a1cd378fbdf677ce4f39b3417ce4322b846177a7c957b74e58bca4a62d0124"
+  },
+  {
+    "path": "params.yaml",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [],
+    "sha256": "e2ddcad5718fb66ffa2fb7f5a1ec4e84a0b799a2f6d60b62aa5a634ea91699a9"
+  },
+  {
+    "path": "payload.json",
+    "category": "définitivement utilisé",
+    "evidence": "Payload utilisé par les prédictions HTTP 200 pendant cet audit",
+    "imports": [],
+    "sha256": "bc6d6238af440cb7c30dfedf2cfc277389ac9d555b71c7ce8cb9d72c491e05c4"
+  },
+  {
+    "path": "pipeline/01_clean.py",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [
+      "pandas",
+      "pathlib"
+    ],
+    "sha256": "edfbc705ee6e560dc53f9bdaca965ca846a8f9d6931462e249a9bcad623b77ee"
+  },
+  {
+    "path": "pipeline/02_prepare.py",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [
+      "numpy",
+      "pandas",
+      "pathlib"
+    ],
+    "sha256": "7b7cbb7555b5bcec39685564207ddc01d79d6e9d75557197b72642a9fa30e704"
+  },
+  {
+    "path": "pipeline/03_features.py",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [
+      "pandas",
+      "pathlib"
+    ],
+    "sha256": "a28d03f57d724422011aef6b7002078576e7b15d9ea914ed3664d87ec7bcbe58"
+  },
+  {
+    "path": "pipeline/04_snapshot.py",
+    "category": "définitivement utilisé",
+    "evidence": "Traçabilité obligatoire ou préparation/versionnement du dataset consommé par train-api-v2; référencé par dvc.yaml",
+    "imports": [
+      "__future__",
+      "json",
+      "pandas",
+      "pathlib",
+      "projet_accidents_mlops.weekly_data",
+      "yaml"
+    ],
+    "sha256": "7d43885ac39dec8832e468d27dce73e08160a7bcffc9aa54d892aa9d12ebc4bb"
+  },
+  {
+    "path": "pipeline/04_train.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "__future__",
+      "joblib",
+      "json",
+      "lightgbm",
+      "matplotlib",
+      "mlflow",
+      "mlflow.models",
+      "mlflow.sklearn",
+      "os",
+      "pandas",
+      "pathlib",
+      "projet_accidents_mlops.features",
+      "projet_accidents_mlops.modeling",
+      "projet_accidents_mlops.registry",
+      "projet_accidents_mlops.retraining",
+      "projet_accidents_mlops.sustainability",
+      "projet_accidents_mlops.tracking",
+      "projet_accidents_mlops.training_contract",
+      "sklearn.compose",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "yaml"
+    ],
+    "sha256": "d39da29e8611d6e2cb039c3786aa2c4cfc26df6b7698db44af902b21ca4e50d7"
+  },
+  {
+    "path": "pipeline/05_predict.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "argparse",
+      "joblib",
+      "pandas",
+      "pathlib"
+    ],
+    "sha256": "37e2a38c8655073ee10d3a538ad0ad8a5d8a000117f4d0b34a2acc26a3af88a3"
+  },
+  {
+    "path": "pipeline/run_pipeline.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "sha256": "ee280ede1497d95540622f2bc1098eea4bcdbdb42e88e643293f1038902102ca"
+  },
+  {
+    "path": "pyproject.toml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "949cc905c00cbeb6595eec38fa74e5918c1586bee36e8ddf0e03478dee242f8a"
+  },
+  {
+    "path": "requirements.txt",
+    "category": "probablement inutilisé",
+    "evidence": "Migration ponctuelle/outil de roadmap/squelette; aucun consommateur dans makefile2.mk ou Compose actif",
+    "imports": [],
+    "sha256": "1e409aa85b587158065927e5cb41cc976cae4d03af2477eedfc20b21866a0a54"
+  },
+  {
+    "path": "roadmap_MLOps_accidents_generale_github.csv",
+    "category": "probablement inutilisé",
+    "evidence": "Migration ponctuelle/outil de roadmap/squelette; aucun consommateur dans makefile2.mk ou Compose actif",
+    "imports": [],
+    "sha256": "788e1d37703cae33e8e7a4b70a902c1688a341bd6fb829cbe2fad434ac40f20a"
+  },
+  {
+    "path": "scripts/migrate_legacy_backups.sh",
+    "category": "probablement inutilisé",
+    "evidence": "Migration ponctuelle/outil de roadmap/squelette; aucun consommateur dans makefile2.mk ou Compose actif",
+    "imports": [],
+    "sha256": "6bfdfba92e4fddec8cc23c77b37734aacc310b22c64405c7433482aca449bcfb"
+  },
+  {
+    "path": "scripts/migrate_mlflow_storage.sh",
+    "category": "probablement inutilisé",
+    "evidence": "Migration ponctuelle/outil de roadmap/squelette; aucun consommateur dans makefile2.mk ou Compose actif",
+    "imports": [],
+    "sha256": "ef0746c76938bdf560d555a5283c6a12e5c1450d8fcec2810fff018d7264f771"
+  },
+  {
+    "path": "scripts/mlflow_smoke_test.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "__future__",
+      "datetime",
+      "mlflow",
+      "os"
+    ],
+    "sha256": "a3541bfaf8eda41fe4f622e80ff7e4eb0245bc64bdb9ab1728196a52bed08d97"
+  },
+  {
+    "path": "scripts/predict_api_smoke_test.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "__future__",
+      "json",
+      "os",
+      "pathlib",
+      "requests",
+      "time",
+      "typing"
+    ],
+    "sha256": "d7b09cc2c1fc29f466f18778fda0ee9bf4bcc3a63506328ad7d25d592fe16064"
+  },
+  {
+    "path": "scripts/sl_OCS_v1_smoke_test.py",
+    "category": "probablement utilisé",
+    "evidence": "Consommateurs hors stack ou documentation à consolider; conserver jusqu’à analyse du lot concerné",
+    "imports": [
+      "__future__",
+      "app.sl_OCS_v1.api_client",
+      "app.sl_OCS_v1.assets.scenarios",
+      "app.sl_OCS_v1.utils.prediction",
+      "dotenv",
+      "os",
+      "pathlib",
+      "requests",
+      "sys",
+      "time"
+    ],
+    "sha256": "635459432243d4e1bc0ed2e1031f2046cd8a9a2752bcce21b5e51b176cec6e29"
+  },
+  {
+    "path": "src/airflow_dags/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Image et montages Airflow; DAG pull_weekly supplémentaire à arbitrer, pas supprimable par son nom",
+    "imports": [],
+    "sha256": "79338b0821c87c28e195e68b9a15780d0fe8f6c63014883be09115cfc262d094"
+  },
+  {
+    "path": "src/airflow_dags/config/airflow.cfg",
+    "category": "définitivement utilisé",
+    "evidence": "Image et montages Airflow; DAG pull_weekly supplémentaire à arbitrer, pas supprimable par son nom",
+    "imports": [],
+    "sha256": "8bffa333ff9edd7e673ff679495282d393dff0364970d11d91a8cdaec468f04e"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_train.py",
+    "category": "définitivement utilisé",
+    "evidence": "Image et montages Airflow; DAG pull_weekly supplémentaire à arbitrer, pas supprimable par son nom",
+    "imports": [
+      "airflow.exceptions",
+      "airflow.operators.python",
+      "airflow.sdk",
+      "bentoml",
+      "dataclasses",
+      "datetime",
+      "hashlib",
+      "logging",
+      "mlflow",
+      "os",
+      "pathlib",
+      "requests",
+      "requests.adapters",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "typing",
+      "urllib3.util.retry"
+    ],
+    "sha256": "59ab2913a1ab000007962882b13593b69cbdcfed55324f6558e2ea5d43847563"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_weekly.py",
+    "category": "probablement utilisé",
+    "evidence": "DAG de simulation réellement importé/listé/pausé; horaire toutes les cinq minutes, différent de pull_train",
+    "imports": [
+      "airflow.exceptions",
+      "airflow.operators.python",
+      "airflow.sdk",
+      "bentoml",
+      "dataclasses",
+      "datetime",
+      "hashlib",
+      "logging",
+      "mlflow",
+      "os",
+      "pathlib",
+      "requests",
+      "requests.adapters",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "typing",
+      "urllib3.util.retry"
+    ],
+    "sha256": "e5013f2debbf412fa74ef718a4ca38aca0c933256d58673fc1fd90c4e973e9c1"
+  },
+  {
+    "path": "src/airflow_dags/docker-compose.yaml",
+    "category": "définitivement utilisé",
+    "evidence": "Image et montages Airflow; DAG pull_weekly supplémentaire à arbitrer, pas supprimable par son nom",
+    "imports": [],
+    "sha256": "d927383aac13d08d306c4d09bcc41857054aa88e9b7f5f0d2180118b9d1c0d17"
+  },
+  {
+    "path": "src/airflow_dags/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Image et montages Airflow; DAG pull_weekly supplémentaire à arbitrer, pas supprimable par son nom",
+    "imports": [],
+    "sha256": "e16bcd10b63005851c33d87c8936469937bf1fe901b631ce36f510234f979396"
+  },
+  {
+    "path": "src/airflow_dags/tests/test_pull_train.py",
+    "category": "définitivement utilisé",
+    "evidence": "Image et montages Airflow; DAG pull_weekly supplémentaire à arbitrer, pas supprimable par son nom",
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "pytest",
+      "sys",
+      "types",
+      "unittest.mock"
+    ],
+    "sha256": "0895fa700ccf8287e69342f23963a27a48490a9ed724519145f4acd6415bd056"
+  },
+  {
+    "path": "src/auth_api/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "182255c65ce371bd858cc8631dafa9ab576f9e37e0334a028066ee2a24e46367"
+  },
+  {
+    "path": "src/auth_api/main.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "contextlib",
+      "datetime",
+      "fastapi",
+      "json",
+      "jwt",
+      "logging",
+      "os",
+      "pydantic"
+    ],
+    "sha256": "b15c14c032a2dff3febf96c3e81e37a0c89e9180810183ff273d150b92ed8e63"
+  },
+  {
+    "path": "src/auth_api/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "1e680838e5919564cbbfaad99a766314d141e31a0b03cdce610187774db7eba3"
+  },
+  {
+    "path": "src/infra/mlflow/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "5990d9282279e3ca281ff7eb5dcc08de8daf05e4f847b9b4ee3beaf43a93abcd"
+  },
+  {
+    "path": "src/infra/mlflow/README.md",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "1d4dc4bd27b405d6cf011eea9dffcd0f4dcd6617912db7e36b457428cc68371e"
+  },
+  {
+    "path": "src/infra/mlflow/docker-compose.mlflow.yml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "7c91c3525c1dbe9daf015c3e265ee25f5657186d63ffdfc95dcf1e11fd9207f8"
+  },
+  {
+    "path": "src/inital_train/.dockerignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "333c0f93892d8878e2246624216bd1853e14a4dcca80edebd9dabd8431aa3872"
+  },
+  {
+    "path": "src/inital_train/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "83239ff02f46dcee723701c2af0f3c5b1d0b58a5280828bad9079deb4a52583f"
+  },
+  {
+    "path": "src/inital_train/entrypoint.sh",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "cae9ed5af4ecde9685646b5391ea95046cf50f50cc4a186e570d527b38ce04dc"
+  },
+  {
+    "path": "src/inital_train/main.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "bentoml",
+      "dataclasses",
+      "mlflow",
+      "os",
+      "pathlib",
+      "requests",
+      "requests.adapters",
+      "sys",
+      "tempfile",
+      "typing",
+      "urllib3.util.retry"
+    ],
+    "sha256": "0fd5950a0749c6dd7f096e2c804c28e23d0dd8e10b754d964e95e19f3378e67f"
+  },
+  {
+    "path": "src/inital_train/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "f18756f22e3c521e1a817855511d8cb96d6559504c0b2ae48fbaf3b9cccfc7b3"
+  },
+  {
+    "path": "src/predict_api/Dockerfile",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "d4bec5fe654ca9ec5a805e33f2916ccf9b1b410f9e9d5f3861bf863fc8b8b38f"
+  },
+  {
+    "path": "src/predict_api/bentofile.yml",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "26b1ad3c988702194cc7d7692db3f1b21851327a3a8fa784ec0593760605ce2e"
+  },
+  {
+    "path": "src/predict_api/exemple/service.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "bentoml",
+      "datetime",
+      "fastapi",
+      "jwt",
+      "numpy",
+      "pydantic",
+      "starlette.middleware.base",
+      "starlette.responses"
+    ],
+    "sha256": "b2c115301acdc03e8854396249552b7a4cabe308d70a9572c3e2b666c0c9de93"
+  },
+  {
+    "path": "src/predict_api/sample.json",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "d4a2518c45f5a781bd739575991b2d8507c4c82d86d0f4c31e8b82c995005ecc"
+  },
+  {
+    "path": "src/predict_api/service.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "bentoml",
+      "bentoml.io",
+      "jwt",
+      "os",
+      "projet_accidents_mlops.inference",
+      "prometheus_client",
+      "time"
+    ],
+    "sha256": "6518bcc3f5e35d21ecc0f408b2973f3da91b7467d5df02eb976bd097f9b2f962"
+  },
+  {
+    "path": "src/predict_api_v2/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "d1246ea925759a1021ee0094ff785436ea878737a2662f2bc1d9b9ce9d41ec5d"
+  },
+  {
+    "path": "src/predict_api_v2/README_curl.md",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "a97fd6741949f83c96384b2fb1ea3b8e80bb0d01c33939af61128fd7c3bfefa0"
+  },
+  {
+    "path": "src/predict_api_v2/metrics.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "contextlib",
+      "logging",
+      "prometheus_client",
+      "time"
+    ],
+    "sha256": "c32c1c82c2ec099932d431cb1d9381d87c3052daa8f327c46b9052ef955c0a7b"
+  },
+  {
+    "path": "src/predict_api_v2/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "4d758ab6d3cabfd9b02f418c92774035a89df0d6fb5734a55f941b6532fffac9"
+  },
+  {
+    "path": "src/predict_api_v2/service.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "bentoml",
+      "datetime",
+      "fastapi",
+      "jwt",
+      "logging",
+      "metrics",
+      "numpy",
+      "os",
+      "pandas",
+      "pydantic",
+      "starlette.middleware.base",
+      "starlette.responses"
+    ],
+    "sha256": "e52c2947befeeb1c7b3b5b63df618c337309fb392f77894b3cd7d9bfed4b9150"
+  },
+  {
+    "path": "src/pull_data_api/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "182255c65ce371bd858cc8631dafa9ab576f9e37e0334a028066ee2a24e46367"
+  },
+  {
+    "path": "src/pull_data_api/main.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "contextlib",
+      "fastapi",
+      "fastapi.security",
+      "io",
+      "jwt",
+      "logging",
+      "os",
+      "pandas",
+      "pathlib",
+      "pydantic",
+      "requests"
+    ],
+    "sha256": "05c5823bc2426db1101f9c578807b7e2ab630fea84ebb76be078b13ca27eef1f"
+  },
+  {
+    "path": "src/pull_data_api/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "105a1b7db974770e866b02cd7a3aaa06c47ff71cbabf88e27d642cba3839b4a2"
+  },
+  {
+    "path": "src/train_api/Dockerfile",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "3af8882da778a916a142a7f44925fedf47c4afc33779c41735cdb08c604b3191"
+  },
+  {
+    "path": "src/train_api/Dockerfile.dockerignore",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "331bd201a313b1c38ea870a8651e74f788c80ed15574535aa9661413267031f3"
+  },
+  {
+    "path": "src/train_api/main.py",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [
+      "__future__",
+      "fastapi",
+      "fastapi.security",
+      "jwt",
+      "os",
+      "pathlib",
+      "projet_accidents_mlops.training_cli",
+      "projet_accidents_mlops.training_contract",
+      "projet_accidents_mlops.weekly_data",
+      "subprocess",
+      "sys",
+      "threading"
+    ],
+    "sha256": "fdadfd668c9e4ca566fac57e21fa4283f09a1fa3a843f4af283edfb53e6a35c6"
+  },
+  {
+    "path": "src/train_api/requirements.txt",
+    "category": "historique / legacy",
+    "evidence": "Ancien point entrée/implémentation avec consommateurs historiques; absence de la stack de référence, vérifier ressources partagées avant suppression",
+    "imports": [],
+    "sha256": "82658ef4016a549ca15d297c18ee10b8706c72533e662c3c1fb98f5785dc8801"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/__init__.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [],
+    "sha256": "785f4c5259cd2261b34e7bd5ad852af92eb2216c71a7c0cf27e371b00dbd5cd8"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/features.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "numpy",
+      "pandas",
+      "sklearn.base",
+      "sklearn.utils.validation"
+    ],
+    "sha256": "d4a4ead3ca8147594346508bf35c9cad5ea06c346a1181b5b891de2b03992c47"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/inference.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "joblib",
+      "mlflow",
+      "mlflow.sklearn",
+      "numpy",
+      "os",
+      "pandas",
+      "pathlib",
+      "threading",
+      "typing"
+    ],
+    "sha256": "41d91b9138b7de6eadd3769ddedb5eb19d161e64c016134960cc4c117f907072"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/mlflow_admin.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "mlflow",
+      "mlflow.entities",
+      "mlflow.exceptions",
+      "os"
+    ],
+    "sha256": "c8013d3d674e4877ac4ea53c7a848098b462e3794f582c68089f644376a83196"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/modeling.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "numpy",
+      "sklearn.base"
+    ],
+    "sha256": "fa15dee11457d372993c2d91c80a8649caf761aa50a679224f9fd03493a95f2f"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/registry.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "mlflow",
+      "mlflow.exceptions"
+    ],
+    "sha256": "907f60de41f48b094dfa3ff6f6b0bab87a496d0a6649b33e9a8b6af808215d36"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/retraining.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "pandas",
+      "projet_accidents_mlops.temporal",
+      "projet_accidents_mlops.weekly_data"
+    ],
+    "sha256": "f2447acbecffb075122dc39d79eac3e281d60838e0953f9800af944ad2ab2d01"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/sustainability.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "codecarbon",
+      "pathlib"
+    ],
+    "sha256": "c6ccb9f525ae0164ea4f9672b5e7f88c90d4f9e9ea9c51859572d29be209caa3"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/temporal.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "pandas"
+    ],
+    "sha256": "65aed33bdcaa061df6a80278ce2457fe727414e658f922719e59eedebca70bd2"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/tracking.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "hashlib",
+      "json",
+      "mlflow",
+      "os",
+      "pandas",
+      "pathlib",
+      "re",
+      "sklearn.metrics",
+      "subprocess",
+      "yaml"
+    ],
+    "sha256": "808edcd6db680cad1e54dbbe3e048827c386a52a70dfde7567c4d709ae963368"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/training_cli.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "argparse",
+      "os",
+      "pathlib",
+      "projet_accidents_mlops.training_contract",
+      "projet_accidents_mlops.weekly_data",
+      "shutil",
+      "subprocess",
+      "yaml"
+    ],
+    "sha256": "e76564bb99b8129ac1e1852684abfee94b9e34081be9e07e08e8c11237eacf32"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/training_contract.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "pydantic",
+      "typing"
+    ],
+    "sha256": "e1a51a7e9775d6cd1a7de641db614903a9f729dcb2521b2a30b5c85492a58170"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/weekly_data.py",
+    "category": "définitivement utilisé",
+    "evidence": "module-root pyproject.toml; pipeline/04_snapshot.py et consommateurs projet_accidents_mlops",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "math",
+      "numbers",
+      "pandas",
+      "pathlib"
+    ],
+    "sha256": "f4a77450dd2753b74e0696a60e0b4ba7279552228771291f4d06b65fc5b514f6"
+  },
+  {
+    "path": "src/train_api_v2/.dockerignore",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee"
+  },
+  {
+    "path": "src/train_api_v2/Dockerfile",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "8dae1da0d0e79a4fe2c95afaea556a5908c07d23dee3aec73b3dffbe0f4d8330"
+  },
+  {
+    "path": "src/train_api_v2/__init__.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "eaf0a1dd1e98b118f669b81bbe33584f64972e28a3f8aa3b327000f124e80cb3"
+  },
+  {
+    "path": "src/train_api_v2/auth.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "fastapi",
+      "jwt",
+      "src.train_api_v2.config",
+      "typing"
+    ],
+    "sha256": "80c697ce81857ae6c51ee54d889b878660cd169e1648a870cdcaa51637b06b52"
+  },
+  {
+    "path": "src/train_api_v2/config.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "dataclasses",
+      "os",
+      "pathlib"
+    ],
+    "sha256": "692f2af621d3a0b259285e8b8c57c1c756be759c74eb84d39cadf4fb8771d095"
+  },
+  {
+    "path": "src/train_api_v2/data.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "os",
+      "pandas",
+      "pathlib",
+      "src.train_api_v2.config",
+      "src.train_api_v2.domain",
+      "src.train_api_v2.errors",
+      "tempfile"
+    ],
+    "sha256": "c1a27f5d53bd6b4e6d4aab89f10ff0022c09004bf201fb4ac30bf4d0b980fd24"
+  },
+  {
+    "path": "src/train_api_v2/domain.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "dataclasses",
+      "decimal",
+      "typing"
+    ],
+    "sha256": "9d79a7d25d1d05e456ffb41798b0cc7dc976bf1ef647e8849024a040de3fb9cf"
+  },
+  {
+    "path": "src/train_api_v2/errors.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "60d108aac1a1c7f12d1fd439b70f1bd62ea830806e3327074bc15838259b823b"
+  },
+  {
+    "path": "src/train_api_v2/features.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "numpy",
+      "pandas",
+      "sklearn.base",
+      "sklearn.utils.validation"
+    ],
+    "sha256": "0e452016cff83fd38eb6aa5bb4643003e44473660b735bada4597c728fc9099d"
+  },
+  {
+    "path": "src/train_api_v2/lineage.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "hashlib",
+      "json",
+      "pathlib",
+      "src.train_api_v2.config",
+      "typing"
+    ],
+    "sha256": "69726a0268435709f0bcda9980174bbcc6ddb6161c318f0dfaceb3be433aa3d6"
+  },
+  {
+    "path": "src/train_api_v2/main.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "collections.abc",
+      "contextlib",
+      "fastapi",
+      "logging",
+      "re",
+      "src.train_api_v2",
+      "src.train_api_v2.auth",
+      "src.train_api_v2.config",
+      "src.train_api_v2.data",
+      "src.train_api_v2.errors",
+      "src.train_api_v2.schemas",
+      "src.train_api_v2.service",
+      "src.train_api_v2.state",
+      "typing"
+    ],
+    "sha256": "340d22eddfe9851bb3c67edbd0f9730ea896cf190d9d2e3acb58f5d98fefe780"
+  },
+  {
+    "path": "src/train_api_v2/mlflow_service.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "mlflow",
+      "mlflow.exceptions",
+      "mlflow.models",
+      "mlflow.sklearn",
+      "pathlib",
+      "src.train_api_v2.config",
+      "src.train_api_v2.data",
+      "src.train_api_v2.domain",
+      "src.train_api_v2.errors",
+      "src.train_api_v2.lineage",
+      "src.train_api_v2.training",
+      "typing"
+    ],
+    "sha256": "529afe6b11281f76754363f0a9bc5f1bb51c3f2e438f7645e27d52f63646f95b"
+  },
+  {
+    "path": "src/train_api_v2/monitoring.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "evidently",
+      "evidently.presets",
+      "logging",
+      "pandas",
+      "pathlib",
+      "src.train_api_v2.config",
+      "src.train_api_v2.data",
+      "src.train_api_v2.errors",
+      "src.train_api_v2.mlflow_service",
+      "src.train_api_v2.training"
+    ],
+    "sha256": "56c2b206443e5ea001fb14b42915682ec7669a6fa01a1eacc2456867e09f93d8"
+  },
+  {
+    "path": "src/train_api_v2/monitoring_export.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "json",
+      "os",
+      "pathlib",
+      "src.train_api_v2.monitoring",
+      "tempfile",
+      "time"
+    ],
+    "sha256": "ecb89de5568a55c855571e92186e3b8c7065dc99f8566954e3707b495a3afb01"
+  },
+  {
+    "path": "src/train_api_v2/requirements.txt",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "b73d5be96ff6ac701b58e2dc447eb7bdd0dec35ebc5eaf8ee94d159db5eed5f6"
+  },
+  {
+    "path": "src/train_api_v2/schemas.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "pydantic",
+      "src.train_api_v2.domain",
+      "typing"
+    ],
+    "sha256": "cbfaf2a3948f24aefdfab6b7a9d2e8287f3f8229d6927d921feac05492cb81e6"
+  },
+  {
+    "path": "src/train_api_v2/service.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "contextlib",
+      "logging",
+      "os",
+      "pathlib",
+      "shutil",
+      "src.train_api_v2.config",
+      "src.train_api_v2.data",
+      "src.train_api_v2.domain",
+      "src.train_api_v2.errors",
+      "src.train_api_v2.lineage",
+      "src.train_api_v2.mlflow_service",
+      "src.train_api_v2.monitoring",
+      "src.train_api_v2.monitoring_export",
+      "src.train_api_v2.schemas",
+      "src.train_api_v2.state",
+      "src.train_api_v2.training",
+      "threading",
+      "time",
+      "typing",
+      "uuid"
+    ],
+    "sha256": "87e1bd229a9fbbe13e9a56bb52905d91cccd259e7b87af5c59a7291fdda1a5cf"
+  },
+  {
+    "path": "src/train_api_v2/state.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "collections.abc",
+      "dataclasses",
+      "datetime",
+      "hashlib",
+      "json",
+      "pathlib",
+      "pydantic",
+      "sqlite3",
+      "src.train_api_v2.errors",
+      "src.train_api_v2.schemas",
+      "typing"
+    ],
+    "sha256": "9b5e6bb33f3a5a7598617eb27f2832f97803336442ad6d88f0f4b9371fecab8b"
+  },
+  {
+    "path": "src/train_api_v2/training.py",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [
+      "__future__",
+      "codecarbon",
+      "collections.abc",
+      "dataclasses",
+      "gc",
+      "json",
+      "lightgbm",
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "pathlib",
+      "sklearn.base",
+      "sklearn.compose",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "src.train_api_v2.data",
+      "src.train_api_v2.errors",
+      "src.train_api_v2.features",
+      "types",
+      "typing",
+      "yaml"
+    ],
+    "sha256": "776a7c49b5c6daa22aa1b13edf18740770db5035c8a3cf34cccfe6178b987d02"
+  },
+  {
+    "path": "src/train_api_v2/training_config.yaml",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "814d36aa1b6a0890f5e6f1727011315282dd2cf1d3bedac14ba21fb86c35504a"
+  },
+  {
+    "path": "uv.lock",
+    "category": "définitivement utilisé",
+    "evidence": "Compose actif, COPY/commande, imports, application confirmée ou chaîne de build; README et tests du composant à examiner séparément",
+    "imports": [],
+    "sha256": "8663cef0bda5ca9fad1d142d86d90a14e8ed485109d07794700a06135fa47789"
+  }
+]

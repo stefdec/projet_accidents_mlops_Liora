@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidents MLOps | Monitoring et observabilité</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context"><span>06 / 08</span><i></i><span>Observabilité</span></div>
+                    <h1 class="slide-title">Observer le service, le modèle et son impact</h1>
+                    <p class="slide-lead">Métriques, logs et alertes convergent dans Grafana pour expliquer l'état de la
+                        production.</p>
+                </div>
+            </header>
+
+            <section class="monitoring-workbench workbench content-inset" aria-label="Services et vision opérateur">
+                <div class="monitoring-services tone-stack">
+                    <article class="monitoring-service">
+                        <div><span class="panel-label">Services</span>
+                            <h2>Predict API + Train API + exporters</h2>
+                        </div>
+                        <p>trafic · drift · performance · carbone</p>
+                    </article>
+                    <article class="monitoring-service">
+                        <div><span class="panel-label">Métriques</span>
+                            <h2>Prometheus</h2>
+                        </div>
+                        <p>scrape toutes les 30 secondes</p>
+                    </article>
+                    <article class="monitoring-service">
+                        <div><span class="panel-label">Vision opérateur</span>
+                            <h2>Grafana</h2>
+                        </div>
+                        <p>dashboards + alertes</p>
+                    </article>
+                </div>
+
+                <div class="monitoring-operator">
+                    <article class="operator-card">
+                        <div><span class="panel-label">Dashboards</span>
+                            <h2>5 dashboards</h2>
+                        </div>
+                        <ul class="operator-list">
+                            <li>prédiction et latence</li>
+                            <li>logs des APIs</li>
+                            <li>drift des features</li>
+                            <li>performance du champion</li>
+                            <li>énergie et CO₂ du training</li>
+                        </ul>
+                    </article>
+                    <article class="operator-card">
+                        <div><span class="panel-label">Alerting</span>
+                            <h2>7 alertes notifiées par Slack</h2>
+                        </div>
+                        <ul class="operator-list">
+                            <li>cible indisponible</li>
+                            <li>modèle non chargé</li>
+                            <li>erreurs &gt; 10 %</li>
+                            <li>drift persistant (4 semaines)</li>
+                            <li>drift sévère (une semaine)</li>
+                            <li>évaluation trop ancienne</li>
+                            <li>rapport de drift trop ancien</li>
+                        </ul>
+                    </article>
+                    <div class="graf-image"><img src="../assets/images/graf.jpg"
+                            alt="Tableau de bord Grafana de monitoring"></div>
+                </div>
+            </section>
+
+            <section class="monitoring-takeaway takeaway content-inset">
+                <span class="panel-label">À retenir</span>
+                <strong>Une prédiction fiable exige trois lectures : santé technique, qualité ML et fraîcheur des
+                    données.</strong>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

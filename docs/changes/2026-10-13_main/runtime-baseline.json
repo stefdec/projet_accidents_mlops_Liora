@@ -1,0 +1,189 @@
+[
+  {
+    "service": "accidents-monitoring-drift-exporter-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 1,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-monitoring-ml-exporter-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 1,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-monitoring-sustainability-exporter-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 1,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-airflow-worker-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 7,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-airflow-apiserver-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 7,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-airflow-triggerer-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 5,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-airflow-dag-processor-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 6,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-airflow-scheduler-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 2,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-postgres-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 2,
+    "exception_types": []
+  },
+  {
+    "service": "airflow_dags-redis-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 1,
+    "exception_types": []
+  },
+  {
+    "service": "accident_train_api_v2",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 4,
+    "exception_types": []
+  },
+  {
+    "service": "projet_accidents_mlops_liora-predict-api-v2-1",
+    "status": "running",
+    "health": "none",
+    "restart_count": 0,
+    "error_warning_lines": 33,
+    "exception_types": [
+      "BentoMLException",
+      "RuntimeError"
+    ]
+  },
+  {
+    "service": "projet_accidents_mlops_liora-pull-data-api-1",
+    "status": "running",
+    "health": "none",
+    "restart_count": 0,
+    "error_warning_lines": 0,
+    "exception_types": []
+  },
+  {
+    "service": "projet_accidents_mlops_liora-auth-api-1",
+    "status": "running",
+    "health": "none",
+    "restart_count": 0,
+    "error_warning_lines": 0,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-grafana",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 23,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-prometheus",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 0,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-alloy",
+    "status": "running",
+    "health": "none",
+    "restart_count": 0,
+    "error_warning_lines": 0,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-loki",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 4,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-cadvisor",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 9,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-node-exporter",
+    "status": "running",
+    "health": "none",
+    "restart_count": 0,
+    "error_warning_lines": 1,
+    "exception_types": []
+  },
+  {
+    "service": "accident_emergency_interface",
+    "status": "running",
+    "health": "none",
+    "restart_count": 0,
+    "error_warning_lines": 1,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-mlops-mlflow-server-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 5,
+    "exception_types": []
+  },
+  {
+    "service": "accidents-mlops-mlflow-db-1",
+    "status": "running",
+    "health": "healthy",
+    "restart_count": 0,
+    "error_warning_lines": 0,
+    "exception_types": []
+  }
+]

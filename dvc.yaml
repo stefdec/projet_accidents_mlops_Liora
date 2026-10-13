@@ -1,0 +1,36 @@
+stages:
+  clean:
+    cmd: uv run python pipeline/01_clean.py
+    deps:
+    - data/raw/accidents_2017_2024.csv
+    - pipeline/01_clean.py
+    outs:
+    - data/processed/accidents_2019_2024_cleaned.csv
+  prepare:
+    cmd: uv run python pipeline/02_prepare.py
+    deps:
+    - data/processed/accidents_2019_2024_cleaned.csv
+    - pipeline/02_prepare.py
+    outs:
+    - data/processed/accidents_2019_2024_prepared.csv
+  features:
+    cmd: uv run python pipeline/03_features.py
+    deps:
+    - data/processed/accidents_2019_2024_prepared.csv
+    - pipeline/03_features.py
+    outs:
+    - data/features/data_final_binaire.csv
+  snapshot:
+    cmd: uv run python pipeline/04_snapshot.py
+    deps:
+    - data/features/data_final_binaire.csv
+    - data/incoming
+    - pipeline/04_snapshot.py
+    - src/train_api/utils/projet_accidents_mlops/weekly_data.py
+    params:
+    - params.yaml:
+      - retraining
+    outs:
+    - data/features/training_snapshot.csv
+    - reports/snapshot_manifest.json:
+        cache: false

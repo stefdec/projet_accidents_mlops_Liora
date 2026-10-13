@@ -1,0 +1,872 @@
+[
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "before_sha256": "512e3f4a214f8dae8acd34817c9985b892d809d70843455cc53cfcfbbd98c163",
+    "after_sha256": "ff76b47046ccd16874bbef18ef31314c9d970a0e1d7f837fa1b044668aa03932"
+  },
+  {
+    "path": "AGENTS.md",
+    "status": "modified",
+    "before_sha256": "11e31df109f4de948b0f0c181fe3f332af8e3320834487affc8cf12a31cc3d30",
+    "after_sha256": "078e79242d405b7e1a694a21b8d193fcbd778155e1bc3fca350e44546fa22d67"
+  },
+  {
+    "path": "Makefile",
+    "status": "modified",
+    "before_sha256": "ce3acde9768dc42774a9291b5dbd3336ce493bede9086ee1d17ea1d3d6c23ab6",
+    "after_sha256": "f696b86744d85affd75fc0e594724bce512884964f8841425408ceea18c68339"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "dfd1e603b49b94b0796c55841f30aaa7887d5ea191f226fd5976ad0951604caf",
+    "after_sha256": "79da3a431942e94c84e007ad97a763f7512c7456ea8fe94a52ec19c44a9e337d"
+  },
+  {
+    "path": "README_monitoring.md",
+    "status": "modified",
+    "before_sha256": "69906140fdcb2d63cd9cfe2b287eb2f86103572bcb95f73c3e11da2c6d4c4201",
+    "after_sha256": "abe15dddef7c0388c5a667ee08600604f44f6051ccfa73d2244a93a08d88c621"
+  },
+  {
+    "path": "docker-compose.apis.yml",
+    "status": "modified",
+    "before_sha256": "3d01abaeca30ead5afcf28c9b76498034fb48651c2e7be889bb3597d09b9c619",
+    "after_sha256": "b55da4dab4a9b2333ed27e21ddc4f5f6d81c4c34c2c6355f3c3f6290fbf22683"
+  },
+  {
+    "path": "docs/applications/guide-interface-urgence-112-18.md",
+    "status": "modified",
+    "before_sha256": "61a635f10b00b8962b6b83817b203700485ae2733d11672927ea330dab3d6eac",
+    "after_sha256": "2c002430caf3f68fa9a180d95016df4a17bdb1fee5c068159411837ee6ff85d0"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "status": "modified",
+    "before_sha256": "99eff978776fe392bccd7e4b0899d6a038b3697a3deee44a4926e37feb6afffa",
+    "after_sha256": "4950bd8af5d1fa90ae8637907d5de6a572e216832e57878031e13d0fc944b23a"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "modified",
+    "before_sha256": "009cde13d19b7d5674ef1990f1d3064133acae3ccc7e94d09a9e6adf48357204",
+    "after_sha256": "f3f2d4c9cb989e35c2a576b3d355e2674245c06d36f6f9f2dbbcaf2f6374d6f5"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "status": "modified",
+    "before_sha256": "9a43dbdeefd23342ae4f8c09c3f76e9518858189a682321a0e364913db8a3380",
+    "after_sha256": "91916eb3d1de141384fe5baf27bedd7a0ef879c4ffd252d1db1e91f920855fa0"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "status": "modified",
+    "before_sha256": "6e4ea80333c209e7409cd2bd364f793399b326516d5620d015c183cc2957e9e2",
+    "after_sha256": "85330aedb0c744d788b522fa3cd47f06fdb76e819a8389a72ad413465d832302"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "status": "modified",
+    "before_sha256": "6c456ba55ef8860ee89b0c3e1f3dd13320d1d282ce3d2a0362abf3266f64ab59",
+    "after_sha256": "6976d19fc900140b0fe013d1af45279372fa1ebb3e116edf299b927bc2f164f0"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "status": "modified",
+    "before_sha256": "e1391d7cf98191489e35889c158027df40b8cf2915289eeb13205f88892da02b",
+    "after_sha256": "b036b7e117f43fcdcd5651d0e66f6f80623ade9fa6d166b7d516208991137c80"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "status": "modified",
+    "before_sha256": "2ef4b12f7968ab6def4e808183cc9ca50e1b630d680102ffb6f912e797fd54ea",
+    "after_sha256": "52cbda350a2c06cbc593d454aace7c6cc2e9b0fd317615aea3a2b5b0568d49c0"
+  },
+  {
+    "path": "docs/operations/metrics-prometheus.md",
+    "status": "modified",
+    "before_sha256": "bee69713d2405a4633be6241647d721afed8737c4d2ba5711acf7c624d53afa0",
+    "after_sha256": "cea1e47463dd0fa63e8970abe4172eaceb11becb3090b1dc53850741d6fb94a1"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "status": "modified",
+    "before_sha256": "a589cfb8fe7db5d4e4ec923659f86cd01b83c6b12a514d0acc2a7279cf741c12",
+    "after_sha256": "b3c68487ca707409f70b51a55131f4cc2f667b663a69f42f0bebd561000f0aae"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "status": "modified",
+    "before_sha256": "8ce6077fe037af3b2038bdb5de4c2b7dc3a48a6661df1777a528a4349c2f5d8e",
+    "after_sha256": "d723153313e04aa8895ad4f58a02fe65b181243262d8f433c6b538a44571f11d"
+  },
+  {
+    "path": "docs/operations/predict-api-v2.md",
+    "status": "deleted",
+    "before_sha256": "b5ca323c7d264f3671345fab58a72f5ac5a77691c7b2b273c65e757fbc42da33",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/operations/predict-api.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3e852783655ca6b352cdb429e9ebcb0cb1b70b2f27720f57ae11ead82d45cf91"
+  },
+  {
+    "path": "docs/operations/pull-data-api.md",
+    "status": "modified",
+    "before_sha256": "c5dcd27bcd410dd9bd4ad31d12d9d22a27ee749d47d822f92ec2f645eb1faf42",
+    "after_sha256": "7e6e7964f16bb8d3cc34a3cb7bd990f1aca5d9d7ba7d016a6f3fbf1fcaaa50d3"
+  },
+  {
+    "path": "docs/operations/train-api.md",
+    "status": "modified",
+    "before_sha256": "4b7769f015988cd1310334e916162338ddf7ba4011020f49f95d010a997d33c4",
+    "after_sha256": "36503518a4e396b50a77eb3dc7947328ebd8e4d8368e13971bd0aaf50435370f"
+  },
+  {
+    "path": "interface/rapport.md",
+    "status": "modified",
+    "before_sha256": "c062d8635c0116c190d115619d99a4d3fdda0bbf7df5747baa6437ec6dd1fc14",
+    "after_sha256": "ac1f4db9669af17525b9786417178580393edea8eaf3b3c8c73d4fbd57f8c5a2"
+  },
+  {
+    "path": "interface/server.js",
+    "status": "modified",
+    "before_sha256": "ffd0979fc10e4a2760a6e49ea822c969f92bada7ba9b05977c9f8f19e6ef3bf3",
+    "after_sha256": "6dd69de9774d991853f0868f948f3cddc3c9497ff4f358657a0b8dbf574b9a04"
+  },
+  {
+    "path": "interface/src/components/PredictionResult.jsx",
+    "status": "modified",
+    "before_sha256": "3571092e8503e88a70094bec45053d1421f05b818824adbefa3c0ce187084f2d",
+    "after_sha256": "1cfe4efd0bd7867fb03a0e8f72c18a8d58e66fbbfd45263b3fb725eb79ef6ca2"
+  },
+  {
+    "path": "interface/src/services/predictionService.js",
+    "status": "modified",
+    "before_sha256": "dd5126626b1bcc429485019de043af8d10c3ba99d74cc23e6792334ddac89618",
+    "after_sha256": "6597888964ec426ad11533c64a1054d05d15adeaa1109b8d17e3d9a55e7fa2c3"
+  },
+  {
+    "path": "monitoring/alloy/config.alloy",
+    "status": "modified",
+    "before_sha256": "cf9ceb9bb11b8913eb2ebfb25eee6dd0c5972c0a43747926310420d71ce3e119",
+    "after_sha256": "eb12183eeab8199802591f1b46a4b5720a9e90ea3866912b424fc45b897962ed"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/api-logs-dashboard.json",
+    "status": "modified",
+    "before_sha256": "e76e69bdc8aab9abd0ff99f32e9f6e872f92e028e5d8fc499ec49c681cb87fd0",
+    "after_sha256": "cd4b57c3f8e73edb5465f68512792c69adbde1ed023c17fc5955358a162a049d"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/predict-api-dashboard.json",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0a9261935a11781d953854ab05caa74ecf2473c33cb29d4c54eb433cb522ee92"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/predict-api-v2-dashboard.json",
+    "status": "deleted",
+    "before_sha256": "32a57e85f9f670e792028733593a4ced8db866c17435a666bec71ab3ae1244a1",
+    "after_sha256": null
+  },
+  {
+    "path": "monitoring/grafana/provisioning/alerting/rules.yaml",
+    "status": "modified",
+    "before_sha256": "e20911753f772c06888913eb04530251c0337ece063efd6ddf5399ca2dc62378",
+    "after_sha256": "84c6fc1d5ae07529ad3f01ed45838727a61e42b5cb9ec9d905e08fdd04416a32"
+  },
+  {
+    "path": "monitoring/prometheus/prometheus.yml",
+    "status": "modified",
+    "before_sha256": "65a1cd378fbdf677ce4f39b3417ce4322b846177a7c957b74e58bca4a62d0124",
+    "after_sha256": "634c4e4749f74f1da7066b95ddd17140be66e09ce524ed95f3d5a03932eac9f6"
+  },
+  {
+    "path": "src/airflow_dags/dags/accidents_workflow.py",
+    "status": "modified",
+    "before_sha256": "4f579d57fb93c98a6be7bbbbd3de56c41b17befc493a78a3951747536bed7999",
+    "after_sha256": "f8c376483fea468d8ea004cda7ce1c84e98e4b0fadeba8b33a91eef5ef5a4a66"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_train.py",
+    "status": "modified",
+    "before_sha256": "d287d028cbdfa410275fe353c7319dbad39c55e96c85e5439b5ea72af2c4762c",
+    "after_sha256": "9afbeb34521f3c28ea5036d379baa672fb2b049009523dc18ae42964be8d07b6"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_weekly.py",
+    "status": "modified",
+    "before_sha256": "b977c1feeca84acd74245a5c2c1a397452c99903561129b7377a64a201a04d55",
+    "after_sha256": "115a39c772f77483e9005edb62712cb9052d39e7b06427c9ac97bdbd0c0a4ad3"
+  },
+  {
+    "path": "src/airflow_dags/docker-compose.yaml",
+    "status": "modified",
+    "before_sha256": "d927383aac13d08d306c4d09bcc41857054aa88e9b7f5f0d2180118b9d1c0d17",
+    "after_sha256": "816ca47576b663017f1667237afb685cd54697ee887e700645274ee86c1c6a47"
+  },
+  {
+    "path": "src/airflow_dags/tests/test_pull_train.py",
+    "status": "modified",
+    "before_sha256": "42eea537bbc63d8fca78f5dacdc0124df17d68255cb25cb47b9a9f6ecb5e7dc3",
+    "after_sha256": "87841ac666a94109dd53b6a67ff408ad3ff10cff26a074a2974e0ebb9ffe92e5"
+  },
+  {
+    "path": "src/inital_train/main.py",
+    "status": "modified",
+    "before_sha256": "0fd5950a0749c6dd7f096e2c804c28e23d0dd8e10b754d964e95e19f3378e67f",
+    "after_sha256": "0e265689aa5019176dc08f3f2da177cebc03cff4e4750a4b48f614b3f002baa0"
+  },
+  {
+    "path": "src/predict_api/Dockerfile",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d1246ea925759a1021ee0094ff785436ea878737a2662f2bc1d9b9ce9d41ec5d"
+  },
+  {
+    "path": "src/predict_api/README_curl.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "60f9557932688d630f303596d5570024c36e90167a0cee9c934389aa6de817e9"
+  },
+  {
+    "path": "src/predict_api/metrics.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "fd168026af6d66e09703ac25536e14ec88eb92fc7033bbe8aa492a7f42015d56"
+  },
+  {
+    "path": "src/predict_api/requirements.txt",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "4d758ab6d3cabfd9b02f418c92774035a89df0d6fb5734a55f941b6532fffac9"
+  },
+  {
+    "path": "src/predict_api/service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "93bf1ea5739945e6c8284202d9fbddc8de86aa71e126915bc2ce7db5b7099d5b"
+  },
+  {
+    "path": "src/predict_api_v2/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "d1246ea925759a1021ee0094ff785436ea878737a2662f2bc1d9b9ce9d41ec5d",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api_v2/README_curl.md",
+    "status": "deleted",
+    "before_sha256": "a97fd6741949f83c96384b2fb1ea3b8e80bb0d01c33939af61128fd7c3bfefa0",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api_v2/metrics.py",
+    "status": "deleted",
+    "before_sha256": "c32c1c82c2ec099932d431cb1d9381d87c3052daa8f327c46b9052ef955c0a7b",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api_v2/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "4d758ab6d3cabfd9b02f418c92774035a89df0d6fb5734a55f941b6532fffac9",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api_v2/service.py",
+    "status": "deleted",
+    "before_sha256": "e52c2947befeeb1c7b3b5b63df618c337309fb392f77894b3cd7d9bfed4b9150",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee"
+  },
+  {
+    "path": "src/train_api/Dockerfile",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "c01cd896e74c710d2834e794c9b40129d90dcd085afae0dca294af1e370e0221"
+  },
+  {
+    "path": "src/train_api/__init__.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "eaf0a1dd1e98b118f669b81bbe33584f64972e28a3f8aa3b327000f124e80cb3"
+  },
+  {
+    "path": "src/train_api/auth.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "74818a0baf41db6ad17a1fa60385ccfe17cc4bdb4f577ecf1817550c75ab3cef"
+  },
+  {
+    "path": "src/train_api/config.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d676aa9e2d013f45481dc248d8568236e1554a50db2efa7bef6ff0922eca182c"
+  },
+  {
+    "path": "src/train_api/data.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "88161cd4237c0fc847e3e640c4ed5852281cc30a9dc63566c807b92d317ba38b"
+  },
+  {
+    "path": "src/train_api/domain.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "9d79a7d25d1d05e456ffb41798b0cc7dc976bf1ef647e8849024a040de3fb9cf"
+  },
+  {
+    "path": "src/train_api/errors.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "8d1c18f757cfd7abaf5e1091c6bb8f1de52677d08e5882df3468f1c796b4ae5d"
+  },
+  {
+    "path": "src/train_api/features.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0e452016cff83fd38eb6aa5bb4643003e44473660b735bada4597c728fc9099d"
+  },
+  {
+    "path": "src/train_api/lineage.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e2801c21b214b8b5b48e3e8175cced18600e845a49d7d7b04ff6e724543e5ee9"
+  },
+  {
+    "path": "src/train_api/main.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "c7009d7f79a1210c93de4cfc61529d788bf6072131393f07eba53c52ce4b7654"
+  },
+  {
+    "path": "src/train_api/mlflow_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3e876ae06a1526dd4bffcc7748a4a8ac57d4adb280012c99b562605535963ba5"
+  },
+  {
+    "path": "src/train_api/monitoring.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "5b757e5835b9c908e3078ef0fabb0aaea1507b32137681d7b6ca769818d03ec1"
+  },
+  {
+    "path": "src/train_api/monitoring_export.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7acae728c6ea3eb6de7d81159a3b2989f421aaaf8358af9f979c0ca2cd025f74"
+  },
+  {
+    "path": "src/train_api/requirements.txt",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "b73d5be96ff6ac701b58e2dc447eb7bdd0dec35ebc5eaf8ee94d159db5eed5f6"
+  },
+  {
+    "path": "src/train_api/schemas.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "180a8ceef31ed2f86479d3c01a05755cd959283e0368df0f4595eec8f53381d2"
+  },
+  {
+    "path": "src/train_api/service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "9dc52b3bb84d43de5195090f4f955e86fd9853bc2a47aa18c9813ac47eb7d7f2"
+  },
+  {
+    "path": "src/train_api/state.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7be3689f6681a8d4989201245a1294e31ac9f2d4cbd730fda7e53e98e7e9dc2f"
+  },
+  {
+    "path": "src/train_api/training.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e72abc02f115947b9f0709179989af2e3eefa08513a5b7be9d260dcad846de34"
+  },
+  {
+    "path": "src/train_api/training_config.yaml",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "814d36aa1b6a0890f5e6f1727011315282dd2cf1d3bedac14ba21fb86c35504a"
+  },
+  {
+    "path": "src/train_api_v2/.dockerignore",
+    "status": "deleted",
+    "before_sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "8dae1da0d0e79a4fe2c95afaea556a5908c07d23dee3aec73b3dffbe0f4d8330",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eaf0a1dd1e98b118f669b81bbe33584f64972e28a3f8aa3b327000f124e80cb3",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/auth.py",
+    "status": "deleted",
+    "before_sha256": "80c697ce81857ae6c51ee54d889b878660cd169e1648a870cdcaa51637b06b52",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/config.py",
+    "status": "deleted",
+    "before_sha256": "692f2af621d3a0b259285e8b8c57c1c756be759c74eb84d39cadf4fb8771d095",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/data.py",
+    "status": "deleted",
+    "before_sha256": "c1a27f5d53bd6b4e6d4aab89f10ff0022c09004bf201fb4ac30bf4d0b980fd24",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/domain.py",
+    "status": "deleted",
+    "before_sha256": "9d79a7d25d1d05e456ffb41798b0cc7dc976bf1ef647e8849024a040de3fb9cf",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/errors.py",
+    "status": "deleted",
+    "before_sha256": "60d108aac1a1c7f12d1fd439b70f1bd62ea830806e3327074bc15838259b823b",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/features.py",
+    "status": "deleted",
+    "before_sha256": "0e452016cff83fd38eb6aa5bb4643003e44473660b735bada4597c728fc9099d",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/lineage.py",
+    "status": "deleted",
+    "before_sha256": "69726a0268435709f0bcda9980174bbcc6ddb6161c318f0dfaceb3be433aa3d6",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/main.py",
+    "status": "deleted",
+    "before_sha256": "340d22eddfe9851bb3c67edbd0f9730ea896cf190d9d2e3acb58f5d98fefe780",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/mlflow_service.py",
+    "status": "deleted",
+    "before_sha256": "529afe6b11281f76754363f0a9bc5f1bb51c3f2e438f7645e27d52f63646f95b",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/monitoring.py",
+    "status": "deleted",
+    "before_sha256": "56c2b206443e5ea001fb14b42915682ec7669a6fa01a1eacc2456867e09f93d8",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/monitoring_export.py",
+    "status": "deleted",
+    "before_sha256": "ecb89de5568a55c855571e92186e3b8c7065dc99f8566954e3707b495a3afb01",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "b73d5be96ff6ac701b58e2dc447eb7bdd0dec35ebc5eaf8ee94d159db5eed5f6",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/schemas.py",
+    "status": "deleted",
+    "before_sha256": "cbfaf2a3948f24aefdfab6b7a9d2e8287f3f8229d6927d921feac05492cb81e6",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/service.py",
+    "status": "deleted",
+    "before_sha256": "87e1bd229a9fbbe13e9a56bb52905d91cccd259e7b87af5c59a7291fdda1a5cf",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/state.py",
+    "status": "deleted",
+    "before_sha256": "9b5e6bb33f3a5a7598617eb27f2832f97803336442ad6d88f0f4b9371fecab8b",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/training.py",
+    "status": "deleted",
+    "before_sha256": "776a7c49b5c6daa22aa1b13edf18740770db5035c8a3cf34cccfe6178b987d02",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api_v2/training_config.yaml",
+    "status": "deleted",
+    "before_sha256": "814d36aa1b6a0890f5e6f1727011315282dd2cf1d3bedac14ba21fb86c35504a",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_docker_architecture.py",
+    "status": "modified",
+    "before_sha256": "eb5875bbc4b66d7bbe6e96fb857c92f32ee54f630b4679285db484f707a098fa",
+    "after_sha256": "9208c97e497a6ca0b1f491d9db1984a4023b711e063275f504a35e9802fb866d"
+  },
+  {
+    "path": "tests/test_initial_train_trigger.py",
+    "status": "modified",
+    "before_sha256": "f37dd28a8121f648c404def240180ba1f939570864f10294302afc810a59efcc",
+    "after_sha256": "769894f63ce181b8d32e535f0b27f6cb57b82a64332ec82a37334a95d56aba5e"
+  },
+  {
+    "path": "tests/test_predict_api_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "4c0614aa38d8d7083fa5bc50bd4e4da2f1d25d3f2c8435b96f53096ddcc24e41"
+  },
+  {
+    "path": "tests/test_predict_api_v2_service.py",
+    "status": "deleted",
+    "before_sha256": "19202ea8d081012911a9c1d5cf00b9dcd1914a0e41ace24230a214b367fce42d",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api/__init__.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e02718b872f86b0ee9e0b2353511b950bf1992d59e5ae23bf90321965141d3c7"
+  },
+  {
+    "path": "tests/train_api/test_architecture.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "c2973a85b16853f0fbad0a912737c0206c8813bdb52aa43f6b253a84300f8dea"
+  },
+  {
+    "path": "tests/train_api/test_auth.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ef3190b9a91137ef682deb8fcc1985d42e11b6977b0d792b60ab60fa12da2ce0"
+  },
+  {
+    "path": "tests/train_api/test_compose_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7403949669aaa28090b719a44f6687156b19600e2246124b0b5757fa573be5db"
+  },
+  {
+    "path": "tests/train_api/test_config.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "f43950435756c9481eda419e035502346d93d9cb83c7648b00ce9c8e448ce825"
+  },
+  {
+    "path": "tests/train_api/test_data.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ed72110c52a157360fc18ea24a151717e846b8ebd1a6ab359102d48010b2baac"
+  },
+  {
+    "path": "tests/train_api/test_dockerfile.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "60d8a42f0b0a3ed1c9d4f36fcb5a7449ba5490eef4d35a76c0acb48e312d83d3"
+  },
+  {
+    "path": "tests/train_api/test_errors.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "1b2ed4c7ce64673a292bbbc0918b40286e552872604ccbd16206713c935f89e7"
+  },
+  {
+    "path": "tests/train_api/test_features.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e2266eb59179461d3d4778e7f5fce525d3b36c3876fceb8b244e5b008b3196b6"
+  },
+  {
+    "path": "tests/train_api/test_health.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "921a25f3e685e0833f045af76611eda9972513b5d0c7a36ce96a616432c43bc9"
+  },
+  {
+    "path": "tests/train_api/test_initial_api.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "5fab1e9fa6fb798e8c263700ebbafa24d778abf27bd2cd56fda2dd49f9bf6fc8"
+  },
+  {
+    "path": "tests/train_api/test_initial_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "415e6651095617d3c53e90364c6531fc0222a5d850d859ade97c742348f5df3d"
+  },
+  {
+    "path": "tests/train_api/test_lineage.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ce2b5945b51ea8eb537c6bee2be0bbaef8d7db839108613475d9472eda009e2a"
+  },
+  {
+    "path": "tests/train_api/test_logging.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ab2a50d1dc856218479269df49d100d63a577ee0bdcfd22364a323a280be0099"
+  },
+  {
+    "path": "tests/train_api/test_mlflow_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d7b399fe105ff023af06947c01f522888b075438f0c3b2fce2391cc25e67c990"
+  },
+  {
+    "path": "tests/train_api/test_monitoring.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3c6033d61fc161b0ac6177e7845027a90eaef136358b9a24a0cb670445881e48"
+  },
+  {
+    "path": "tests/train_api/test_monitoring_export.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "bedae42d09b450698f164e655c2faae2dabe10b1a29c11720c74c29b9a2d179a"
+  },
+  {
+    "path": "tests/train_api/test_package.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "f165aa5d3f64150bad572b505d6a1bfeec1c653c22a4e33ad08a785caf528fc4"
+  },
+  {
+    "path": "tests/train_api/test_paths.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "877fd1bad28b14443fc77c54e9f56ec140ab95491c887fcab62c4c4cc28b315c"
+  },
+  {
+    "path": "tests/train_api/test_pipeline.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "938cea61f2ea34db9cc36da3e8700a70f5d42364b07425978084381504cfe515"
+  },
+  {
+    "path": "tests/train_api/test_registry.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d53d96aaf23546b4502cb1719779134747ae54ebb46d5b3704d5a1c769def76a"
+  },
+  {
+    "path": "tests/train_api/test_schemas.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "cacd13032a05360f43318fb08588da48c8953ecfe611a44cacc7398f11a02301"
+  },
+  {
+    "path": "tests/train_api/test_state.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "032e136ddec1623ea050b76e4bfd5f4e209622e2a25cc4db5622f41fa5c9259c"
+  },
+  {
+    "path": "tests/train_api/test_temporal_plan.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "069511c1f04d9553f011274f60139564b63c5d871a0af9f732daf7bed46fb517"
+  },
+  {
+    "path": "tests/train_api/test_training.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0688698463bc01fed71f30550fcc939020b40d5a602caa617fa5bce393f17df4"
+  },
+  {
+    "path": "tests/train_api/test_weekly_api.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3b4c7030c8e0a4892c35f65bb39d5dab609905fc6edf1173408ae2fcca2443bb"
+  },
+  {
+    "path": "tests/train_api/test_weekly_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "b3fb1f4074f3a0584ef86f57291892294bcf007024a21073e4636e666dd23db9"
+  },
+  {
+    "path": "tests/train_api_v2/__init__.py",
+    "status": "deleted",
+    "before_sha256": "d65a2c901fee75d328a31cf2b448bc60959a132417cb0165c1a74f7e4461884d",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_architecture.py",
+    "status": "deleted",
+    "before_sha256": "a10e81cd79e7e86404853cdc10a4acf930bd81fe0b464e8fff1502196cbf8a2c",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_auth.py",
+    "status": "deleted",
+    "before_sha256": "63e9e3893fd02838bedfdda8330881d0ee16982133558fbca08d8f3a0eb5d358",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_compose_service.py",
+    "status": "deleted",
+    "before_sha256": "c0c43fbc05ce33b76d7bb05d3e47ccd391920e3b64ebbbdb6335531b178de6f0",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_config.py",
+    "status": "deleted",
+    "before_sha256": "ccef48f1304d99b65243e976521d218e9872fb5f7db7bd054cb6bc7097efd501",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_data.py",
+    "status": "deleted",
+    "before_sha256": "39fc8df22836d72d3c3ea1f0007135798acb01c287f62999457f6a00446c0fda",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_dockerfile.py",
+    "status": "deleted",
+    "before_sha256": "356fa6e3f23f00bd0b617dd6faed826ff68d11d269d38b050a04bdc35db40ddf",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_errors.py",
+    "status": "deleted",
+    "before_sha256": "7bcabad93c8dece20207999870197d2347603cb65c70b7a51dac6ec15514587d",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_features.py",
+    "status": "deleted",
+    "before_sha256": "e4659e9a5c8433af008929f7a48fa51ff273707c5feaae335d9900a57ff458d1",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_health.py",
+    "status": "deleted",
+    "before_sha256": "4f70d9eb3a75a7cfaf0636d2419367221c6bd574fd0b256291b97f8c657a7f30",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_initial_api.py",
+    "status": "deleted",
+    "before_sha256": "b31b01dd7884e9dd875299f76c1ce5b9d5e0a02b12d657dc333af546c4e53ae7",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_initial_service.py",
+    "status": "deleted",
+    "before_sha256": "444b95e73b318b58d67c024956a1fb196e8df2f07f1175e582ad515af45bd7ae",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_lineage.py",
+    "status": "deleted",
+    "before_sha256": "43865a0c59a16eecb3767a8dc9c879b509f8bf32454df43cc260e44850e292cd",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_logging.py",
+    "status": "deleted",
+    "before_sha256": "c28630aba3a7f280044c1ec3fe7da6609943b5a2360c49bbd7f2fa1bfe441968",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_mlflow_service.py",
+    "status": "deleted",
+    "before_sha256": "114e8bdbabcdf8a2c04385a10529e832e09003db543a3a334e856996f0fe3609",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_monitoring.py",
+    "status": "deleted",
+    "before_sha256": "afa899f496c66d2dd5eb580709ff72f9fcb5c7102ce2cdc811f23cf824d92f49",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_monitoring_export.py",
+    "status": "deleted",
+    "before_sha256": "f357e5b7b50daedf9072b885f113fe44eecf121bc76e717db130a91cce31af91",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_package.py",
+    "status": "deleted",
+    "before_sha256": "6a05a3a9cb64ca1fbd12b64a4643fa9ac0cec5f421d4eb1c4b0da900e3e197ee",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_paths.py",
+    "status": "deleted",
+    "before_sha256": "87fb030ca71b3dddc1fd9e0e775a0f47ef2f7b2a5a96d296db38b0ebe0fc3120",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_pipeline.py",
+    "status": "deleted",
+    "before_sha256": "56753a0d8b7505c23ade53243c30e0d58969f2b480c10f104dec5b420212cd47",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_registry.py",
+    "status": "deleted",
+    "before_sha256": "3d1d2946a3bbdd4c91946231cc19c867bc24169da60a2444223915e1f6b8d253",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_schemas.py",
+    "status": "deleted",
+    "before_sha256": "d59fe46034b233b677493e012a0583edeaaf5d353f9789ade829c0251f743106",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_state.py",
+    "status": "deleted",
+    "before_sha256": "546156f94717c544091957b731d3c2e0f90946518bf6db7eb3df5d45e6ab4437",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_temporal_plan.py",
+    "status": "deleted",
+    "before_sha256": "d81c2471e1f1b0dcda6fe257106a1bcab2faaac2b09b61c9064a7f9b5350de16",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_training.py",
+    "status": "deleted",
+    "before_sha256": "ec85f86a367ef7e25c4a09d5d418debc58bc5e37a1e87b12355e030d9efff0b0",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_weekly_api.py",
+    "status": "deleted",
+    "before_sha256": "51e859f48fddebb943160adc0a59ab798cc846866864a71838a7b15eac0e5ddb",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/train_api_v2/test_weekly_service.py",
+    "status": "deleted",
+    "before_sha256": "d1d63b3bfdc8ca5f73f01b249530b93a39431fff285c1df2e027365a85a4f684",
+    "after_sha256": null
+  }
+]

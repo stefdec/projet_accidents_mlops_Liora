@@ -1,0 +1,178 @@
+[
+  {
+    "path": "README_PIPELINE.md",
+    "classification": "actuel conservé"
+  },
+  {
+    "path": "README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "README_monitoring.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "AGENTS.md",
+    "classification": "actuel conservé"
+  },
+  {
+    "path": "interface/rapport.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "app/pres-sl/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/audit-yann.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/train-api.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/pull-data-api.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/metrics-prometheus.md",
+    "classification": "actuel conservé"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/operations/predict-api.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/airflow/process.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/airflow/process_draft1.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/ml/GUIDE_ARCHITECTURE_TESTS_MLOPS.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/ml/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/ml/README_MLFLOW.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/applications/README.md",
+    "classification": "actuel conservé"
+  },
+  {
+    "path": "docs/applications/guide-interface-urgence-112-18.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/api/train-api.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/api/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "docs/refactor/train_api/operations.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/train_api/progress.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/train_api/00_agent_instructions.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/train_api/README.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/train_api/03_refactor_plan.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/train_api/01_refactor_report.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/train_api/04_dev_plan.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/pull_train/progress.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/pull_train/plan_implementation.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "docs/refactor/initial_train/plan_developpement.md",
+    "classification": "obsolète/historique retiré"
+  },
+  {
+    "path": "src/infra/mlflow/README.md",
+    "classification": "actuel consolidé"
+  },
+  {
+    "path": "src/predict_api/README_curl.md",
+    "classification": "actuel conservé"
+  },
+  {
+    "path": "docs/operations/orchestration.md",
+    "classification": "actuel ajouté ou renommé"
+  },
+  {
+    "path": "docs/ml/dvc.md",
+    "classification": "actuel ajouté ou renommé"
+  }
+]

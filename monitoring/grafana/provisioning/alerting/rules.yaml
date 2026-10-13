@@ -1,0 +1,247 @@
+apiVersion: 1
+
+groups:
+  - orgId: 1
+    name: monitoring-v2
+    folder: Accidents
+    interval: 1m
+    rules:
+
+      # 1 — Cible Prometheus injoignable
+      - uid: mon-target-down
+        title: Cible monitoring injoignable
+        condition: C
+        for: 2m
+        noDataState: NoData
+        execErrState: Error
+        labels: { severity: critical }
+        annotations:
+          summary: "Cible {{ $labels.job }} DOWN (up=0)"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'up{job=~"predict_api|drift_monitoring|ml_monitoring|sustainability"}'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: lt, params: [1] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }
+
+      # 2 — Modèle non chargé dans predict-api
+      - uid: pv2-model-not-loaded
+        title: predict-api - modèle non chargé
+        condition: C
+        for: 5m
+        noDataState: NoData
+        execErrState: Error
+        labels: { severity: critical }
+        annotations:
+          summary: "model_load_state = 0 sur predict-api"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'max(model_load_state{job="predict_api"})'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: lt, params: [1] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }
+
+      # 3 — Taux d'erreur élevé sur predict-api
+      - uid: pv2-high-error-rate
+        title: predict-api - taux d'erreur > 10%
+        condition: C
+        for: 10m
+        noDataState: OK
+        execErrState: Error
+        labels: { severity: warning }
+        annotations:
+          summary: "Ratio erreurs/requêtes predict-api > 0.1 sur 10 min"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'sum(rate(error_count_total{job="predict_api"}[5m])) / clamp_min(sum(rate(total_requests_total{job="predict_api"}[5m])), 1)'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: gt, params: [0.1] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }
+
+      # 4a — Drift modéré mais persistant (≥ 4 semaines consécutives, ~1 mois)
+      - uid: drift-persistent-4w
+        title: Drift persistant (≥ 4 semaines)
+        condition: C
+        for: 5m
+        noDataState: OK
+        execErrState: Error
+        labels: { severity: warning }
+        annotations:
+          summary: "drift_share ≥ 0.5 depuis au moins 4 runs hebdo consécutifs — à investiguer"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'max(drift_consecutive_significant_weeks)'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: gt, params: [3] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }
+
+      # 4b — Drift sévère sur une seule semaine (fast-track, ne pas attendre)
+      - uid: drift-severe-single-week
+        title: Drift sévère (≥ 80% des colonnes)
+        condition: C
+        for: 5m
+        noDataState: OK
+        execErrState: Error
+        labels: { severity: critical }
+        annotations:
+          summary: "drift_share ≥ 0.8 sur le dernier run — probable bug pipeline ou changement de régime majeur"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'max(drift_share)'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: gte, params: [0.8] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }
+
+
+      # 5 — Éval ML hebdo en retard (> 8 j)
+      - uid: ml-eval-stale
+        title: Éval ML hebdo en retard (> 8 jours)
+        condition: C
+        for: 1h
+        noDataState: Alerting
+        execErrState: Error
+        labels: { severity: warning }
+        annotations:
+          summary: "Aucune évaluation ML depuis plus de 8 jours"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'time() - max(model_eval_last_run_timestamp_seconds)'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: gt, params: [691200] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }
+
+      # 6 — Rapport de drift en retard (> 8 j)
+      - uid: drift-report-stale
+        title: Rapport de drift en retard (> 8 jours)
+        condition: C
+        for: 1h
+        noDataState: Alerting
+        execErrState: Error
+        labels: { severity: warning }
+        annotations:
+          summary: "Aucun rapport de drift depuis plus de 8 jours"
+        data:
+          - refId: A
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: prometheus
+            model:
+              refId: A
+              datasource: { type: prometheus, uid: prometheus }
+              editorMode: code
+              instant: true
+              expr: 'time() - max(drift_last_run_timestamp_seconds)'
+          - refId: C
+            relativeTimeRange: { from: 600, to: 0 }
+            datasourceUid: __expr__
+            model:
+              refId: C
+              datasource: { type: __expr__, uid: __expr__ }
+              type: threshold
+              expression: A
+              conditions:
+                - evaluator: { type: gt, params: [691200] }
+                  operator: { type: and }
+                  query: { params: [C] }
+                  reducer: { type: last, params: [] }

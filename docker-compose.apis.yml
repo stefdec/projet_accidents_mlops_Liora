@@ -1,0 +1,156 @@
+services:
+  auth-api:
+    labels:
+      org.accidents.stack: api
+    build: ./src/auth_api
+    ports:
+      - "8005:8000"
+    environment:
+      USERS: ${USERS}
+      ADMIN_USERS: ${ADMIN_USERS}
+      PULL_USERS: ${PULL_USERS}
+      TRAIN_USERS: ${TRAIN_USERS}
+      JWT_SECRET_LOGIN: ${JWT_SECRET_LOGIN}
+      JWT_SECRET_PULL: ${JWT_SECRET_PULL}
+      JWT_SECRET_TRAIN: ${JWT_SECRET_TRAIN}
+      JWT_ALGORITHM: ${JWT_ALGORITHM}
+    networks:
+      - accidents-shared-network
+
+  pull-data-api:
+    labels:
+      org.accidents.stack: api
+    build: ./src/pull_data_api
+    ports:
+      - "8006:8000"
+    environment:
+      DAGSHUB_USERNAME: ${DAGSHUB_USERNAME}
+      DAGSHUB_TOKEN: ${DAGSHUB_TOKEN}
+      JWT_SECRET_PULL: ${JWT_SECRET_PULL}
+      JWT_ALGORITHM: ${JWT_ALGORITHM}
+      SHARED_DATA_DIRECTORY: /shared-data
+    volumes:
+      - ./data/incoming:/shared-data
+    networks:
+      - accidents-shared-network
+
+  train-api:
+    labels:
+      org.accidents.stack: api
+    build:
+      context: .
+      dockerfile: src/train_api/Dockerfile
+      args:
+        APP_UID: ${LOCAL_UID:-1000}
+        APP_GID: ${LOCAL_GID:-1000}
+    container_name: accident_train_api
+    ports:
+      - "8010:8000"
+    environment:
+      BASE_DATASET_PATH: /var/lib/train-api/input/data_final_binaire.csv
+      INCOMING_DATA_DIR: /var/lib/train-api/incoming
+      ARTIFACT_ROOT: /var/lib/train-api/artifacts
+      STATE_DB_PATH: /var/lib/train-api/state/train-api.sqlite3
+      TMP_DIR: /var/lib/train-api/artifacts/.tmp
+      MLFLOW_TRACKING_URI: http://mlflow-server:5001
+      MLFLOW_HTTP_POOL_MAXSIZE: 32
+      MLFLOW_EXPERIMENT_NAME: ${MLFLOW_EXPERIMENT_NAME:-accidents-gravity}
+      MLFLOW_REGISTERED_MODEL_NAME: ${MLFLOW_REGISTERED_MODEL_NAME:-accidents-gravity-classifier}
+      MLFLOW_CHAMPION_ALIAS: ${MLFLOW_CHAMPION_ALIAS:-champion}
+      JWT_SECRET_TRAIN: ${JWT_SECRET_TRAIN}
+      JWT_ALGORITHM: ${JWT_ALGORITHM:-HS256}
+      SOURCE_GIT_COMMIT: ${SOURCE_GIT_COMMIT:-unknown}
+    volumes:
+      - ./data/features:/var/lib/train-api/input:ro
+      - ./data/incoming:/var/lib/train-api/incoming:ro
+      - ./data/train-api-v2/artifacts:/var/lib/train-api/artifacts
+      - train_api_v2_state:/var/lib/train-api/state
+      - ./monitoring/drift:/app/monitoring/drift
+      - ./monitoring/ml:/app/monitoring/ml
+      - ./reports/carbon:/app/reports/carbon
+    networks:
+      - accidents-shared-network
+    restart: unless-stopped
+
+  initial-train:
+    build:
+      context: ./src/inital_train
+      args:
+        APP_UID: ${LOCAL_UID:-1000}
+        APP_GID: ${LOCAL_GID:-1000}
+    profiles: ["manual"]
+    environment:
+      AUTH_API_URL: http://auth-api:8000/login
+      TRAIN_API_URL: http://train-api:8000/train
+      TRAIN_USERNAME: ${TRAIN_USERNAME:-}
+      TRAIN_PASSWORD: ${TRAIN_PASSWORD:-}
+      INITIAL_IDEMPOTENCY_KEY: ${INITIAL_IDEMPOTENCY_KEY:-}
+      API_RETRIES: ${API_RETRIES:-3}
+      API_CONNECT_TIMEOUT_SECONDS: ${API_CONNECT_TIMEOUT_SECONDS:-10}
+      AUTH_API_TIMEOUT_SECONDS: ${AUTH_API_TIMEOUT_SECONDS:-30}
+      TRAIN_API_TIMEOUT_SECONDS: ${TRAIN_API_TIMEOUT_SECONDS:-7200}
+      MLFLOW_TRACKING_URI: http://mlflow-server:5001
+      MLFLOW_REGISTERED_MODEL_NAME: ${MLFLOW_REGISTERED_MODEL_NAME:-accidents-gravity-classifier}
+      MLFLOW_CHAMPION_ALIAS: ${MLFLOW_CHAMPION_ALIAS:-champion}
+      BENTOML_HOME: /bentoml
+      BENTO_MODEL_NAME: ${BENTO_MODEL_NAME:-accidents}
+      CURRENT_MODEL_FILE: /bentoml/current_model.txt
+    depends_on:
+      auth-api:
+        condition: service_started
+      train-api:
+        condition: service_healthy
+    networks:
+      - accidents-shared-network
+    volumes:
+      - bentoml_store:/bentoml
+    restart: "no"
+
+
+  predict-api:
+    labels:
+      org.accidents.stack: api
+    build: ./src/predict_api
+    ports:
+      - "8009:8000"
+    environment:
+      JWT_SECRET_KEY: ${JWT_SECRET_LOGIN}
+      JWT_SECRET_TRAIN: ${JWT_SECRET_TRAIN}
+      JWT_ALGORITHM: ${JWT_ALGORITHM}
+      BENTOML_HOME: /bentoml
+    volumes:
+      - bentoml_store:/bentoml
+    networks:
+      - accidents-shared-network
+
+  emergency-interface:
+    build:
+      context: ./interface
+      dockerfile: Dockerfile
+    image: accident_emergency_interface:latest
+    container_name: accident_emergency_interface
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - AUTH_API_INTERNAL_URL=http://auth-api:8000/login
+      - PREDICT_API_INTERNAL_URL=http://predict-api:8000/predict
+      - JWT_SECRET_LOGIN=${JWT_SECRET_LOGIN}
+      - JWT_ALGORITHM=${JWT_ALGORITHM}
+    depends_on:
+      - auth-api
+      - predict-api
+    networks:
+      - accidents-shared-network
+    restart: unless-stopped
+
+networks:
+  accidents-shared-network:
+    external: true
+    name: accidents-shared-network
+
+volumes:
+  bentoml_store:
+    name: bentoml_store
+  train_api_v2_state:
+    name: train_api_v2_state

@@ -1,0 +1,128 @@
+[
+  {
+    "path": ".DS_Store",
+    "status": "deleted",
+    "before_sha256": "6ddfc9f70085ef3afcc9e05dcb95f2a720060108784ffefd7abb0d5b420c6bb0",
+    "after_sha256": null
+  },
+  {
+    "path": ".dockerignore",
+    "status": "modified",
+    "before_sha256": "83dbb3d2c0022e2190b0fb0c4ddd319a59006f317e7bae8244e711e4e5449385",
+    "after_sha256": "8ad3dacf21751731a3650e131002f972591b20352fb4c0ae0b9baaff8a707fdd"
+  },
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "before_sha256": "ff76b47046ccd16874bbef18ef31314c9d970a0e1d7f837fa1b044668aa03932",
+    "after_sha256": "c495b91768162ae0664e3c2d1813a35b32adf4b9c8fd2cd572a968cb3e997914"
+  },
+  {
+    "path": ".gitignore",
+    "status": "modified",
+    "before_sha256": "ec67a394b794e26254c0a50bccf28152a37dd4cc005fea6c40b0a71afe968a14",
+    "after_sha256": "109cf59ed8e8142a0609b8e86d63ee45fe0b1b5219479bbb4fb6317ea3d404a7"
+  },
+  {
+    "path": "Dockerfile",
+    "status": "modified",
+    "before_sha256": "a210e02ccb441068c7528d28c1d34b8f41042a1452891488396d51d71b92c4fb",
+    "after_sha256": "12f97930ae75731f2f96e7d24a3e306df41912ffbecc8cf347eb1395941cc9d4"
+  },
+  {
+    "path": "_ARCHIVE/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "70ac208c2a86d1d7b0ca89142ed272aebb9580bbdafb0ce2b90902e1f95d622b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "d6b390b3fe39d4fd040f4e6ac255afc5df812672b39c0861a51686c6521a76f4",
+    "after_sha256": null
+  },
+  {
+    "path": "app/pres-sl/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "00c244c0f19537e47fddc4a5a86fad91cf43478bc313a66c05ec0bfcaef73642",
+    "after_sha256": null
+  },
+  {
+    "path": "app/pres-sl/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "f8486a618a8d9113c3f24f2eb56c1b82f4e09d06fa21de70d36f4f71a062d9aa",
+    "after_sha256": null
+  },
+  {
+    "path": "docker-compose.apis.yml",
+    "status": "modified",
+    "before_sha256": "b55da4dab4a9b2333ed27e21ddc4f5f6d81c4c34c2c6355f3c3f6290fbf22683",
+    "after_sha256": "408b1cda9c2bcf2e91b7aa5fa7d3ad93436e0b20c5b94351bfb2ad435a71f42d"
+  },
+  {
+    "path": "docker-compose.monitoring.yml",
+    "status": "modified",
+    "before_sha256": "cfeb232c3a9dbf98501acd78d631b1d26941dec6c3d06f4908d528932a6f900b",
+    "after_sha256": "13d8bfb5af41a9cc2cf80b03ab106c53135b251155ea722bf5190dd43a0187f9"
+  },
+  {
+    "path": "docs/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "f1a3cba4c61406e68a291ca5f36acaf72aef06ecb431e490ad70fec842db2df5",
+    "after_sha256": null
+  },
+  {
+    "path": "interface/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "0601d79a1d8d90df6e168d0bc432e811d5c192bbe6b3bb0fbdd688ac34f8c813",
+    "after_sha256": null
+  },
+  {
+    "path": "monitoring/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "9840ccae3eb9783e930fdd12beafcc43002c88dad5b0562882491f6b504989e7",
+    "after_sha256": null
+  },
+  {
+    "path": "params.yaml",
+    "status": "modified",
+    "before_sha256": "e2ddcad5718fb66ffa2fb7f5a1ec4e84a0b799a2f6d60b62aa5a634ea91699a9",
+    "after_sha256": "a075982323fda9a3fb753f955f541845db085b94f77fb5d438323ea862c11d55"
+  },
+  {
+    "path": "pyproject.toml",
+    "status": "modified",
+    "before_sha256": "949cc905c00cbeb6595eec38fa74e5918c1586bee36e8ddf0e03478dee242f8a",
+    "after_sha256": "37c9606d10b0b8343fd0cd305d646041da981e51b537e1123beb5929f3009968"
+  },
+  {
+    "path": "requirements.txt",
+    "status": "deleted",
+    "before_sha256": "1e409aa85b587158065927e5cb41cc976cae4d03af2477eedfc20b21866a0a54",
+    "after_sha256": null
+  },
+  {
+    "path": "src/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "5372a1e7c3e0e0989fccdbd32c7ee7950b89f0844f6601981d7fc0a6591d7135",
+    "after_sha256": null
+  },
+  {
+    "path": "src/airflow_dags/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "1f1aabf3c1f8abb95bc103c0d86be19c8ab32d41b4a242b54eaf455ace3abce8",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "2e75f630c0b243afac8fa2d0766bea9746d0b763edaa3bbe9bdf12d5255c0f45",
+    "after_sha256": null
+  },
+  {
+    "path": "uv.lock",
+    "status": "modified",
+    "before_sha256": "8663cef0bda5ca9fad1d142d86d90a14e8ed485109d07794700a06135fa47789",
+    "after_sha256": "2dbc61775e82d33dcf37b72a943a1eba89b4d692faf5293f826beb1f7f4dbc01"
+  }
+]

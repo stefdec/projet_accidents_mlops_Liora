@@ -1,0 +1,3090 @@
+[
+  {
+    "path": "Makefile",
+    "status": "modified",
+    "before_sha256": "1d480a6af58f1354aef238faa05f8e42604352dea2b21f3cb61e389c76b6be30",
+    "after_sha256": "ce3acde9768dc42774a9291b5dbd3336ce493bede9086ee1d17ea1d3d6c23ab6",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "makefile2.mk",
+    "status": "deleted",
+    "before_sha256": "782de052f7fedc6dff73776ffedf681fd5e87797efddce914adfb904f484c81c",
+    "after_sha256": null,
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "7e6f02df446a181968d758111650cf28ad710b4487e6b4e118aba1723bf99bde",
+    "after_sha256": "5b3e5acd2934e514cdfd7798d749f5e1b5069522edf0906b76bf7eaae224164f",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "README_monitoring.md",
+    "status": "modified",
+    "before_sha256": "ef87fba7393d048c6025a7ac157388c2ef1aa8703eb88b957c9115a8a8804c81",
+    "after_sha256": "69906140fdcb2d63cd9cfe2b287eb2f86103572bcb95f73c3e11da2c6d4c4201",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "app/soutenance/pages/deck.py",
+    "status": "modified",
+    "before_sha256": "48c313f83f46cfb615d4f0fff2c80f1582f7a6c955293778ff88ad9613ca208a",
+    "after_sha256": "73f8997dadbc0f3b176e8204d3abedce22153a419b39ed484ff5f5385378ca0b",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "app/presentation/pages/architecture.py",
+    "status": "modified",
+    "before_sha256": "327153c06d4a015771e77131e2f421162fbe4ee767e71f49f620fa306bd40b29",
+    "after_sha256": "97a65ad6616e8e4d8136e46bc619e2d011049ac9fc377f25067c459efd8a5849",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_compose_service.py",
+    "status": "modified",
+    "before_sha256": "66be3ba6adfa1281ca80f44a8be5fcf016a85bd2ddfd83bbc4fe3c70e58859cc",
+    "after_sha256": "c0c43fbc05ce33b76d7bb05d3e47ccd391920e3b64ebbbdb6335531b178de6f0",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/audit-yann.md",
+    "status": "modified",
+    "before_sha256": "3ba8455b5ec44987bdc88a75f63618b6d64871cab9aa7f72d8fb45b805149ef4",
+    "after_sha256": "fd9d1f1b219ca7ff4090893dec012883bb485aea02911d80c8919b2afa8f5b73",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "status": "modified",
+    "before_sha256": "32c485a95c72beed05e819bd0ad07bb16772a13711e2002f164745a046e3db07",
+    "after_sha256": "99eff978776fe392bccd7e4b0899d6a038b3697a3deee44a4926e37feb6afffa",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "status": "modified",
+    "before_sha256": "beb0f9c28cfde5bf7c6157ca00f01c5d06aadee40bbf467e13d9a6ef9536c855",
+    "after_sha256": "6c456ba55ef8860ee89b0c3e1f3dd13320d1d282ce3d2a0362abf3266f64ab59",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "status": "modified",
+    "before_sha256": "5c5bb93cbfdcf45f6a147262c5a12f403fe37dcf09f226b75c57128c6fdc24e1",
+    "after_sha256": "e1391d7cf98191489e35889c158027df40b8cf2915289eeb13205f88892da02b",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/metrics-prometheus.md",
+    "status": "modified",
+    "before_sha256": "5c0fd673dd74b1fb38fd8f5b5a82bd27c576fabda6d349fc437dcba58f26fce0",
+    "after_sha256": "bee69713d2405a4633be6241647d721afed8737c4d2ba5711acf7c624d53afa0",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "status": "modified",
+    "before_sha256": "d2feb33d159edb249fa03e99b826f67dd127cb37f8014ef8be21eaa34ab22527",
+    "after_sha256": "8ce6077fe037af3b2038bdb5de4c2b7dc3a48a6661df1777a528a4349c2f5d8e",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "modified",
+    "before_sha256": "a0bc63cadc36eadba9f5ea6e59b08e14c11ac7ff3c18d3282592efc0444684b9",
+    "after_sha256": "009cde13d19b7d5674ef1990f1d3064133acae3ccc7e94d09a9e6adf48357204",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "status": "modified",
+    "before_sha256": "e53b7dbfd2d7be95f3c1360e002974a90bd60d5146b1b5cbe616f984460c0c7f",
+    "after_sha256": "a589cfb8fe7db5d4e4ec923659f86cd01b83c6b12a514d0acc2a7279cf741c12",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "status": "modified",
+    "before_sha256": "a4ce0275c9a999953489258934281c18750e98b936201f224e115ef5fdfdc6e0",
+    "after_sha256": "2ef4b12f7968ab6def4e808183cc9ca50e1b630d680102ffb6f912e797fd54ea",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "status": "modified",
+    "before_sha256": "8445052b7647d44bbcfbfdb9f06048ca34c0026e1c83d256f394b864a170528d",
+    "after_sha256": "6e4ea80333c209e7409cd2bd364f793399b326516d5620d015c183cc2957e9e2",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "status": "modified",
+    "before_sha256": "d6f5ebf0825e9656eb5b82d4372008eb35cdd342857a292486e63577de67c2a8",
+    "after_sha256": "9a43dbdeefd23342ae4f8c09c3f76e9518858189a682321a0e364913db8a3380",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/refactor/train_api/operations.md",
+    "status": "modified",
+    "before_sha256": "74bd438e83c2ede42ebaea125eb918097b32b651232e9a0120ce656d30a4e66e",
+    "after_sha256": "c2037adec349b3183cfd5f2ed8f1f8fe0c3027e563a71ddab9ef13f24ca61b64",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/refactor/train_api/progress.md",
+    "status": "modified",
+    "before_sha256": "e4bfb37361d5ad3eb2b944bc260ebc8a3a0dffbccdeb75e9fbd17e8884f4ce46",
+    "after_sha256": "2e68f47065212ea1463a1a91be852300907cafced04dfadcaf82a30773e3dd99",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/refactor/train_api/README.md",
+    "status": "modified",
+    "before_sha256": "30287c5374f314b93dc678a14f1847a3aa03f5b2632d422e54e962502c54a58c",
+    "after_sha256": "ed853c94ca83c2f9249d1f57d6a92f906eb56d0c91428e9a25981a273f723683",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "docs/refactor/train_api/04_dev_plan.md",
+    "status": "modified",
+    "before_sha256": "4718178b818287a0314cd1c2f35a0c3219e0a0e2ec2634a284b3059070d167cc",
+    "after_sha256": "f79289d660169219b6b27ca736ca556856e99721235d0704f9ba161f4ca0d2c2",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "scripts/predict_api_smoke_test.py",
+    "status": "modified",
+    "before_sha256": "d7b09cc2c1fc29f466f18778fda0ee9bf4bcc3a63506328ad7d25d592fe16064",
+    "after_sha256": "0dbbeafc48ea17219c4c4ab2c449b2c7581a394db5739eb1988e46e4a16ea512",
+    "manifest": "files-2.json"
+  },
+  {
+    "path": "PRODUCT.md",
+    "status": "deleted",
+    "before_sha256": "3e1fd8b5fe5a8afd81006f32739860532f30fe388329b776ef398622c41a8976",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "5b3e5acd2934e514cdfd7798d749f5e1b5069522edf0906b76bf7eaae224164f",
+    "after_sha256": "dfd1e603b49b94b0796c55841f30aaa7887d5ea191f226fd5976ad0951604caf",
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app-pres.py",
+    "status": "modified",
+    "before_sha256": "bc6ba8973d6fb4bf2db08d268cb922aefb4091c94c9ba10711f0b418706ea12b",
+    "after_sha256": "8afbb81fd15870d5c4cd4e82e4ddb27b16ea78061d747658117e9dccaab4b5de",
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/pres-sl/tests/test_entrypoint.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "18642a543b979e0efab273f4951699b89ff2475f0bdd867e2d087cd515c23dcd",
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "3d06d090d9985f13ef801767ac0e523eee1226d7ac111a73f0833e42c370bb15",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/__init__.py",
+    "status": "deleted",
+    "before_sha256": "1e66dc0ab05de0dc355d4cbc83aa0b34cbc3e7dca62e289b343408636311c380",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/assets/graph1.jpg",
+    "status": "deleted",
+    "before_sha256": "ca24bbfb4b478d3ee75acf88683e281d55a495786bdf247422c804b2735810e4",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "08733fe5a6b919ca452fb9177b5caacd253c65913cf04466b795da047c3a15f2",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/components/navigation.py",
+    "status": "deleted",
+    "before_sha256": "bf8071603eb44cf3c392a6c348bd38e4d1ddfb45c4dd6d09a59225caa2e1e31f",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/components/slides.py",
+    "status": "deleted",
+    "before_sha256": "9e0aa6ef563f819fc4fc842bbf2bbe786d5b4fba7c53a81bbf15d716e67c6516",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/config.py",
+    "status": "deleted",
+    "before_sha256": "8eda435829e6757c063b870234cfc1c549adeef696db728c29fdd44f5c457c75",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ea65ee56e520f06142b390152cf30af6d60915e9d03d62dbfa1d06a155c89c14",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/airflow.py",
+    "status": "deleted",
+    "before_sha256": "0205557414a6694ca0a60f2f7b45e8944fc2e798f3678b254c1adf0bd287eff6",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/architecture.py",
+    "status": "deleted",
+    "before_sha256": "97a65ad6616e8e4d8136e46bc619e2d011049ac9fc377f25067c459efd8a5849",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/authentication.py",
+    "status": "deleted",
+    "before_sha256": "4ef5313ac671ad447b124d248c250e538c4a46b0ad73c110562558d0c00e6c06",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/conclusion.py",
+    "status": "deleted",
+    "before_sha256": "9006676b42981a71c4cc2638f79a1c6b77fb7f8993b02cadb4cca2d2904a8548",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/deck.py",
+    "status": "deleted",
+    "before_sha256": "7de57baff1f40b15ca684c67f982635b667c12b2250a8f2dc06eb85bd4a86a3b",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/dvc.py",
+    "status": "deleted",
+    "before_sha256": "07431c9db925c0bb0d4cd8f745b2df9f9560ec0bf55a57086c28a25bb0eb5d92",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/monitoring.py",
+    "status": "deleted",
+    "before_sha256": "8ea2f9e4473c7e50cf26fbef5631b19d8c5266bc65539701b9ef7c9b30952561",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/training_mlflow_predict.py",
+    "status": "deleted",
+    "before_sha256": "1d5cb3fd1548c2bb23c666b478c08c460bc479c02002f40a44924067651b7266",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/pages/ui_demo.py",
+    "status": "deleted",
+    "before_sha256": "02c0393bfd788c8325740f644db420d846fc130d821c3b816af7578eb1062d19",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "e292ca2df1a592900bd3e28cecfa6739ba35743b68a2a9b8c02f0b7785299558",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/styles/architecture.css",
+    "status": "deleted",
+    "before_sha256": "f58863b15fa76477f5ce5275dc1ee00192cfd50a360cd1c2392d6debad0875c3",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/styles/global.css",
+    "status": "deleted",
+    "before_sha256": "1f3c0cf0cae3a733b2dbe1b25e39e6bde4cd10f147affc136a885a87f40aae78",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "fe18825283d104da93a5b755636607e1352a23f9b6ddac7777335aafd0200fba",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "4935fa7549a15830e984cc06125560567694fa7b019a27e484b7ea0e6b0c9d75",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/presentation/tests/test_app.py",
+    "status": "deleted",
+    "before_sha256": "88996395f99d467066751c0df9690c92ec094782ab9f60beadd2e205b7297708",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "980a532ba8328183496d85232aca98e1214d49d02adf539562fd72bb852f854e",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/README.md",
+    "status": "deleted",
+    "before_sha256": "311ceff0fc5e82a40a8cdd63e655f4113e9a3d285f3db5f9256801ba5c161311",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/__init__.py",
+    "status": "deleted",
+    "before_sha256": "558550400efd32c9e65eae9075404d591321c53422b1c3e350a84ac9a4da973b",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/api_client.py",
+    "status": "deleted",
+    "before_sha256": "e0e4067fc1c92460125d558d4e0f6addc7464415d4dc2372ded8f20699cd296d",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/__init__.py",
+    "status": "deleted",
+    "before_sha256": "be8dd394045125888dd6ddeae8112ed58f00942ce4d098b989f5e583a2067c52",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/labels.py",
+    "status": "deleted",
+    "before_sha256": "117d376ac30c8f763e5108b37ace9c31ab2ceafc09c25b6fea4486242f6d2a5c",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/questions.py",
+    "status": "deleted",
+    "before_sha256": "658ee091d5e6f2620bfacf5852430180c1333edc36d3b6254e960f8570cf8a18",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/scenarios.py",
+    "status": "deleted",
+    "before_sha256": "cda89b0a5974a372286d0dcdcd1fc510acd468bda8e901a9800a3628dd4cdbd4",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/ui_config.py",
+    "status": "deleted",
+    "before_sha256": "422eea61f47dd39ceba9919c46359e61523abae6169ada43ebd823d50a5c3ae5",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "9ce08dc6bd8219449f3086b9e1e2c843bdd7448d8473bc7d1954c28c1f8a5511",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/call_form.py",
+    "status": "deleted",
+    "before_sha256": "1206337ef018c66e5b2c2b6478a257d46e37fea10bf8f0b85ce83b1e38a3f390",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/results.py",
+    "status": "deleted",
+    "before_sha256": "aab774b25e52b4f06550f1cb2791f4cf272aff15259e83af23f69dbf1f2abe81",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/scenario_selector.py",
+    "status": "deleted",
+    "before_sha256": "e991e73d798aeedb6c0c80de02074459e7365d31a891083e8cb20587ca12c67f",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/components/sidebar.py",
+    "status": "deleted",
+    "before_sha256": "1646fc90a5250e9793a96b59598cfbb98ac385e8f34ab9f72343adcc8844c5fa",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eb8f668c12ca7f3ca4e39c34f8158a46caf0b0da74806f4db53dd34dea097b24",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/pages/regulation.py",
+    "status": "deleted",
+    "before_sha256": "95fb001849c560a3641a4b171e329f008ddf215b39cd3c97870e5f2ce4715b5e",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "bc902451aa7060e64ba641d6a64ecb286b95733f68920f79dcfd751e9535bcd4",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "7a8dcb238c0b256cabdbb10d45f2b214ee7de68062fbce23dd7299350be35b94",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/app.css",
+    "status": "deleted",
+    "before_sha256": "0ae353a8b059b53fb17fd97edf79ba33a23a9f9799d6f0e0ad33c7f0689e18c3",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "0e75b8f04260ba68e6cd20d396f45c3d376c6ed374f3fb9383304452237ef072",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "b417b7d0c3057abdd5011f1546e2a4c63798603022dafd686f22a4ae12ae9dca",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_api_client.py",
+    "status": "deleted",
+    "before_sha256": "499df98443981064b1ab83aef74d79a2d1089b0ed0cc810674b2876cb344eb83",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_prediction.py",
+    "status": "deleted",
+    "before_sha256": "c6aa572647b2baa07dac2df114d72a469e6ab83ac2d1939247473e58c1dbcb6e",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_streamlit_app.py",
+    "status": "deleted",
+    "before_sha256": "a7c95263d2d2e90a77582e2687cb17d6366e34dfd7ad38fefa077c971daf5ff1",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/__init__.py",
+    "status": "deleted",
+    "before_sha256": "bcb138de6b2a040ffcd4c6eb7beb8c7c5f062ca8dbb80ca22a0d781db5f3af7f",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/config.py",
+    "status": "deleted",
+    "before_sha256": "bf2af0bfd0ff7d5e16b577ed2550266b94d339e1f8bf76f893c27b55fa74096a",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/formatting.py",
+    "status": "deleted",
+    "before_sha256": "f88fc21373f16abce1d43e017ece6ce63f52d130e7e908db6ef556e43f84750b",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/prediction.py",
+    "status": "deleted",
+    "before_sha256": "b7b9168cbdd23423fe9f78fbaab1559cf5d3a27890a2ad87eb541030e3f3f8e8",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/README_SL_APP_SHARED_INFERENCE.md",
+    "status": "deleted",
+    "before_sha256": "d777cdd47e58b56072f084feba2e427d33c176b277dcd85213bb73563c03936c",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ed9fb96a4f0e9a8b577a96b14d49166c19b85021ada83c90999ceb62af595a27",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/assets/logo.svg",
+    "status": "deleted",
+    "before_sha256": "79e5fd1f7cd117a38992005c0199a06c9f181e9fbdd5d58815b9bca737941089",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "30aafff5a48a718908b88cba3f6404b1880aa62180f770026a89c484de372d32",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/components/audio_recorder.py",
+    "status": "deleted",
+    "before_sha256": "6376ae2b8d172486bba156445875295c8bdbfbc66a2b8b476a454846d57b66ab",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/components/cards.py",
+    "status": "deleted",
+    "before_sha256": "340b656e8a3cd37ece30088f1502c4e733ce14b41ed8cd78ee0c41a08f7e0959",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/components/icons.py",
+    "status": "deleted",
+    "before_sha256": "73f8d7a18a64b0ee514d4b7f8697dcd6d98e30be132c158173bd8b9da69ae3ff",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/components/layout.py",
+    "status": "deleted",
+    "before_sha256": "6abfbbf911e70127e69e3cd298b5934646e950f96f950377e2f981c78d36c5a4",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/config.py",
+    "status": "deleted",
+    "before_sha256": "e6f213e62b2afe66793e97f14dff79ca6dbe595f4d06e39386e64b25475ad116",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "c9f536581437b6aa8d006552c8020e02af02acad2b2c2977a31f0a82f773acfd",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/pages/demo_rt.py",
+    "status": "deleted",
+    "before_sha256": "49f7d46c9c243f91f0ae031e666dcc1c1c8a655125a001135f40fed6c3ca9760",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/pages/demo_video.py",
+    "status": "deleted",
+    "before_sha256": "ceee91f0ba7865d956fca99b8919cfb48178bbeaeb5381d0811751dc0f980bea",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/pages/home.py",
+    "status": "deleted",
+    "before_sha256": "c095191e1591ac1a953846cafa2a4a74b1b9f87175305a132beb2a871202181d",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "acb43ff1540fb7de9c66e1732748b527bd96a12fc4145def7fc28049ee1518ff",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/styles/global.css",
+    "status": "deleted",
+    "before_sha256": "fd09a66df13d368ed5ff3e9e7f39e5bcd07a48bd5bcead94c9b8814ef4c2f015",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "86ab80c7ba01dccc0b2dad67c88f28acae69daed19d5da1f47ef1c48e78657f2",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "41a4ef4ab02ca33fdc88ffdf720d5a74a8cc5ad93a83b4269a45b6a6687deba2",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/tests/test_prediction.py",
+    "status": "deleted",
+    "before_sha256": "f30c4618e11bcd79436f8159adfdae0ee4240f435b319a20a6e9c3cd5ab83819",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/tests/test_realtime_form_sync.py",
+    "status": "deleted",
+    "before_sha256": "06cda5ba123bebc19f253cac0a002698d7ec4661689e7f243e86172be71eeec9",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/utils/__init__.py",
+    "status": "deleted",
+    "before_sha256": "9de7246e9057232e2173e2606d87d4db396456eb48772a6d095ea600e635c16e",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/utils/category_contract.py",
+    "status": "deleted",
+    "before_sha256": "dadfbd1775c7aed8cd4a3974d4e4e77cde6b19504f5109852b31347478a64489",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/utils/meteo.py",
+    "status": "deleted",
+    "before_sha256": "d43bcafa0caa41be8d063af19763652a7463f451d460ec97c2566e4fc7ae9f32",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/utils/prediction.py",
+    "status": "deleted",
+    "before_sha256": "49b8ce5bdf3cfc91a9e0ce866950f49979bf79bfc060287e2b9556748671ca1e",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/utils/prediction_worker.py",
+    "status": "deleted",
+    "before_sha256": "1ad31abe1a5ab73258fcc8fb3e82a29ddf7ac39a9ad03d0a8d9ab7c7c9bff2f2",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_app/utils/realtime.py",
+    "status": "deleted",
+    "before_sha256": "be17da8f90de8e301b80a0c7634f7177fa9aea4fc8eec51b32c07f5c82b65656",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/README_PATCH.md",
+    "status": "deleted",
+    "before_sha256": "051c8cf0c9c7f989ea9880c8c3df84f4b83c997b71ee41daf1174439c42ce6fa",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/assets/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/assets/labels.py",
+    "status": "deleted",
+    "before_sha256": "117d376ac30c8f763e5108b37ace9c31ab2ceafc09c25b6fea4486242f6d2a5c",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/assets/questions.py",
+    "status": "deleted",
+    "before_sha256": "fb400cd0212686a862c5ff2e5a4e268147dda8e608f93d8459acaacf3b65aa3b",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/assets/scenarios.py",
+    "status": "deleted",
+    "before_sha256": "baf29bc0741fc8e33232a468e1da34c0c076131c6adecc66c793fd15084cdad8",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/assets/ui_config.py",
+    "status": "deleted",
+    "before_sha256": "446862f651d8fd3be6717052b6fe2a0fd670c76143413e8f50bc88cfa2e935ec",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/components/call_form.py",
+    "status": "deleted",
+    "before_sha256": "741dc66b9b8f1c29ca088fc5fa4f2bded79621389698b511e0ed321133c56be3",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/components/results.py",
+    "status": "deleted",
+    "before_sha256": "1e658db7ec5146e54b8ba548e9579fca30d8e6834ca6ea53e57b8642e9d0d9d7",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/components/scenario_selector.py",
+    "status": "deleted",
+    "before_sha256": "c11ed2bb125fbab64fda975238109bf087bcd31d15d36cacca7895c780afa0ce",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/components/sidebar.py",
+    "status": "deleted",
+    "before_sha256": "fdcd022998309c3a0985aecd3481970545c045f6f5a3c523260ce0851e714501",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/pages/regulation.py",
+    "status": "deleted",
+    "before_sha256": "3b7189a24bf450fe8eafd423ead365c3b8dee91af2212ea2eda6dea77aad66dc",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/styles/app.css",
+    "status": "deleted",
+    "before_sha256": "ec9711b308aff5579745326c12eb77a68b932baf1ba16f5100846fc9d97d2d77",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "a6291b82cf040f7b5bd222b13c73e8f7e3e8292da6f124414e78c11360677fc4",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/tests/test_feature_engineering.py",
+    "status": "deleted",
+    "before_sha256": "09811785ff9d614f2342731c2991183a5a2d10c8bceb8c56602404171166d179",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/tests/test_neighbors.py",
+    "status": "deleted",
+    "before_sha256": "2f4de1d44944f776eeecf5750875453f01aecda3da4f836a53bede62f31244e8",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/tests/test_prediction.py",
+    "status": "deleted",
+    "before_sha256": "f712c05861e82ecab54af5cf0de71c62f6d572ccdf66692a76b36a5ada076d37",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/config.py",
+    "status": "deleted",
+    "before_sha256": "659e066960f35575ee3b2384f3d5b562a329284b991d4c8207ea6649756be8da",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/feature_engineering.py",
+    "status": "deleted",
+    "before_sha256": "5435024fe059e91bb329292e7277edb3ee5f0920d906a66d0f8754e6b70161ae",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/formatting.py",
+    "status": "deleted",
+    "before_sha256": "e4bdb44ff0b20b2db1eb460c796995b16b35e0c488757e1e88591f4f6a58a663",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/loaders.py",
+    "status": "deleted",
+    "before_sha256": "754e545b79d0e3238bc4bb832f6fe1c5c01dd412458a0a83518d540fa85c2710",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/neighbors.py",
+    "status": "deleted",
+    "before_sha256": "5e25b206e21487064536d791eca92a0e1abe7b2b0a9cbcbc523b5801afcfb8d7",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/paths.py",
+    "status": "deleted",
+    "before_sha256": "6cd84aa04ec108668c3c3c1cfe6cad8b59180f4a4e32e80c8109800fcf100846",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/sl_legacy/utils/prediction.py",
+    "status": "deleted",
+    "before_sha256": "5ca1ec00fbcb38b2bc2bcaacd2875d148f42a763fc39cb8e364b21df8025b32a",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/__init__.py",
+    "status": "deleted",
+    "before_sha256": "c5fb0b1bc6c48a7dba9a9d60aa6a5a078d0f0ca9e6dfd0c75a6de93a58b68382",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/README.md",
+    "status": "deleted",
+    "before_sha256": "fbf469f1c057facf2a092ec2439d105193a7ea14b54b7a2f548d887e82d4b43a",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly-graph.png",
+    "status": "deleted",
+    "before_sha256": "a9fda028b4167eae1e6e9a4a624d7dbaf5caf02467b8fa811529549f86961f8c",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly-zoom.jpeg",
+    "status": "deleted",
+    "before_sha256": "060f3609098090a03483b8ee8961ddf2eb2b1f76e1b9202f3a17418bb3e30aa0",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly.jpeg",
+    "status": "deleted",
+    "before_sha256": "842e25025d9d8ab7567039d708b4031c5b827333b607ac3aa751a51c33e5e64c",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/architecture-complete.mmd",
+    "status": "deleted",
+    "before_sha256": "f4ecbc911d85f67857e6e01302c6b958e37d3ea15b233fde54b62bfd13fc857e",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/authentication-train-predict.txt.sh",
+    "status": "deleted",
+    "before_sha256": "099aa44240548b01f24f845b6910ff724bc9b8a194a279bf420870b60ced3067",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/dvc-dagshub-graph.png",
+    "status": "deleted",
+    "before_sha256": "aac64fa23ad6f558fd3fec3e3cd8a205e501b268ccfb23a4892b431bb130aa15",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/grafana-overview.jpeg",
+    "status": "deleted",
+    "before_sha256": "0cd1f23c695b3a190d4383aba387b85fb997394c97a7c5a7ec9b12f3bd22b05f",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-champion-versions.jpeg",
+    "status": "deleted",
+    "before_sha256": "9c2942ce2460c86618c7624ba3acb90f3cc875451072e446d95eb6b2611643f6",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-registry-champion-v2.png",
+    "status": "deleted",
+    "before_sha256": "36414c62884c0f95f5dd03f85d3a819088d55504b6bef6745724f3eab070b575",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-runs-zoom.jpeg",
+    "status": "deleted",
+    "before_sha256": "5c8a24fbf15480ea3593f32a3dffba739ed6d77b314db62128e5e31f8b2ec566",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-runs.jpeg",
+    "status": "deleted",
+    "before_sha256": "c9e0d5d405fc40a399a752f9d0f0c9b4fc5b3dec3828c0e1bc3155ac434de49c",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-w12-evaluation.png",
+    "status": "deleted",
+    "before_sha256": "192e8d1d6945503c9db5a60e2962e5df42b4f95ba9324acde816fd8c8b2951df",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-w12-run-overview.png",
+    "status": "deleted",
+    "before_sha256": "7ed179a0f65abd91c57938dc2305354ba71a27945acb05258c8b38556bf90978",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/ui-accident-entry.jpeg",
+    "status": "deleted",
+    "before_sha256": "bae848a9541b772dbccdce2559cfa64f519d2337734bb6572f7df8217e6a141a",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/assets/ui-fallback-result.jpeg",
+    "status": "deleted",
+    "before_sha256": "14f9398ff5fbf81a6842e1bb15a36daaec90c27e003fdbd2e402a51c1820cfbf",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "08733fe5a6b919ca452fb9177b5caacd253c65913cf04466b795da047c3a15f2",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/components/diagram.py",
+    "status": "deleted",
+    "before_sha256": "9b3b9d75767cae6d2931bdb811b9fbd86b83938de1015cc559f5fb0d0a4af371",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/components/image_viewer.py",
+    "status": "deleted",
+    "before_sha256": "52a54332ded34620509f68303538ecb51da59d0ce3560ee07d56704253071a23",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/components/navigation.py",
+    "status": "deleted",
+    "before_sha256": "77fde2029e6cfd885459bea3e8ed39d8ce26b35bf328ecdf921d73c656036f7d",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/components/slides.py",
+    "status": "deleted",
+    "before_sha256": "4ca9a3396e3e543f3b5ee79e8d69a831c9b48c433978e8bd66ff3822b4380b72",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/config.py",
+    "status": "deleted",
+    "before_sha256": "51b33b25b896243aff7f3ea201b76ad66c3da0c6cdc35e35a26f5bbb3cde3a83",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ea65ee56e520f06142b390152cf30af6d60915e9d03d62dbfa1d06a155c89c14",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/pages/deck.py",
+    "status": "deleted",
+    "before_sha256": "73f8997dadbc0f3b176e8204d3abedce22153a419b39ed484ff5f5385378ca0b",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ee2c4792ad74ee757f2428b7348e48733b8678e4adeb93cb97f26395f308b119",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/styles/global.css",
+    "status": "deleted",
+    "before_sha256": "91ea55bbc2b3751f7af788778964b8371253927f0c8796be1b7769238adacf1d",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "1a80ac65f60e4c869480cbd091cd9878aa4e0f68abc3f7b2227cc738fc19dbd9",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "8939f879e5412c357b16e9a389f06d2b3ab2b12f7df747b5ac2e7fd8a673973b",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app/soutenance/tests/test_app.py",
+    "status": "deleted",
+    "before_sha256": "27e1707b69994a556348466d9493ab69f89e18e7e59265f837077abd6768d065",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app_presentation.py",
+    "status": "deleted",
+    "before_sha256": "cf608173bde728ccd6df6aa7ac0ca35d65b9b99748fba983eda4fdc6a6c0ab14",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app_sl_OCS_v1.py",
+    "status": "deleted",
+    "before_sha256": "5bcfa388eaf2d70d11577dc3d347406e96a74ff06b1b555c857b143b53c0d72a",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app_sl_app.py",
+    "status": "deleted",
+    "before_sha256": "23871ea95234c7ae1323435d45c6e4691c97273d69d5cca612ab23bd2f9c235d",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app_sl_legacy.py",
+    "status": "deleted",
+    "before_sha256": "c497c2a17f4418f931c0e5f4209e86653720c2995ec5c070c6b1b19460d83bf9",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "app_soutenance.py",
+    "status": "deleted",
+    "before_sha256": "b606c5fa7c3eeebd11bfc57081b63d19940b5aa85617141b737cb7082c8be686",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "docs/applications/README.md",
+    "status": "modified",
+    "before_sha256": "9b4d9fcfa7e9ddc0b200f25f9ea0999a29895b9d6ae568f0c64ea1fb2bbd49a1",
+    "after_sha256": "8106e18ec7e1141c7ebd1bf8774c5cef37ef09236cff4d9298b50a289a9a2a9e",
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "docs/applications/guide-demo-sl-ocs-v1.md",
+    "status": "deleted",
+    "before_sha256": "ffba548452cd21cb66f8c3e3040ac814a0d5514c2e4c20692563ef0ed9cb8ea6",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "scripts/sl_OCS_v1_smoke_test.py",
+    "status": "deleted",
+    "before_sha256": "635459432243d4e1bc0ed2e1031f2046cd8a9a2752bcce21b5e51b176cec6e29",
+    "after_sha256": null,
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "tests/test_docker_architecture.py",
+    "status": "modified",
+    "before_sha256": "88e2a72d3fbb5ea2dbfc8d6c8898034f0f10d227de0f6988d68d7c499271f443",
+    "after_sha256": "6e70e70e67c434c7db4045ec5c7b457c38e2c789045a9de08d1a213b1fa22ed9",
+    "manifest": "files-step3.json"
+  },
+  {
+    "path": "README_PIPELINE.md",
+    "status": "modified",
+    "before_sha256": "1438d5adb76dcbd42994559ddfe5a0a66b181a5bcf7519ed19c8f531125a6a89",
+    "after_sha256": "e2de3f3bbe33c3e49a3277c59a15f6fb7359e72a0ecdc52a7350aa2104051530",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "monitoring/drift/prepare_drift_data.py",
+    "status": "deleted",
+    "before_sha256": "bad5b40fac85d675041bee3cda628e78a07cda9c522785dbf22c6fbabd36f1cd",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "monitoring/drift/run_drift.py",
+    "status": "deleted",
+    "before_sha256": "d2d6b9b24caec0a901b68a66a5fbfa08e2fdb55f269e3b7fc7bb8252254fbf26",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "monitoring/drift/run_monitoring.py",
+    "status": "deleted",
+    "before_sha256": "6bb6408c7ca6250e0f614648576fb035870a2f2288a6c8be3791bc05e6d4d47b",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "monitoring/ml/run_model_performance.py",
+    "status": "deleted",
+    "before_sha256": "8a3f21f45341917574d70311b333cdd02bca4cda4672cb768e04f5493bf694e8",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "pipeline/04_train.py",
+    "status": "deleted",
+    "before_sha256": "d39da29e8611d6e2cb039c3786aa2c4cfc26df6b7698db44af902b21ca4e50d7",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "pipeline/05_predict.py",
+    "status": "deleted",
+    "before_sha256": "37e2a38c8655073ee10d3a538ad0ad8a5d8a000117f4d0b34a2acc26a3af88a3",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "pipeline/run_pipeline.py",
+    "status": "deleted",
+    "before_sha256": "ee280ede1497d95540622f2bc1098eea4bcdbdb42e88e643293f1038902102ca",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "scripts/migrate_legacy_backups.sh",
+    "status": "deleted",
+    "before_sha256": "6bfdfba92e4fddec8cc23c77b37734aacc310b22c64405c7433482aca449bcfb",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "scripts/migrate_mlflow_storage.sh",
+    "status": "deleted",
+    "before_sha256": "ef0746c76938bdf560d555a5283c6a12e5c1450d8fcec2810fff018d7264f771",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/accidents_workflow.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "4f579d57fb93c98a6be7bbbbd3de56c41b17befc493a78a3951747536bed7999",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_train.py",
+    "status": "modified",
+    "before_sha256": "59ab2913a1ab000007962882b13593b69cbdcfed55324f6558e2ea5d43847563",
+    "after_sha256": "d287d028cbdfa410275fe353c7319dbad39c55e96c85e5439b5ea72af2c4762c",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_weekly.py",
+    "status": "modified",
+    "before_sha256": "e5013f2debbf412fa74ef718a4ca38aca0c933256d58673fc1fd90c4e973e9c1",
+    "after_sha256": "b977c1feeca84acd74245a5c2c1a397452c99903561129b7377a64a201a04d55",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/airflow_dags/tests/test_pull_train.py",
+    "status": "modified",
+    "before_sha256": "7f26dca8e5f3b1f66bf1a92f844c143db9339b8fc7c70ba4d8511645dc42df13",
+    "after_sha256": "42eea537bbc63d8fca78f5dacdc0124df17d68255cb25cb47b9a9f6ecb5e7dc3",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/predict_api/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "d4bec5fe654ca9ec5a805e33f2916ccf9b1b410f9e9d5f3861bf863fc8b8b38f",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/predict_api/bentofile.yml",
+    "status": "deleted",
+    "before_sha256": "26b1ad3c988702194cc7d7692db3f1b21851327a3a8fa784ec0593760605ce2e",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/predict_api/exemple/service.py",
+    "status": "deleted",
+    "before_sha256": "b2c115301acdc03e8854396249552b7a4cabe308d70a9572c3e2b666c0c9de93",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/predict_api/sample.json",
+    "status": "deleted",
+    "before_sha256": "d4a2518c45f5a781bd739575991b2d8507c4c82d86d0f4c31e8b82c995005ecc",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/predict_api/service.py",
+    "status": "deleted",
+    "before_sha256": "6518bcc3f5e35d21ecc0f408b2973f3da91b7467d5df02eb976bd097f9b2f962",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "3af8882da778a916a142a7f44925fedf47c4afc33779c41735cdb08c604b3191",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/Dockerfile.dockerignore",
+    "status": "deleted",
+    "before_sha256": "331bd201a313b1c38ea870a8651e74f788c80ed15574535aa9661413267031f3",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/main.py",
+    "status": "deleted",
+    "before_sha256": "fdadfd668c9e4ca566fac57e21fa4283f09a1fa3a843f4af283edfb53e6a35c6",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "82658ef4016a549ca15d297c18ee10b8706c72533e662c3c1fb98f5785dc8801",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/__init__.py",
+    "status": "modified",
+    "before_sha256": "785f4c5259cd2261b34e7bd5ad852af92eb2216c71a7c0cf27e371b00dbd5cd8",
+    "after_sha256": "a09937a2ff8f9524c3fc8c4bdad981bc28e277299e922d8c853aa669884ab8a8",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/inference.py",
+    "status": "deleted",
+    "before_sha256": "41d91b9138b7de6eadd3769ddedb5eb19d161e64c016134960cc4c117f907072",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/mlflow_admin.py",
+    "status": "deleted",
+    "before_sha256": "c8013d3d674e4877ac4ea53c7a848098b462e3794f582c68089f644376a83196",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/registry.py",
+    "status": "deleted",
+    "before_sha256": "907f60de41f48b094dfa3ff6f6b0bab87a496d0a6649b33e9a8b6af808215d36",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/retraining.py",
+    "status": "deleted",
+    "before_sha256": "f2447acbecffb075122dc39d79eac3e281d60838e0953f9800af944ad2ab2d01",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/sustainability.py",
+    "status": "deleted",
+    "before_sha256": "c6ccb9f525ae0164ea4f9672b5e7f88c90d4f9e9ea9c51859572d29be209caa3",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/temporal.py",
+    "status": "deleted",
+    "before_sha256": "65aed33bdcaa061df6a80278ce2457fe727414e658f922719e59eedebca70bd2",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/tracking.py",
+    "status": "deleted",
+    "before_sha256": "808edcd6db680cad1e54dbbe3e048827c386a52a70dfde7567c4d709ae963368",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/training_cli.py",
+    "status": "deleted",
+    "before_sha256": "e76564bb99b8129ac1e1852684abfee94b9e34081be9e07e08e8c11237eacf32",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/training_contract.py",
+    "status": "deleted",
+    "before_sha256": "e1a51a7e9775d6cd1a7de641db614903a9f729dcb2521b2a30b5c85492a58170",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/conftest.py",
+    "status": "deleted",
+    "before_sha256": "afa5385aeb01bef3e9335388d4cca2b729108e15e1cc76691fb1ab348b6c1058",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_docker_architecture.py",
+    "status": "modified",
+    "before_sha256": "6e70e70e67c434c7db4045ec5c7b457c38e2c789045a9de08d1a213b1fa22ed9",
+    "after_sha256": "eb5875bbc4b66d7bbe6e96fb857c92f32ee54f630b4679285db484f707a098fa",
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_inference.py",
+    "status": "deleted",
+    "before_sha256": "21a78b9f3a90f1a13f9eb0487885bfaa6b0c981666daa6c9de4f554e89410fa2",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_mlflow_admin.py",
+    "status": "deleted",
+    "before_sha256": "23310f46717df5e32d7509db232f75d687901705e2ae4eb64fee0766b4e95634",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_predict_service.py",
+    "status": "deleted",
+    "before_sha256": "bf5e21ef2cd3ca4f801c148220eb79cedfe9195b31555e41aaeddf60fe29d8bf",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_registry.py",
+    "status": "deleted",
+    "before_sha256": "d5604ba7342cf0250074a372e248b9346f82ad59524e65a051289f50fbf36ba2",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_retraining.py",
+    "status": "deleted",
+    "before_sha256": "115cc72a90df59652b147465ff4158f2241f0aea5ded833d38bb3a087f89f0ba",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_temporal.py",
+    "status": "deleted",
+    "before_sha256": "50d70699868f750688e0e9c39608cb5f6b08b390b2705d72f961fb13a80ddff8",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_tracking.py",
+    "status": "deleted",
+    "before_sha256": "e56310cf2bb186295a1e5aaf9f2b9e765e3f658a07a9541155574f64872050ab",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_train_api.py",
+    "status": "deleted",
+    "before_sha256": "a0c80b580d213ffded21cd5051801380ab1766c0637f7e34e9c293410b9b6364",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_training_cli.py",
+    "status": "deleted",
+    "before_sha256": "ec54d10ac3c0b9259b61689c9f4cff445519fd06910058b19744956193f33537",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": "tests/test_training_contract.py",
+    "status": "deleted",
+    "before_sha256": "f82ca3bab0d37665dddabbefe701655865ef8d7f8372d155841a41b1ff22daee",
+    "after_sha256": null,
+    "manifest": "files-step4.json"
+  },
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "before_sha256": "512e3f4a214f8dae8acd34817c9985b892d809d70843455cc53cfcfbbd98c163",
+    "after_sha256": "ff76b47046ccd16874bbef18ef31314c9d970a0e1d7f837fa1b044668aa03932",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "AGENTS.md",
+    "status": "modified",
+    "before_sha256": "11e31df109f4de948b0f0c181fe3f332af8e3320834487affc8cf12a31cc3d30",
+    "after_sha256": "078e79242d405b7e1a694a21b8d193fcbd778155e1bc3fca350e44546fa22d67",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "Makefile",
+    "status": "modified",
+    "before_sha256": "ce3acde9768dc42774a9291b5dbd3336ce493bede9086ee1d17ea1d3d6c23ab6",
+    "after_sha256": "f696b86744d85affd75fc0e594724bce512884964f8841425408ceea18c68339",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "dfd1e603b49b94b0796c55841f30aaa7887d5ea191f226fd5976ad0951604caf",
+    "after_sha256": "79da3a431942e94c84e007ad97a763f7512c7456ea8fe94a52ec19c44a9e337d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "README_monitoring.md",
+    "status": "modified",
+    "before_sha256": "69906140fdcb2d63cd9cfe2b287eb2f86103572bcb95f73c3e11da2c6d4c4201",
+    "after_sha256": "abe15dddef7c0388c5a667ee08600604f44f6051ccfa73d2244a93a08d88c621",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docker-compose.apis.yml",
+    "status": "modified",
+    "before_sha256": "3d01abaeca30ead5afcf28c9b76498034fb48651c2e7be889bb3597d09b9c619",
+    "after_sha256": "b55da4dab4a9b2333ed27e21ddc4f5f6d81c4c34c2c6355f3c3f6290fbf22683",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/applications/guide-interface-urgence-112-18.md",
+    "status": "modified",
+    "before_sha256": "61a635f10b00b8962b6b83817b203700485ae2733d11672927ea330dab3d6eac",
+    "after_sha256": "2c002430caf3f68fa9a180d95016df4a17bdb1fee5c068159411837ee6ff85d0",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "status": "modified",
+    "before_sha256": "99eff978776fe392bccd7e4b0899d6a038b3697a3deee44a4926e37feb6afffa",
+    "after_sha256": "4950bd8af5d1fa90ae8637907d5de6a572e216832e57878031e13d0fc944b23a",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "modified",
+    "before_sha256": "009cde13d19b7d5674ef1990f1d3064133acae3ccc7e94d09a9e6adf48357204",
+    "after_sha256": "f3f2d4c9cb989e35c2a576b3d355e2674245c06d36f6f9f2dbbcaf2f6374d6f5",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "status": "modified",
+    "before_sha256": "9a43dbdeefd23342ae4f8c09c3f76e9518858189a682321a0e364913db8a3380",
+    "after_sha256": "91916eb3d1de141384fe5baf27bedd7a0ef879c4ffd252d1db1e91f920855fa0",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "status": "modified",
+    "before_sha256": "6e4ea80333c209e7409cd2bd364f793399b326516d5620d015c183cc2957e9e2",
+    "after_sha256": "85330aedb0c744d788b522fa3cd47f06fdb76e819a8389a72ad413465d832302",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "status": "modified",
+    "before_sha256": "6c456ba55ef8860ee89b0c3e1f3dd13320d1d282ce3d2a0362abf3266f64ab59",
+    "after_sha256": "6976d19fc900140b0fe013d1af45279372fa1ebb3e116edf299b927bc2f164f0",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "status": "modified",
+    "before_sha256": "e1391d7cf98191489e35889c158027df40b8cf2915289eeb13205f88892da02b",
+    "after_sha256": "b036b7e117f43fcdcd5651d0e66f6f80623ade9fa6d166b7d516208991137c80",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "status": "modified",
+    "before_sha256": "2ef4b12f7968ab6def4e808183cc9ca50e1b630d680102ffb6f912e797fd54ea",
+    "after_sha256": "52cbda350a2c06cbc593d454aace7c6cc2e9b0fd317615aea3a2b5b0568d49c0",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/metrics-prometheus.md",
+    "status": "modified",
+    "before_sha256": "bee69713d2405a4633be6241647d721afed8737c4d2ba5711acf7c624d53afa0",
+    "after_sha256": "cea1e47463dd0fa63e8970abe4172eaceb11becb3090b1dc53850741d6fb94a1",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "status": "modified",
+    "before_sha256": "a589cfb8fe7db5d4e4ec923659f86cd01b83c6b12a514d0acc2a7279cf741c12",
+    "after_sha256": "b3c68487ca707409f70b51a55131f4cc2f667b663a69f42f0bebd561000f0aae",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "status": "modified",
+    "before_sha256": "8ce6077fe037af3b2038bdb5de4c2b7dc3a48a6661df1777a528a4349c2f5d8e",
+    "after_sha256": "d723153313e04aa8895ad4f58a02fe65b181243262d8f433c6b538a44571f11d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/predict-api-v2.md",
+    "status": "deleted",
+    "before_sha256": "b5ca323c7d264f3671345fab58a72f5ac5a77691c7b2b273c65e757fbc42da33",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/predict-api.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3e852783655ca6b352cdb429e9ebcb0cb1b70b2f27720f57ae11ead82d45cf91",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/pull-data-api.md",
+    "status": "modified",
+    "before_sha256": "c5dcd27bcd410dd9bd4ad31d12d9d22a27ee749d47d822f92ec2f645eb1faf42",
+    "after_sha256": "7e6e7964f16bb8d3cc34a3cb7bd990f1aca5d9d7ba7d016a6f3fbf1fcaaa50d3",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "docs/operations/train-api.md",
+    "status": "modified",
+    "before_sha256": "4b7769f015988cd1310334e916162338ddf7ba4011020f49f95d010a997d33c4",
+    "after_sha256": "36503518a4e396b50a77eb3dc7947328ebd8e4d8368e13971bd0aaf50435370f",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "interface/rapport.md",
+    "status": "modified",
+    "before_sha256": "c062d8635c0116c190d115619d99a4d3fdda0bbf7df5747baa6437ec6dd1fc14",
+    "after_sha256": "ac1f4db9669af17525b9786417178580393edea8eaf3b3c8c73d4fbd57f8c5a2",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "interface/server.js",
+    "status": "modified",
+    "before_sha256": "ffd0979fc10e4a2760a6e49ea822c969f92bada7ba9b05977c9f8f19e6ef3bf3",
+    "after_sha256": "6dd69de9774d991853f0868f948f3cddc3c9497ff4f358657a0b8dbf574b9a04",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "interface/src/components/PredictionResult.jsx",
+    "status": "modified",
+    "before_sha256": "3571092e8503e88a70094bec45053d1421f05b818824adbefa3c0ce187084f2d",
+    "after_sha256": "1cfe4efd0bd7867fb03a0e8f72c18a8d58e66fbbfd45263b3fb725eb79ef6ca2",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "interface/src/services/predictionService.js",
+    "status": "modified",
+    "before_sha256": "dd5126626b1bcc429485019de043af8d10c3ba99d74cc23e6792334ddac89618",
+    "after_sha256": "6597888964ec426ad11533c64a1054d05d15adeaa1109b8d17e3d9a55e7fa2c3",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "monitoring/alloy/config.alloy",
+    "status": "modified",
+    "before_sha256": "cf9ceb9bb11b8913eb2ebfb25eee6dd0c5972c0a43747926310420d71ce3e119",
+    "after_sha256": "eb12183eeab8199802591f1b46a4b5720a9e90ea3866912b424fc45b897962ed",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/api-logs-dashboard.json",
+    "status": "modified",
+    "before_sha256": "e76e69bdc8aab9abd0ff99f32e9f6e872f92e028e5d8fc499ec49c681cb87fd0",
+    "after_sha256": "cd4b57c3f8e73edb5465f68512792c69adbde1ed023c17fc5955358a162a049d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/predict-api-dashboard.json",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0a9261935a11781d953854ab05caa74ecf2473c33cb29d4c54eb433cb522ee92",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "monitoring/grafana/dashboards/predict-api-v2-dashboard.json",
+    "status": "deleted",
+    "before_sha256": "32a57e85f9f670e792028733593a4ced8db866c17435a666bec71ab3ae1244a1",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "monitoring/grafana/provisioning/alerting/rules.yaml",
+    "status": "modified",
+    "before_sha256": "e20911753f772c06888913eb04530251c0337ece063efd6ddf5399ca2dc62378",
+    "after_sha256": "84c6fc1d5ae07529ad3f01ed45838727a61e42b5cb9ec9d905e08fdd04416a32",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "monitoring/prometheus/prometheus.yml",
+    "status": "modified",
+    "before_sha256": "65a1cd378fbdf677ce4f39b3417ce4322b846177a7c957b74e58bca4a62d0124",
+    "after_sha256": "634c4e4749f74f1da7066b95ddd17140be66e09ce524ed95f3d5a03932eac9f6",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/accidents_workflow.py",
+    "status": "modified",
+    "before_sha256": "4f579d57fb93c98a6be7bbbbd3de56c41b17befc493a78a3951747536bed7999",
+    "after_sha256": "f8c376483fea468d8ea004cda7ce1c84e98e4b0fadeba8b33a91eef5ef5a4a66",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_train.py",
+    "status": "modified",
+    "before_sha256": "d287d028cbdfa410275fe353c7319dbad39c55e96c85e5439b5ea72af2c4762c",
+    "after_sha256": "9afbeb34521f3c28ea5036d379baa672fb2b049009523dc18ae42964be8d07b6",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_weekly.py",
+    "status": "modified",
+    "before_sha256": "b977c1feeca84acd74245a5c2c1a397452c99903561129b7377a64a201a04d55",
+    "after_sha256": "115a39c772f77483e9005edb62712cb9052d39e7b06427c9ac97bdbd0c0a4ad3",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/airflow_dags/docker-compose.yaml",
+    "status": "modified",
+    "before_sha256": "d927383aac13d08d306c4d09bcc41857054aa88e9b7f5f0d2180118b9d1c0d17",
+    "after_sha256": "816ca47576b663017f1667237afb685cd54697ee887e700645274ee86c1c6a47",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/airflow_dags/tests/test_pull_train.py",
+    "status": "modified",
+    "before_sha256": "42eea537bbc63d8fca78f5dacdc0124df17d68255cb25cb47b9a9f6ecb5e7dc3",
+    "after_sha256": "87841ac666a94109dd53b6a67ff408ad3ff10cff26a074a2974e0ebb9ffe92e5",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/inital_train/main.py",
+    "status": "modified",
+    "before_sha256": "0fd5950a0749c6dd7f096e2c804c28e23d0dd8e10b754d964e95e19f3378e67f",
+    "after_sha256": "0e265689aa5019176dc08f3f2da177cebc03cff4e4750a4b48f614b3f002baa0",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api/Dockerfile",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d1246ea925759a1021ee0094ff785436ea878737a2662f2bc1d9b9ce9d41ec5d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api/README_curl.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "60f9557932688d630f303596d5570024c36e90167a0cee9c934389aa6de817e9",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api/metrics.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "fd168026af6d66e09703ac25536e14ec88eb92fc7033bbe8aa492a7f42015d56",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api/requirements.txt",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "4d758ab6d3cabfd9b02f418c92774035a89df0d6fb5734a55f941b6532fffac9",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api/service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "93bf1ea5739945e6c8284202d9fbddc8de86aa71e126915bc2ce7db5b7099d5b",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api_v2/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "d1246ea925759a1021ee0094ff785436ea878737a2662f2bc1d9b9ce9d41ec5d",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api_v2/README_curl.md",
+    "status": "deleted",
+    "before_sha256": "a97fd6741949f83c96384b2fb1ea3b8e80bb0d01c33939af61128fd7c3bfefa0",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api_v2/metrics.py",
+    "status": "deleted",
+    "before_sha256": "c32c1c82c2ec099932d431cb1d9381d87c3052daa8f327c46b9052ef955c0a7b",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api_v2/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "4d758ab6d3cabfd9b02f418c92774035a89df0d6fb5734a55f941b6532fffac9",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/predict_api_v2/service.py",
+    "status": "deleted",
+    "before_sha256": "e52c2947befeeb1c7b3b5b63df618c337309fb392f77894b3cd7d9bfed4b9150",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/Dockerfile",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "c01cd896e74c710d2834e794c9b40129d90dcd085afae0dca294af1e370e0221",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/__init__.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "eaf0a1dd1e98b118f669b81bbe33584f64972e28a3f8aa3b327000f124e80cb3",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/auth.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "74818a0baf41db6ad17a1fa60385ccfe17cc4bdb4f577ecf1817550c75ab3cef",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/config.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d676aa9e2d013f45481dc248d8568236e1554a50db2efa7bef6ff0922eca182c",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/data.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "88161cd4237c0fc847e3e640c4ed5852281cc30a9dc63566c807b92d317ba38b",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/domain.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "9d79a7d25d1d05e456ffb41798b0cc7dc976bf1ef647e8849024a040de3fb9cf",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/errors.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "8d1c18f757cfd7abaf5e1091c6bb8f1de52677d08e5882df3468f1c796b4ae5d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/features.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0e452016cff83fd38eb6aa5bb4643003e44473660b735bada4597c728fc9099d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/lineage.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e2801c21b214b8b5b48e3e8175cced18600e845a49d7d7b04ff6e724543e5ee9",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/main.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "c7009d7f79a1210c93de4cfc61529d788bf6072131393f07eba53c52ce4b7654",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/mlflow_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3e876ae06a1526dd4bffcc7748a4a8ac57d4adb280012c99b562605535963ba5",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/monitoring.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "5b757e5835b9c908e3078ef0fabb0aaea1507b32137681d7b6ca769818d03ec1",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/monitoring_export.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7acae728c6ea3eb6de7d81159a3b2989f421aaaf8358af9f979c0ca2cd025f74",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/requirements.txt",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "b73d5be96ff6ac701b58e2dc447eb7bdd0dec35ebc5eaf8ee94d159db5eed5f6",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/schemas.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "180a8ceef31ed2f86479d3c01a05755cd959283e0368df0f4595eec8f53381d2",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "9dc52b3bb84d43de5195090f4f955e86fd9853bc2a47aa18c9813ac47eb7d7f2",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/state.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7be3689f6681a8d4989201245a1294e31ac9f2d4cbd730fda7e53e98e7e9dc2f",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/training.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e72abc02f115947b9f0709179989af2e3eefa08513a5b7be9d260dcad846de34",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api/training_config.yaml",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "814d36aa1b6a0890f5e6f1727011315282dd2cf1d3bedac14ba21fb86c35504a",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/.dockerignore",
+    "status": "deleted",
+    "before_sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "8dae1da0d0e79a4fe2c95afaea556a5908c07d23dee3aec73b3dffbe0f4d8330",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eaf0a1dd1e98b118f669b81bbe33584f64972e28a3f8aa3b327000f124e80cb3",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/auth.py",
+    "status": "deleted",
+    "before_sha256": "80c697ce81857ae6c51ee54d889b878660cd169e1648a870cdcaa51637b06b52",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/config.py",
+    "status": "deleted",
+    "before_sha256": "692f2af621d3a0b259285e8b8c57c1c756be759c74eb84d39cadf4fb8771d095",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/data.py",
+    "status": "deleted",
+    "before_sha256": "c1a27f5d53bd6b4e6d4aab89f10ff0022c09004bf201fb4ac30bf4d0b980fd24",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/domain.py",
+    "status": "deleted",
+    "before_sha256": "9d79a7d25d1d05e456ffb41798b0cc7dc976bf1ef647e8849024a040de3fb9cf",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/errors.py",
+    "status": "deleted",
+    "before_sha256": "60d108aac1a1c7f12d1fd439b70f1bd62ea830806e3327074bc15838259b823b",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/features.py",
+    "status": "deleted",
+    "before_sha256": "0e452016cff83fd38eb6aa5bb4643003e44473660b735bada4597c728fc9099d",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/lineage.py",
+    "status": "deleted",
+    "before_sha256": "69726a0268435709f0bcda9980174bbcc6ddb6161c318f0dfaceb3be433aa3d6",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/main.py",
+    "status": "deleted",
+    "before_sha256": "340d22eddfe9851bb3c67edbd0f9730ea896cf190d9d2e3acb58f5d98fefe780",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/mlflow_service.py",
+    "status": "deleted",
+    "before_sha256": "529afe6b11281f76754363f0a9bc5f1bb51c3f2e438f7645e27d52f63646f95b",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/monitoring.py",
+    "status": "deleted",
+    "before_sha256": "56c2b206443e5ea001fb14b42915682ec7669a6fa01a1eacc2456867e09f93d8",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/monitoring_export.py",
+    "status": "deleted",
+    "before_sha256": "ecb89de5568a55c855571e92186e3b8c7065dc99f8566954e3707b495a3afb01",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "b73d5be96ff6ac701b58e2dc447eb7bdd0dec35ebc5eaf8ee94d159db5eed5f6",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/schemas.py",
+    "status": "deleted",
+    "before_sha256": "cbfaf2a3948f24aefdfab6b7a9d2e8287f3f8229d6927d921feac05492cb81e6",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/service.py",
+    "status": "deleted",
+    "before_sha256": "87e1bd229a9fbbe13e9a56bb52905d91cccd259e7b87af5c59a7291fdda1a5cf",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/state.py",
+    "status": "deleted",
+    "before_sha256": "9b5e6bb33f3a5a7598617eb27f2832f97803336442ad6d88f0f4b9371fecab8b",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/training.py",
+    "status": "deleted",
+    "before_sha256": "776a7c49b5c6daa22aa1b13edf18740770db5035c8a3cf34cccfe6178b987d02",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "src/train_api_v2/training_config.yaml",
+    "status": "deleted",
+    "before_sha256": "814d36aa1b6a0890f5e6f1727011315282dd2cf1d3bedac14ba21fb86c35504a",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/test_docker_architecture.py",
+    "status": "modified",
+    "before_sha256": "eb5875bbc4b66d7bbe6e96fb857c92f32ee54f630b4679285db484f707a098fa",
+    "after_sha256": "9208c97e497a6ca0b1f491d9db1984a4023b711e063275f504a35e9802fb866d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/test_initial_train_trigger.py",
+    "status": "modified",
+    "before_sha256": "f37dd28a8121f648c404def240180ba1f939570864f10294302afc810a59efcc",
+    "after_sha256": "769894f63ce181b8d32e535f0b27f6cb57b82a64332ec82a37334a95d56aba5e",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/test_predict_api_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "4c0614aa38d8d7083fa5bc50bd4e4da2f1d25d3f2c8435b96f53096ddcc24e41",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/test_predict_api_v2_service.py",
+    "status": "deleted",
+    "before_sha256": "19202ea8d081012911a9c1d5cf00b9dcd1914a0e41ace24230a214b367fce42d",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/__init__.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e02718b872f86b0ee9e0b2353511b950bf1992d59e5ae23bf90321965141d3c7",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_architecture.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "c2973a85b16853f0fbad0a912737c0206c8813bdb52aa43f6b253a84300f8dea",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_auth.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ef3190b9a91137ef682deb8fcc1985d42e11b6977b0d792b60ab60fa12da2ce0",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_compose_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7403949669aaa28090b719a44f6687156b19600e2246124b0b5757fa573be5db",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_config.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "f43950435756c9481eda419e035502346d93d9cb83c7648b00ce9c8e448ce825",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_data.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ed72110c52a157360fc18ea24a151717e846b8ebd1a6ab359102d48010b2baac",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_dockerfile.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "60d8a42f0b0a3ed1c9d4f36fcb5a7449ba5490eef4d35a76c0acb48e312d83d3",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_errors.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "1b2ed4c7ce64673a292bbbc0918b40286e552872604ccbd16206713c935f89e7",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_features.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "e2266eb59179461d3d4778e7f5fce525d3b36c3876fceb8b244e5b008b3196b6",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_health.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "921a25f3e685e0833f045af76611eda9972513b5d0c7a36ce96a616432c43bc9",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_initial_api.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "5fab1e9fa6fb798e8c263700ebbafa24d778abf27bd2cd56fda2dd49f9bf6fc8",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_initial_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "415e6651095617d3c53e90364c6531fc0222a5d850d859ade97c742348f5df3d",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_lineage.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ce2b5945b51ea8eb537c6bee2be0bbaef8d7db839108613475d9472eda009e2a",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_logging.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "ab2a50d1dc856218479269df49d100d63a577ee0bdcfd22364a323a280be0099",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_mlflow_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d7b399fe105ff023af06947c01f522888b075438f0c3b2fce2391cc25e67c990",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_monitoring.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3c6033d61fc161b0ac6177e7845027a90eaef136358b9a24a0cb670445881e48",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_monitoring_export.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "bedae42d09b450698f164e655c2faae2dabe10b1a29c11720c74c29b9a2d179a",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_package.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "f165aa5d3f64150bad572b505d6a1bfeec1c653c22a4e33ad08a785caf528fc4",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_paths.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "877fd1bad28b14443fc77c54e9f56ec140ab95491c887fcab62c4c4cc28b315c",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_pipeline.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "938cea61f2ea34db9cc36da3e8700a70f5d42364b07425978084381504cfe515",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_registry.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "d53d96aaf23546b4502cb1719779134747ae54ebb46d5b3704d5a1c769def76a",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_schemas.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "cacd13032a05360f43318fb08588da48c8953ecfe611a44cacc7398f11a02301",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_state.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "032e136ddec1623ea050b76e4bfd5f4e209622e2a25cc4db5622f41fa5c9259c",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_temporal_plan.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "069511c1f04d9553f011274f60139564b63c5d871a0af9f732daf7bed46fb517",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_training.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0688698463bc01fed71f30550fcc939020b40d5a602caa617fa5bce393f17df4",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_weekly_api.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "3b4c7030c8e0a4892c35f65bb39d5dab609905fc6edf1173408ae2fcca2443bb",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api/test_weekly_service.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "b3fb1f4074f3a0584ef86f57291892294bcf007024a21073e4636e666dd23db9",
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/__init__.py",
+    "status": "deleted",
+    "before_sha256": "d65a2c901fee75d328a31cf2b448bc60959a132417cb0165c1a74f7e4461884d",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_architecture.py",
+    "status": "deleted",
+    "before_sha256": "a10e81cd79e7e86404853cdc10a4acf930bd81fe0b464e8fff1502196cbf8a2c",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_auth.py",
+    "status": "deleted",
+    "before_sha256": "63e9e3893fd02838bedfdda8330881d0ee16982133558fbca08d8f3a0eb5d358",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_compose_service.py",
+    "status": "deleted",
+    "before_sha256": "c0c43fbc05ce33b76d7bb05d3e47ccd391920e3b64ebbbdb6335531b178de6f0",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_config.py",
+    "status": "deleted",
+    "before_sha256": "ccef48f1304d99b65243e976521d218e9872fb5f7db7bd054cb6bc7097efd501",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_data.py",
+    "status": "deleted",
+    "before_sha256": "39fc8df22836d72d3c3ea1f0007135798acb01c287f62999457f6a00446c0fda",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_dockerfile.py",
+    "status": "deleted",
+    "before_sha256": "356fa6e3f23f00bd0b617dd6faed826ff68d11d269d38b050a04bdc35db40ddf",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_errors.py",
+    "status": "deleted",
+    "before_sha256": "7bcabad93c8dece20207999870197d2347603cb65c70b7a51dac6ec15514587d",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_features.py",
+    "status": "deleted",
+    "before_sha256": "e4659e9a5c8433af008929f7a48fa51ff273707c5feaae335d9900a57ff458d1",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_health.py",
+    "status": "deleted",
+    "before_sha256": "4f70d9eb3a75a7cfaf0636d2419367221c6bd574fd0b256291b97f8c657a7f30",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_initial_api.py",
+    "status": "deleted",
+    "before_sha256": "b31b01dd7884e9dd875299f76c1ce5b9d5e0a02b12d657dc333af546c4e53ae7",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_initial_service.py",
+    "status": "deleted",
+    "before_sha256": "444b95e73b318b58d67c024956a1fb196e8df2f07f1175e582ad515af45bd7ae",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_lineage.py",
+    "status": "deleted",
+    "before_sha256": "43865a0c59a16eecb3767a8dc9c879b509f8bf32454df43cc260e44850e292cd",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_logging.py",
+    "status": "deleted",
+    "before_sha256": "c28630aba3a7f280044c1ec3fe7da6609943b5a2360c49bbd7f2fa1bfe441968",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_mlflow_service.py",
+    "status": "deleted",
+    "before_sha256": "114e8bdbabcdf8a2c04385a10529e832e09003db543a3a334e856996f0fe3609",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_monitoring.py",
+    "status": "deleted",
+    "before_sha256": "afa899f496c66d2dd5eb580709ff72f9fcb5c7102ce2cdc811f23cf824d92f49",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_monitoring_export.py",
+    "status": "deleted",
+    "before_sha256": "f357e5b7b50daedf9072b885f113fe44eecf121bc76e717db130a91cce31af91",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_package.py",
+    "status": "deleted",
+    "before_sha256": "6a05a3a9cb64ca1fbd12b64a4643fa9ac0cec5f421d4eb1c4b0da900e3e197ee",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_paths.py",
+    "status": "deleted",
+    "before_sha256": "87fb030ca71b3dddc1fd9e0e775a0f47ef2f7b2a5a96d296db38b0ebe0fc3120",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_pipeline.py",
+    "status": "deleted",
+    "before_sha256": "56753a0d8b7505c23ade53243c30e0d58969f2b480c10f104dec5b420212cd47",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_registry.py",
+    "status": "deleted",
+    "before_sha256": "3d1d2946a3bbdd4c91946231cc19c867bc24169da60a2444223915e1f6b8d253",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_schemas.py",
+    "status": "deleted",
+    "before_sha256": "d59fe46034b233b677493e012a0583edeaaf5d353f9789ade829c0251f743106",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_state.py",
+    "status": "deleted",
+    "before_sha256": "546156f94717c544091957b731d3c2e0f90946518bf6db7eb3df5d45e6ab4437",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_temporal_plan.py",
+    "status": "deleted",
+    "before_sha256": "d81c2471e1f1b0dcda6fe257106a1bcab2faaac2b09b61c9064a7f9b5350de16",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_training.py",
+    "status": "deleted",
+    "before_sha256": "ec85f86a367ef7e25c4a09d5d418debc58bc5e37a1e87b12355e030d9efff0b0",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_weekly_api.py",
+    "status": "deleted",
+    "before_sha256": "51e859f48fddebb943160adc0a59ab798cc846866864a71838a7b15eac0e5ddb",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": "tests/train_api_v2/test_weekly_service.py",
+    "status": "deleted",
+    "before_sha256": "d1d63b3bfdc8ca5f73f01b249530b93a39431fff285c1df2e027365a85a4f684",
+    "after_sha256": null,
+    "manifest": "files-step4bis.json"
+  },
+  {
+    "path": ".DS_Store",
+    "status": "deleted",
+    "before_sha256": "6ddfc9f70085ef3afcc9e05dcb95f2a720060108784ffefd7abb0d5b420c6bb0",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": ".dockerignore",
+    "status": "modified",
+    "before_sha256": "83dbb3d2c0022e2190b0fb0c4ddd319a59006f317e7bae8244e711e4e5449385",
+    "after_sha256": "8ad3dacf21751731a3650e131002f972591b20352fb4c0ae0b9baaff8a707fdd",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "before_sha256": "ff76b47046ccd16874bbef18ef31314c9d970a0e1d7f837fa1b044668aa03932",
+    "after_sha256": "c495b91768162ae0664e3c2d1813a35b32adf4b9c8fd2cd572a968cb3e997914",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": ".gitignore",
+    "status": "modified",
+    "before_sha256": "ec67a394b794e26254c0a50bccf28152a37dd4cc005fea6c40b0a71afe968a14",
+    "after_sha256": "109cf59ed8e8142a0609b8e86d63ee45fe0b1b5219479bbb4fb6317ea3d404a7",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "Dockerfile",
+    "status": "modified",
+    "before_sha256": "a210e02ccb441068c7528d28c1d34b8f41042a1452891488396d51d71b92c4fb",
+    "after_sha256": "12f97930ae75731f2f96e7d24a3e306df41912ffbecc8cf347eb1395941cc9d4",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "_ARCHIVE/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "70ac208c2a86d1d7b0ca89142ed272aebb9580bbdafb0ce2b90902e1f95d622b",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "app/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "d6b390b3fe39d4fd040f4e6ac255afc5df812672b39c0861a51686c6521a76f4",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "app/pres-sl/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "00c244c0f19537e47fddc4a5a86fad91cf43478bc313a66c05ec0bfcaef73642",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "app/pres-sl/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "f8486a618a8d9113c3f24f2eb56c1b82f4e09d06fa21de70d36f4f71a062d9aa",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "docker-compose.apis.yml",
+    "status": "modified",
+    "before_sha256": "b55da4dab4a9b2333ed27e21ddc4f5f6d81c4c34c2c6355f3c3f6290fbf22683",
+    "after_sha256": "408b1cda9c2bcf2e91b7aa5fa7d3ad93436e0b20c5b94351bfb2ad435a71f42d",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "docker-compose.monitoring.yml",
+    "status": "modified",
+    "before_sha256": "cfeb232c3a9dbf98501acd78d631b1d26941dec6c3d06f4908d528932a6f900b",
+    "after_sha256": "13d8bfb5af41a9cc2cf80b03ab106c53135b251155ea722bf5190dd43a0187f9",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "docs/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "f1a3cba4c61406e68a291ca5f36acaf72aef06ecb431e490ad70fec842db2df5",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "interface/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "0601d79a1d8d90df6e168d0bc432e811d5c192bbe6b3bb0fbdd688ac34f8c813",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "monitoring/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "9840ccae3eb9783e930fdd12beafcc43002c88dad5b0562882491f6b504989e7",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "params.yaml",
+    "status": "modified",
+    "before_sha256": "e2ddcad5718fb66ffa2fb7f5a1ec4e84a0b799a2f6d60b62aa5a634ea91699a9",
+    "after_sha256": "a075982323fda9a3fb753f955f541845db085b94f77fb5d438323ea862c11d55",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "pyproject.toml",
+    "status": "modified",
+    "before_sha256": "949cc905c00cbeb6595eec38fa74e5918c1586bee36e8ddf0e03478dee242f8a",
+    "after_sha256": "37c9606d10b0b8343fd0cd305d646041da981e51b537e1123beb5929f3009968",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "requirements.txt",
+    "status": "deleted",
+    "before_sha256": "1e409aa85b587158065927e5cb41cc976cae4d03af2477eedfc20b21866a0a54",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "src/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "5372a1e7c3e0e0989fccdbd32c7ee7950b89f0844f6601981d7fc0a6591d7135",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "src/airflow_dags/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "1f1aabf3c1f8abb95bc103c0d86be19c8ab32d41b4a242b54eaf455ace3abce8",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "tests/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "2e75f630c0b243afac8fa2d0766bea9746d0b763edaa3bbe9bdf12d5255c0f45",
+    "after_sha256": null,
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "uv.lock",
+    "status": "modified",
+    "before_sha256": "8663cef0bda5ca9fad1d142d86d90a14e8ed485109d07794700a06135fa47789",
+    "after_sha256": "2dbc61775e82d33dcf37b72a943a1eba89b4d692faf5293f826beb1f7f4dbc01",
+    "manifest": "files-step5.json"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "79da3a431942e94c84e007ad97a763f7512c7456ea8fe94a52ec19c44a9e337d",
+    "after_sha256": "e1d40860aa459e080f936fd09ada8e8f47571e32620c9737eccd9c2fb370e1e5",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "README_monitoring.md",
+    "status": "modified",
+    "before_sha256": "abe15dddef7c0388c5a667ee08600604f44f6051ccfa73d2244a93a08d88c621",
+    "after_sha256": "802e63161bfb8bcbeba7d5d92a7622002f4bda487b3f529e3c555ad424665c6c",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "app/pres-sl/README.md",
+    "status": "modified",
+    "before_sha256": "da9c880ea6b0e463f10ac59a9e651e2cc9c23e577e5c4e4f75ea507f4712c054",
+    "after_sha256": "48655e2e8d91ccfb417eb8c9ed6ed9392002e94f1371f5fb7068dc5a2c4ededc",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "app/pres-sl/templates/07-demonstration-ui.html",
+    "status": "modified",
+    "before_sha256": "9ab7b7e12b2bddb0ac1460d9babccd6db9876da3a0e3fcfbbecd533164b6a348",
+    "after_sha256": "13bd8db99c3fbe774ec1be6bb30f5e1be30e20253c34ed443fff8fd108d5ff05",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "modified",
+    "before_sha256": "3b049d6cf03a6871cc52d55b4700077f797d1ecf179504af9ddb6e47ef3c1b58",
+    "after_sha256": "d5acffcada533fc43a701887e7abb362e17edeec73eaeabb00caf00f3323734e",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/airflow/process.md",
+    "status": "modified",
+    "before_sha256": "8e6372e996c3ef39c0de59231ff19618e296ca91e675c7b8072df24044788c48",
+    "after_sha256": "eb669f3728a265903650d1e065dd30d8726eeffbda910626196cb5cf1ac068dd",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/airflow/process_draft1.md",
+    "status": "deleted",
+    "before_sha256": "b94cd91b0255cdf131cfdd57ca38c139b1a14a06323b55dc9c68e2e3e94877e7",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/api/README.md",
+    "status": "modified",
+    "before_sha256": "afa7741d73ebd64a4b4d31b6e8e0a13273b8445706e96bbde87f95c3055e23bc",
+    "after_sha256": "1d80c6241271535508671879e5176769d0dacf70423e47ac4de78b925b5b3d55",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/api/train-api.md",
+    "status": "deleted",
+    "before_sha256": "e0c6463597810037d079d32a5b768d008c075e25a1d4dde3ab70fe48da18e431",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/applications/guide-interface-urgence-112-18.md",
+    "status": "modified",
+    "before_sha256": "2c002430caf3f68fa9a180d95016df4a17bdb1fee5c068159411837ee6ff85d0",
+    "after_sha256": "01e7ed32563aaf8729df372e35f941a3af426141b9048b36b0b62013bb4043d8",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/audit-yann.md",
+    "status": "deleted",
+    "before_sha256": "fd9d1f1b219ca7ff4090893dec012883bb485aea02911d80c8919b2afa8f5b73",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "status": "modified",
+    "before_sha256": "4950bd8af5d1fa90ae8637907d5de6a572e216832e57878031e13d0fc944b23a",
+    "after_sha256": "6b9f2907eab06e3c20143693e4784055faa6592314774c6a82286f6738793d7a",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/ml/GUIDE_ARCHITECTURE_TESTS_MLOPS.md",
+    "status": "deleted",
+    "before_sha256": "fcc85b1c9b14f38af293aa70dc19fcbbf9eaccd6878f1816d2aa7762eae600f3",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/ml/README.md",
+    "status": "modified",
+    "before_sha256": "36f0957a929c8447d7abf5f16122c561f6c595a493083683fc540229771a64db",
+    "after_sha256": "80e0a2207e954b5023ad12506287bd9d5ccc008c43a9ac59457d073d14fe3349",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/ml/README_MLFLOW.md",
+    "status": "deleted",
+    "before_sha256": "a23ae1886a0e43ba40ab2223b0171169d5c6f59d012b661ba8625e45da3ead5c",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/ml/dvc.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0bc27f71e65be49f0b191594646bbf5103c1b6a01a25b201ce3dc04410d8b02e",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "modified",
+    "before_sha256": "f3f2d4c9cb989e35c2a576b3d355e2674245c06d36f6f9f2dbbcaf2f6374d6f5",
+    "after_sha256": "d8963d3fe1b4d3de9b6f28c7fb0aad2ac43039939a2b05a2c36255dfd286eece",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "status": "modified",
+    "before_sha256": "91916eb3d1de141384fe5baf27bedd7a0ef879c4ffd252d1db1e91f920855fa0",
+    "after_sha256": "c00c26628d1c2b0e5ba2fc9cae110190a5b1851ef4602c2e22434ba1e5ba415b",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "status": "modified",
+    "before_sha256": "85330aedb0c744d788b522fa3cd47f06fdb76e819a8389a72ad413465d832302",
+    "after_sha256": "af8c52bcbd795fe5516517d1b9a9be95d243f4dbb7e552e0ee7615a721762ee3",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "status": "modified",
+    "before_sha256": "6976d19fc900140b0fe013d1af45279372fa1ebb3e116edf299b927bc2f164f0",
+    "after_sha256": "5bd129b4aa8483c645bfe56e1955f9962142380f3c96c2ac70b861adaff47dc3",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "status": "modified",
+    "before_sha256": "b036b7e117f43fcdcd5651d0e66f6f80623ade9fa6d166b7d516208991137c80",
+    "after_sha256": "1093a3fd8126948ee1f4d19c062efe5cdfd72e9c926b553cd35d06e00712f16b",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "status": "modified",
+    "before_sha256": "52cbda350a2c06cbc593d454aace7c6cc2e9b0fd317615aea3a2b5b0568d49c0",
+    "after_sha256": "1f3b3b063416ba6fcf9c6ceaeac32848d2c52d086a4cfcefb0ffc7f3590be10d",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "status": "modified",
+    "before_sha256": "b3c68487ca707409f70b51a55131f4cc2f667b663a69f42f0bebd561000f0aae",
+    "after_sha256": "77bf22f1d2f023e667987fd818e73cd2de5389813181c48ae1cff66624dc192a",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "status": "deleted",
+    "before_sha256": "d723153313e04aa8895ad4f58a02fe65b181243262d8f433c6b538a44571f11d",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/orchestration.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7d30a184844ef9a0ff620c1ca7439a328b4c027d7f6f55b21a597d40da2fc448",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/predict-api.md",
+    "status": "modified",
+    "before_sha256": "3e852783655ca6b352cdb429e9ebcb0cb1b70b2f27720f57ae11ead82d45cf91",
+    "after_sha256": "f7ebe06b1fd9aa56494befdda3a559cd5f25183ef17ce080b0d65222ae364da0",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/pull-data-api.md",
+    "status": "modified",
+    "before_sha256": "7e6e7964f16bb8d3cc34a3cb7bd990f1aca5d9d7ba7d016a6f3fbf1fcaaa50d3",
+    "after_sha256": "742d5624a51c659f479faea5720616f05749e6319b1a316985586dff9a64973b",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/operations/train-api.md",
+    "status": "modified",
+    "before_sha256": "36503518a4e396b50a77eb3dc7947328ebd8e4d8368e13971bd0aaf50435370f",
+    "after_sha256": "e0ffcd26cc61565a8dd8812eec1d7be87f878bb0eea8c79dcc46676075d6bf06",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/initial_train/plan_developpement.md",
+    "status": "deleted",
+    "before_sha256": "79eba21ceb6a4f0b1f80b064e5ae735916eb2c541c0d09b2505689b12c18de21",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/pull_train/plan_implementation.md",
+    "status": "deleted",
+    "before_sha256": "7047c94e3803aa5dcf679b40030832c0d6b2630115edbde386785c5f1dbab1df",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/pull_train/progress.md",
+    "status": "deleted",
+    "before_sha256": "7b9073c17f9ea481014d7807cb2a853217d78288f2ec2afa9353decc1469cb22",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/00_agent_instructions.md",
+    "status": "deleted",
+    "before_sha256": "3225c8239adfd0f5b44bbf1d4983cd7d53a047b588c3de648cebb9cd317e55e6",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/01_refactor_report.md",
+    "status": "deleted",
+    "before_sha256": "fbab0cf5337ed3bf17cbfb5688570aaadaa54112f92ba85d2ee503c81db2c0a9",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/03_refactor_plan.md",
+    "status": "deleted",
+    "before_sha256": "2763dd761e9a18efef30ab537644d4d11fea479bb8576de86cda8225cc9fa275",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/04_dev_plan.md",
+    "status": "deleted",
+    "before_sha256": "f79289d660169219b6b27ca736ca556856e99721235d0704f9ba161f4ca0d2c2",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/README.md",
+    "status": "deleted",
+    "before_sha256": "ed853c94ca83c2f9249d1f57d6a92f906eb56d0c91428e9a25981a273f723683",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/operations.md",
+    "status": "deleted",
+    "before_sha256": "c2037adec349b3183cfd5f2ed8f1f8fe0c3027e563a71ddab9ef13f24ca61b64",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "docs/refactor/train_api/progress.md",
+    "status": "deleted",
+    "before_sha256": "2e68f47065212ea1463a1a91be852300907cafced04dfadcaf82a30773e3dd99",
+    "after_sha256": null,
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "interface/rapport.md",
+    "status": "modified",
+    "before_sha256": "ac1f4db9669af17525b9786417178580393edea8eaf3b3c8c73d4fbd57f8c5a2",
+    "after_sha256": "9a3e7c5a937d18b16480c4a8ae4119e815ab20ff89cda9c9b91183c0cf1b7304",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "src/airflow_dags/dags/accidents_workflow.py",
+    "status": "modified",
+    "before_sha256": "f8c376483fea468d8ea004cda7ce1c84e98e4b0fadeba8b33a91eef5ef5a4a66",
+    "after_sha256": "2a8b72ce3739b8bb7df92a33a3b554ac39bdc25fc655aff9a79b77b4ee609eb1",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "src/infra/mlflow/README.md",
+    "status": "modified",
+    "before_sha256": "1d4dc4bd27b405d6cf011eea9dffcd0f4dcd6617912db7e36b457428cc68371e",
+    "after_sha256": "47d847d0cf7c53c3966a63f001357c074ef58ee31957a4d655ac44ef4a29482a",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "src/inital_train/main.py",
+    "status": "modified",
+    "before_sha256": "0e265689aa5019176dc08f3f2da177cebc03cff4e4750a4b48f614b3f002baa0",
+    "after_sha256": "ab10ba27de938f49eaaa01b5274f38f67e208da22cc6301c11b48fb92dd0a0c6",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "src/train_api/main.py",
+    "status": "modified",
+    "before_sha256": "c7009d7f79a1210c93de4cfc61529d788bf6072131393f07eba53c52ce4b7654",
+    "after_sha256": "12c16a6049983b3b500c4f4ee5cbc00dca75fb0baa79e36ab94f13c193396ad3",
+    "manifest": "files-step6.json"
+  },
+  {
+    "path": "Makefile",
+    "status": "modified",
+    "before_sha256": "f696b86744d85affd75fc0e594724bce512884964f8841425408ceea18c68339",
+    "after_sha256": "d9aa6c4472389fc73cc8da1db5f93b9d8e402d4829a57f6d7e2ee438eeb744da",
+    "manifest": "files-step7bis.json"
+  },
+  {
+    "path": "tests/train_api/test_auth.py",
+    "status": "modified",
+    "before_sha256": "ef3190b9a91137ef682deb8fcc1985d42e11b6977b0d792b60ab60fa12da2ce0",
+    "after_sha256": "287b562490c349222e4de9a9345aad2cda2128a2c5b2ee2557f96726ff9fdd4b",
+    "manifest": "files-step7bis.json"
+  },
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "before_sha256": "c495b91768162ae0664e3c2d1813a35b32adf4b9c8fd2cd572a968cb3e997914",
+    "after_sha256": "386b2504dd69c6b4d48acb9b1b51c50b6f4210afd7c86e316da396e5510fa7d8",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": ".dockerignore",
+    "status": "modified",
+    "before_sha256": "8ad3dacf21751731a3650e131002f972591b20352fb4c0ae0b9baaff8a707fdd",
+    "after_sha256": "a05d815bffcf79905d8e730506ee91074471b385e75017cbb49afcdfa692628f",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": ".gitignore",
+    "status": "modified",
+    "before_sha256": "109cf59ed8e8142a0609b8e86d63ee45fe0b1b5219479bbb4fb6317ea3d404a7",
+    "after_sha256": "01f357b7ce9377fda0b04b331c1c0bb4c24d34a8f19b7948e50ae85a7dfc4ede",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": ".dvcignore",
+    "status": "modified",
+    "before_sha256": "1d8fab086da72676386465c4138f22ad6d71c9932a68ef203d1e307e9c3daa1b",
+    "after_sha256": "60280a187b3821aa7be9fead4657862b0f7b62c0171c86e04f49109609b5828c",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "src/train_api/.dockerignore",
+    "status": "modified",
+    "before_sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee",
+    "after_sha256": "ed5193446a417cd0ffea36bcf9f29b4916fb488b986cee519cd103cd4319695f",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "src/inital_train/.dockerignore",
+    "status": "modified",
+    "before_sha256": "333c0f93892d8878e2246624216bd1853e14a4dcca80edebd9dabd8431aa3872",
+    "after_sha256": "348ef3ff780e822c81e89cb851807dcfd2177f53757081d41b13138b05c10ebc",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "interface/.dockerignore",
+    "status": "modified",
+    "before_sha256": "5985ba75c332d6ce36a2033c285af89089cab26078cbc83d6c903103ed61ecb0",
+    "after_sha256": "1e6801b699fb70751f48009db93bd405354069ddbd7bf16187ef89501f74abc4",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "src/auth_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "a156225f2ca2ce7e71a6a9abd16b47496f8a2dc43109022d1cd3a289abee34f7",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "src/pull_data_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "a156225f2ca2ce7e71a6a9abd16b47496f8a2dc43109022d1cd3a289abee34f7",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "src/predict_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "a156225f2ca2ce7e71a6a9abd16b47496f8a2dc43109022d1cd3a289abee34f7",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "src/airflow_dags/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "bba97bb0a388255e59b13da106f12bd8ba24813d8d61da60d2fe2d62deca3d3b",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": ".env",
+    "status": "modified-local-ignored",
+    "before_sha256": "44b85c5cccadad4e77afe0193defb171308e1e200451ec459a99efd9708092f9",
+    "after_sha256": "ef965294d8155c9ce3587ea441999a5a31b68b6a6964281afd1309d79f9918ac",
+    "change": "Noms DNS train-api/predict-api uniquement ; secrets inchangés.",
+    "manifest": "files-step8.json"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "e1d40860aa459e080f936fd09ada8e8f47571e32620c9737eccd9c2fb370e1e5",
+    "after_sha256": "9e3e9c5c3e250998c227d1b79e6fb9008fc62c69d3b0cec116c8fca7643ba2a7",
+    "manifest": "files-step9.json"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "modified",
+    "before_sha256": "d5acffcada533fc43a701887e7abb362e17edeec73eaeabb00caf00f3323734e",
+    "after_sha256": "17473b628f29c8b7d1a38da93bb3121fdf9b4e2dd00f505cd87d02e936380100",
+    "manifest": "files-step9.json"
+  }
+]

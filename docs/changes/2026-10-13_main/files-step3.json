@@ -1,0 +1,890 @@
+[
+  {
+    "path": "PRODUCT.md",
+    "status": "deleted",
+    "before_sha256": "3e1fd8b5fe5a8afd81006f32739860532f30fe388329b776ef398622c41a8976",
+    "after_sha256": null
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "5b3e5acd2934e514cdfd7798d749f5e1b5069522edf0906b76bf7eaae224164f",
+    "after_sha256": "dfd1e603b49b94b0796c55841f30aaa7887d5ea191f226fd5976ad0951604caf"
+  },
+  {
+    "path": "app-pres.py",
+    "status": "modified",
+    "before_sha256": "bc6ba8973d6fb4bf2db08d268cb922aefb4091c94c9ba10711f0b418706ea12b",
+    "after_sha256": "8afbb81fd15870d5c4cd4e82e4ddb27b16ea78061d747658117e9dccaab4b5de"
+  },
+  {
+    "path": "app/pres-sl/tests/test_entrypoint.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "18642a543b979e0efab273f4951699b89ff2475f0bdd867e2d087cd515c23dcd"
+  },
+  {
+    "path": "app/presentation/.DS_Store",
+    "status": "deleted",
+    "before_sha256": "3d06d090d9985f13ef801767ac0e523eee1226d7ac111a73f0833e42c370bb15",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/__init__.py",
+    "status": "deleted",
+    "before_sha256": "1e66dc0ab05de0dc355d4cbc83aa0b34cbc3e7dca62e289b343408636311c380",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/assets/graph1.jpg",
+    "status": "deleted",
+    "before_sha256": "ca24bbfb4b478d3ee75acf88683e281d55a495786bdf247422c804b2735810e4",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "08733fe5a6b919ca452fb9177b5caacd253c65913cf04466b795da047c3a15f2",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/components/navigation.py",
+    "status": "deleted",
+    "before_sha256": "bf8071603eb44cf3c392a6c348bd38e4d1ddfb45c4dd6d09a59225caa2e1e31f",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/components/slides.py",
+    "status": "deleted",
+    "before_sha256": "9e0aa6ef563f819fc4fc842bbf2bbe786d5b4fba7c53a81bbf15d716e67c6516",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/config.py",
+    "status": "deleted",
+    "before_sha256": "8eda435829e6757c063b870234cfc1c549adeef696db728c29fdd44f5c457c75",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ea65ee56e520f06142b390152cf30af6d60915e9d03d62dbfa1d06a155c89c14",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/airflow.py",
+    "status": "deleted",
+    "before_sha256": "0205557414a6694ca0a60f2f7b45e8944fc2e798f3678b254c1adf0bd287eff6",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/architecture.py",
+    "status": "deleted",
+    "before_sha256": "97a65ad6616e8e4d8136e46bc619e2d011049ac9fc377f25067c459efd8a5849",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/authentication.py",
+    "status": "deleted",
+    "before_sha256": "4ef5313ac671ad447b124d248c250e538c4a46b0ad73c110562558d0c00e6c06",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/conclusion.py",
+    "status": "deleted",
+    "before_sha256": "9006676b42981a71c4cc2638f79a1c6b77fb7f8993b02cadb4cca2d2904a8548",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/deck.py",
+    "status": "deleted",
+    "before_sha256": "7de57baff1f40b15ca684c67f982635b667c12b2250a8f2dc06eb85bd4a86a3b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/dvc.py",
+    "status": "deleted",
+    "before_sha256": "07431c9db925c0bb0d4cd8f745b2df9f9560ec0bf55a57086c28a25bb0eb5d92",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/monitoring.py",
+    "status": "deleted",
+    "before_sha256": "8ea2f9e4473c7e50cf26fbef5631b19d8c5266bc65539701b9ef7c9b30952561",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/training_mlflow_predict.py",
+    "status": "deleted",
+    "before_sha256": "1d5cb3fd1548c2bb23c666b478c08c460bc479c02002f40a44924067651b7266",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/pages/ui_demo.py",
+    "status": "deleted",
+    "before_sha256": "02c0393bfd788c8325740f644db420d846fc130d821c3b816af7578eb1062d19",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "e292ca2df1a592900bd3e28cecfa6739ba35743b68a2a9b8c02f0b7785299558",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/styles/architecture.css",
+    "status": "deleted",
+    "before_sha256": "f58863b15fa76477f5ce5275dc1ee00192cfd50a360cd1c2392d6debad0875c3",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/styles/global.css",
+    "status": "deleted",
+    "before_sha256": "1f3c0cf0cae3a733b2dbe1b25e39e6bde4cd10f147affc136a885a87f40aae78",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "fe18825283d104da93a5b755636607e1352a23f9b6ddac7777335aafd0200fba",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "4935fa7549a15830e984cc06125560567694fa7b019a27e484b7ea0e6b0c9d75",
+    "after_sha256": null
+  },
+  {
+    "path": "app/presentation/tests/test_app.py",
+    "status": "deleted",
+    "before_sha256": "88996395f99d467066751c0df9690c92ec094782ab9f60beadd2e205b7297708",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "980a532ba8328183496d85232aca98e1214d49d02adf539562fd72bb852f854e",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/README.md",
+    "status": "deleted",
+    "before_sha256": "311ceff0fc5e82a40a8cdd63e655f4113e9a3d285f3db5f9256801ba5c161311",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/__init__.py",
+    "status": "deleted",
+    "before_sha256": "558550400efd32c9e65eae9075404d591321c53422b1c3e350a84ac9a4da973b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/api_client.py",
+    "status": "deleted",
+    "before_sha256": "e0e4067fc1c92460125d558d4e0f6addc7464415d4dc2372ded8f20699cd296d",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/__init__.py",
+    "status": "deleted",
+    "before_sha256": "be8dd394045125888dd6ddeae8112ed58f00942ce4d098b989f5e583a2067c52",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/labels.py",
+    "status": "deleted",
+    "before_sha256": "117d376ac30c8f763e5108b37ace9c31ab2ceafc09c25b6fea4486242f6d2a5c",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/questions.py",
+    "status": "deleted",
+    "before_sha256": "658ee091d5e6f2620bfacf5852430180c1333edc36d3b6254e960f8570cf8a18",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/scenarios.py",
+    "status": "deleted",
+    "before_sha256": "cda89b0a5974a372286d0dcdcd1fc510acd468bda8e901a9800a3628dd4cdbd4",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/assets/ui_config.py",
+    "status": "deleted",
+    "before_sha256": "422eea61f47dd39ceba9919c46359e61523abae6169ada43ebd823d50a5c3ae5",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "9ce08dc6bd8219449f3086b9e1e2c843bdd7448d8473bc7d1954c28c1f8a5511",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/components/call_form.py",
+    "status": "deleted",
+    "before_sha256": "1206337ef018c66e5b2c2b6478a257d46e37fea10bf8f0b85ce83b1e38a3f390",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/components/results.py",
+    "status": "deleted",
+    "before_sha256": "aab774b25e52b4f06550f1cb2791f4cf272aff15259e83af23f69dbf1f2abe81",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/components/scenario_selector.py",
+    "status": "deleted",
+    "before_sha256": "e991e73d798aeedb6c0c80de02074459e7365d31a891083e8cb20587ca12c67f",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/components/sidebar.py",
+    "status": "deleted",
+    "before_sha256": "1646fc90a5250e9793a96b59598cfbb98ac385e8f34ab9f72343adcc8844c5fa",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eb8f668c12ca7f3ca4e39c34f8158a46caf0b0da74806f4db53dd34dea097b24",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/pages/regulation.py",
+    "status": "deleted",
+    "before_sha256": "95fb001849c560a3641a4b171e329f008ddf215b39cd3c97870e5f2ce4715b5e",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "bc902451aa7060e64ba641d6a64ecb286b95733f68920f79dcfd751e9535bcd4",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "7a8dcb238c0b256cabdbb10d45f2b214ee7de68062fbce23dd7299350be35b94",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/app.css",
+    "status": "deleted",
+    "before_sha256": "0ae353a8b059b53fb17fd97edf79ba33a23a9f9799d6f0e0ad33c7f0689e18c3",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "0e75b8f04260ba68e6cd20d396f45c3d376c6ed374f3fb9383304452237ef072",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "b417b7d0c3057abdd5011f1546e2a4c63798603022dafd686f22a4ae12ae9dca",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_api_client.py",
+    "status": "deleted",
+    "before_sha256": "499df98443981064b1ab83aef74d79a2d1089b0ed0cc810674b2876cb344eb83",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_prediction.py",
+    "status": "deleted",
+    "before_sha256": "c6aa572647b2baa07dac2df114d72a469e6ab83ac2d1939247473e58c1dbcb6e",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/tests/test_streamlit_app.py",
+    "status": "deleted",
+    "before_sha256": "a7c95263d2d2e90a77582e2687cb17d6366e34dfd7ad38fefa077c971daf5ff1",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/__init__.py",
+    "status": "deleted",
+    "before_sha256": "bcb138de6b2a040ffcd4c6eb7beb8c7c5f062ca8dbb80ca22a0d781db5f3af7f",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/config.py",
+    "status": "deleted",
+    "before_sha256": "bf2af0bfd0ff7d5e16b577ed2550266b94d339e1f8bf76f893c27b55fa74096a",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/formatting.py",
+    "status": "deleted",
+    "before_sha256": "f88fc21373f16abce1d43e017ece6ce63f52d130e7e908db6ef556e43f84750b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_OCS_v1/utils/prediction.py",
+    "status": "deleted",
+    "before_sha256": "b7b9168cbdd23423fe9f78fbaab1559cf5d3a27890a2ad87eb541030e3f3f8e8",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/README_SL_APP_SHARED_INFERENCE.md",
+    "status": "deleted",
+    "before_sha256": "d777cdd47e58b56072f084feba2e427d33c176b277dcd85213bb73563c03936c",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ed9fb96a4f0e9a8b577a96b14d49166c19b85021ada83c90999ceb62af595a27",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/assets/logo.svg",
+    "status": "deleted",
+    "before_sha256": "79e5fd1f7cd117a38992005c0199a06c9f181e9fbdd5d58815b9bca737941089",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "30aafff5a48a718908b88cba3f6404b1880aa62180f770026a89c484de372d32",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/components/audio_recorder.py",
+    "status": "deleted",
+    "before_sha256": "6376ae2b8d172486bba156445875295c8bdbfbc66a2b8b476a454846d57b66ab",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/components/cards.py",
+    "status": "deleted",
+    "before_sha256": "340b656e8a3cd37ece30088f1502c4e733ce14b41ed8cd78ee0c41a08f7e0959",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/components/icons.py",
+    "status": "deleted",
+    "before_sha256": "73f8d7a18a64b0ee514d4b7f8697dcd6d98e30be132c158173bd8b9da69ae3ff",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/components/layout.py",
+    "status": "deleted",
+    "before_sha256": "6abfbbf911e70127e69e3cd298b5934646e950f96f950377e2f981c78d36c5a4",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/config.py",
+    "status": "deleted",
+    "before_sha256": "e6f213e62b2afe66793e97f14dff79ca6dbe595f4d06e39386e64b25475ad116",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "c9f536581437b6aa8d006552c8020e02af02acad2b2c2977a31f0a82f773acfd",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/pages/demo_rt.py",
+    "status": "deleted",
+    "before_sha256": "49f7d46c9c243f91f0ae031e666dcc1c1c8a655125a001135f40fed6c3ca9760",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/pages/demo_video.py",
+    "status": "deleted",
+    "before_sha256": "ceee91f0ba7865d956fca99b8919cfb48178bbeaeb5381d0811751dc0f980bea",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/pages/home.py",
+    "status": "deleted",
+    "before_sha256": "c095191e1591ac1a953846cafa2a4a74b1b9f87175305a132beb2a871202181d",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "acb43ff1540fb7de9c66e1732748b527bd96a12fc4145def7fc28049ee1518ff",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/styles/global.css",
+    "status": "deleted",
+    "before_sha256": "fd09a66df13d368ed5ff3e9e7f39e5bcd07a48bd5bcead94c9b8814ef4c2f015",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "86ab80c7ba01dccc0b2dad67c88f28acae69daed19d5da1f47ef1c48e78657f2",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "41a4ef4ab02ca33fdc88ffdf720d5a74a8cc5ad93a83b4269a45b6a6687deba2",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/tests/test_prediction.py",
+    "status": "deleted",
+    "before_sha256": "f30c4618e11bcd79436f8159adfdae0ee4240f435b319a20a6e9c3cd5ab83819",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/tests/test_realtime_form_sync.py",
+    "status": "deleted",
+    "before_sha256": "06cda5ba123bebc19f253cac0a002698d7ec4661689e7f243e86172be71eeec9",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/utils/__init__.py",
+    "status": "deleted",
+    "before_sha256": "9de7246e9057232e2173e2606d87d4db396456eb48772a6d095ea600e635c16e",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/utils/category_contract.py",
+    "status": "deleted",
+    "before_sha256": "dadfbd1775c7aed8cd4a3974d4e4e77cde6b19504f5109852b31347478a64489",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/utils/meteo.py",
+    "status": "deleted",
+    "before_sha256": "d43bcafa0caa41be8d063af19763652a7463f451d460ec97c2566e4fc7ae9f32",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/utils/prediction.py",
+    "status": "deleted",
+    "before_sha256": "49b8ce5bdf3cfc91a9e0ce866950f49979bf79bfc060287e2b9556748671ca1e",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/utils/prediction_worker.py",
+    "status": "deleted",
+    "before_sha256": "1ad31abe1a5ab73258fcc8fb3e82a29ddf7ac39a9ad03d0a8d9ab7c7c9bff2f2",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_app/utils/realtime.py",
+    "status": "deleted",
+    "before_sha256": "be17da8f90de8e301b80a0c7634f7177fa9aea4fc8eec51b32c07f5c82b65656",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/README_PATCH.md",
+    "status": "deleted",
+    "before_sha256": "051c8cf0c9c7f989ea9880c8c3df84f4b83c997b71ee41daf1174439c42ce6fa",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/assets/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/assets/labels.py",
+    "status": "deleted",
+    "before_sha256": "117d376ac30c8f763e5108b37ace9c31ab2ceafc09c25b6fea4486242f6d2a5c",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/assets/questions.py",
+    "status": "deleted",
+    "before_sha256": "fb400cd0212686a862c5ff2e5a4e268147dda8e608f93d8459acaacf3b65aa3b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/assets/scenarios.py",
+    "status": "deleted",
+    "before_sha256": "baf29bc0741fc8e33232a468e1da34c0c076131c6adecc66c793fd15084cdad8",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/assets/ui_config.py",
+    "status": "deleted",
+    "before_sha256": "446862f651d8fd3be6717052b6fe2a0fd670c76143413e8f50bc88cfa2e935ec",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/components/call_form.py",
+    "status": "deleted",
+    "before_sha256": "741dc66b9b8f1c29ca088fc5fa4f2bded79621389698b511e0ed321133c56be3",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/components/results.py",
+    "status": "deleted",
+    "before_sha256": "1e658db7ec5146e54b8ba548e9579fca30d8e6834ca6ea53e57b8642e9d0d9d7",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/components/scenario_selector.py",
+    "status": "deleted",
+    "before_sha256": "c11ed2bb125fbab64fda975238109bf087bcd31d15d36cacca7895c780afa0ce",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/components/sidebar.py",
+    "status": "deleted",
+    "before_sha256": "fdcd022998309c3a0985aecd3481970545c045f6f5a3c523260ce0851e714501",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/pages/regulation.py",
+    "status": "deleted",
+    "before_sha256": "3b7189a24bf450fe8eafd423ead365c3b8dee91af2212ea2eda6dea77aad66dc",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/styles/app.css",
+    "status": "deleted",
+    "before_sha256": "ec9711b308aff5579745326c12eb77a68b932baf1ba16f5100846fc9d97d2d77",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "a6291b82cf040f7b5bd222b13c73e8f7e3e8292da6f124414e78c11360677fc4",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/tests/test_feature_engineering.py",
+    "status": "deleted",
+    "before_sha256": "09811785ff9d614f2342731c2991183a5a2d10c8bceb8c56602404171166d179",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/tests/test_neighbors.py",
+    "status": "deleted",
+    "before_sha256": "2f4de1d44944f776eeecf5750875453f01aecda3da4f836a53bede62f31244e8",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/tests/test_prediction.py",
+    "status": "deleted",
+    "before_sha256": "f712c05861e82ecab54af5cf0de71c62f6d572ccdf66692a76b36a5ada076d37",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/__init__.py",
+    "status": "deleted",
+    "before_sha256": "eee2865ae7b9ba0474d25b419b3ddb3b7385bbe3fa51f25b358298e987eb9d49",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/config.py",
+    "status": "deleted",
+    "before_sha256": "659e066960f35575ee3b2384f3d5b562a329284b991d4c8207ea6649756be8da",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/feature_engineering.py",
+    "status": "deleted",
+    "before_sha256": "5435024fe059e91bb329292e7277edb3ee5f0920d906a66d0f8754e6b70161ae",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/formatting.py",
+    "status": "deleted",
+    "before_sha256": "e4bdb44ff0b20b2db1eb460c796995b16b35e0c488757e1e88591f4f6a58a663",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/loaders.py",
+    "status": "deleted",
+    "before_sha256": "754e545b79d0e3238bc4bb832f6fe1c5c01dd412458a0a83518d540fa85c2710",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/neighbors.py",
+    "status": "deleted",
+    "before_sha256": "5e25b206e21487064536d791eca92a0e1abe7b2b0a9cbcbc523b5801afcfb8d7",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/paths.py",
+    "status": "deleted",
+    "before_sha256": "6cd84aa04ec108668c3c3c1cfe6cad8b59180f4a4e32e80c8109800fcf100846",
+    "after_sha256": null
+  },
+  {
+    "path": "app/sl_legacy/utils/prediction.py",
+    "status": "deleted",
+    "before_sha256": "5ca1ec00fbcb38b2bc2bcaacd2875d148f42a763fc39cb8e364b21df8025b32a",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/__init__.py",
+    "status": "deleted",
+    "before_sha256": "c5fb0b1bc6c48a7dba9a9d60aa6a5a078d0f0ca9e6dfd0c75a6de93a58b68382",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/README.md",
+    "status": "deleted",
+    "before_sha256": "fbf469f1c057facf2a092ec2439d105193a7ea14b54b7a2f548d887e82d4b43a",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly-graph.png",
+    "status": "deleted",
+    "before_sha256": "a9fda028b4167eae1e6e9a4a624d7dbaf5caf02467b8fa811529549f86961f8c",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly-zoom.jpeg",
+    "status": "deleted",
+    "before_sha256": "060f3609098090a03483b8ee8961ddf2eb2b1f76e1b9202f3a17418bb3e30aa0",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/airflow-pull-weekly.jpeg",
+    "status": "deleted",
+    "before_sha256": "842e25025d9d8ab7567039d708b4031c5b827333b607ac3aa751a51c33e5e64c",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/architecture-complete.mmd",
+    "status": "deleted",
+    "before_sha256": "f4ecbc911d85f67857e6e01302c6b958e37d3ea15b233fde54b62bfd13fc857e",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/authentication-train-predict.txt.sh",
+    "status": "deleted",
+    "before_sha256": "099aa44240548b01f24f845b6910ff724bc9b8a194a279bf420870b60ced3067",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/dvc-dagshub-graph.png",
+    "status": "deleted",
+    "before_sha256": "aac64fa23ad6f558fd3fec3e3cd8a205e501b268ccfb23a4892b431bb130aa15",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/grafana-overview.jpeg",
+    "status": "deleted",
+    "before_sha256": "0cd1f23c695b3a190d4383aba387b85fb997394c97a7c5a7ec9b12f3bd22b05f",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-champion-versions.jpeg",
+    "status": "deleted",
+    "before_sha256": "9c2942ce2460c86618c7624ba3acb90f3cc875451072e446d95eb6b2611643f6",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-registry-champion-v2.png",
+    "status": "deleted",
+    "before_sha256": "36414c62884c0f95f5dd03f85d3a819088d55504b6bef6745724f3eab070b575",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-runs-zoom.jpeg",
+    "status": "deleted",
+    "before_sha256": "5c8a24fbf15480ea3593f32a3dffba739ed6d77b314db62128e5e31f8b2ec566",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-runs.jpeg",
+    "status": "deleted",
+    "before_sha256": "c9e0d5d405fc40a399a752f9d0f0c9b4fc5b3dec3828c0e1bc3155ac434de49c",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-w12-evaluation.png",
+    "status": "deleted",
+    "before_sha256": "192e8d1d6945503c9db5a60e2962e5df42b4f95ba9324acde816fd8c8b2951df",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/mlflow-w12-run-overview.png",
+    "status": "deleted",
+    "before_sha256": "7ed179a0f65abd91c57938dc2305354ba71a27945acb05258c8b38556bf90978",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/ui-accident-entry.jpeg",
+    "status": "deleted",
+    "before_sha256": "bae848a9541b772dbccdce2559cfa64f519d2337734bb6572f7df8217e6a141a",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/assets/ui-fallback-result.jpeg",
+    "status": "deleted",
+    "before_sha256": "14f9398ff5fbf81a6842e1bb15a36daaec90c27e003fdbd2e402a51c1820cfbf",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/components/__init__.py",
+    "status": "deleted",
+    "before_sha256": "08733fe5a6b919ca452fb9177b5caacd253c65913cf04466b795da047c3a15f2",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/components/diagram.py",
+    "status": "deleted",
+    "before_sha256": "9b3b9d75767cae6d2931bdb811b9fbd86b83938de1015cc559f5fb0d0a4af371",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/components/image_viewer.py",
+    "status": "deleted",
+    "before_sha256": "52a54332ded34620509f68303538ecb51da59d0ce3560ee07d56704253071a23",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/components/navigation.py",
+    "status": "deleted",
+    "before_sha256": "77fde2029e6cfd885459bea3e8ed39d8ce26b35bf328ecdf921d73c656036f7d",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/components/slides.py",
+    "status": "deleted",
+    "before_sha256": "4ca9a3396e3e543f3b5ee79e8d69a831c9b48c433978e8bd66ff3822b4380b72",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/config.py",
+    "status": "deleted",
+    "before_sha256": "51b33b25b896243aff7f3ea201b76ad66c3da0c6cdc35e35a26f5bbb3cde3a83",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/pages/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ea65ee56e520f06142b390152cf30af6d60915e9d03d62dbfa1d06a155c89c14",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/pages/deck.py",
+    "status": "deleted",
+    "before_sha256": "73f8997dadbc0f3b176e8204d3abedce22153a419b39ed484ff5f5385378ca0b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/styles/__init__.py",
+    "status": "deleted",
+    "before_sha256": "ee2c4792ad74ee757f2428b7348e48733b8678e4adeb93cb97f26395f308b119",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/styles/global.css",
+    "status": "deleted",
+    "before_sha256": "91ea55bbc2b3751f7af788778964b8371253927f0c8796be1b7769238adacf1d",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/styles/theme.py",
+    "status": "deleted",
+    "before_sha256": "1a80ac65f60e4c869480cbd091cd9878aa4e0f68abc3f7b2227cc738fc19dbd9",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/tests/__init__.py",
+    "status": "deleted",
+    "before_sha256": "8939f879e5412c357b16e9a389f06d2b3ab2b12f7df747b5ac2e7fd8a673973b",
+    "after_sha256": null
+  },
+  {
+    "path": "app/soutenance/tests/test_app.py",
+    "status": "deleted",
+    "before_sha256": "27e1707b69994a556348466d9493ab69f89e18e7e59265f837077abd6768d065",
+    "after_sha256": null
+  },
+  {
+    "path": "app_presentation.py",
+    "status": "deleted",
+    "before_sha256": "cf608173bde728ccd6df6aa7ac0ca35d65b9b99748fba983eda4fdc6a6c0ab14",
+    "after_sha256": null
+  },
+  {
+    "path": "app_sl_OCS_v1.py",
+    "status": "deleted",
+    "before_sha256": "5bcfa388eaf2d70d11577dc3d347406e96a74ff06b1b555c857b143b53c0d72a",
+    "after_sha256": null
+  },
+  {
+    "path": "app_sl_app.py",
+    "status": "deleted",
+    "before_sha256": "23871ea95234c7ae1323435d45c6e4691c97273d69d5cca612ab23bd2f9c235d",
+    "after_sha256": null
+  },
+  {
+    "path": "app_sl_legacy.py",
+    "status": "deleted",
+    "before_sha256": "c497c2a17f4418f931c0e5f4209e86653720c2995ec5c070c6b1b19460d83bf9",
+    "after_sha256": null
+  },
+  {
+    "path": "app_soutenance.py",
+    "status": "deleted",
+    "before_sha256": "b606c5fa7c3eeebd11bfc57081b63d19940b5aa85617141b737cb7082c8be686",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/applications/README.md",
+    "status": "modified",
+    "before_sha256": "9b4d9fcfa7e9ddc0b200f25f9ea0999a29895b9d6ae568f0c64ea1fb2bbd49a1",
+    "after_sha256": "8106e18ec7e1141c7ebd1bf8774c5cef37ef09236cff4d9298b50a289a9a2a9e"
+  },
+  {
+    "path": "docs/applications/guide-demo-sl-ocs-v1.md",
+    "status": "deleted",
+    "before_sha256": "ffba548452cd21cb66f8c3e3040ac814a0d5514c2e4c20692563ef0ed9cb8ea6",
+    "after_sha256": null
+  },
+  {
+    "path": "scripts/sl_OCS_v1_smoke_test.py",
+    "status": "deleted",
+    "before_sha256": "635459432243d4e1bc0ed2e1031f2046cd8a9a2752bcce21b5e51b176cec6e29",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_docker_architecture.py",
+    "status": "modified",
+    "before_sha256": "88e2a72d3fbb5ea2dbfc8d6c8898034f0f10d227de0f6988d68d7c499271f443",
+    "after_sha256": "6e70e70e67c434c7db4045ec5c7b457c38e2c789045a9de08d1a213b1fa22ed9"
+  }
+]

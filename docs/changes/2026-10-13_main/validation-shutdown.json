@@ -1,0 +1,7 @@
+{
+  "running_containers_after_shutdown": 0,
+  "preexisting_volumes_missing": [],
+  "reset_executed": false,
+  "commits_created": false,
+  "presentation_stop_signal": "SIGINT"
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidents MLOps | Démonstration UI</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context">
+                        <span>07 / 08</span><i></i><span>Produit</span>
+                    </div>
+                    <h1 class="slide-title">Une prédiction compréhensible en moins de deux minutes</h1>
+                    <p class="slide-lead">Deux écrans React, puis un proxy Express qui distingue prédiction distante et
+                        secours heuristique.
+                    </p>
+                </div>
+            </header>
+            <section class="ui-workbench workbench content-inset">
+                <div class="ui-steps">
+                    <article class="ui-step"><b>01</b>
+                        <div><strong>Se connecter</strong>
+                            <p>React obtient un JWT login.</p>
+                        </div>
+                    </article>
+                    <article class="ui-step"><b>02</b>
+                        <div><strong>Saisir l’accident</strong>
+                            <p>Écrans Principal et Détails.</p>
+                        </div>
+                    </article>
+                    <article class="ui-step"><b>03</b>
+                        <div><strong>Envoyer</strong>
+                            <p>POST /api/predict au proxy Express avec Bearer JWT.</p>
+                        </div>
+                    </article>
+                    <article class="ui-step"><b>04</b>
+                        <div><strong>Choisir le moteur</strong>
+                            <p>Predict API ou secours heuristique.</p>
+                        </div>
+                    </article>
+                    <article class="ui-step"><b>05</b>
+                        <div><strong>Lire le diagnostic</strong>
+                            <p>GRAVE / NON GRAVE, risque et badge.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="ui-preview">
+                    <nav class="ui-tabs" aria-label="Écrans de démonstration" role="tablist"><button class="active"
+                            type="button" role="tab" aria-selected="true" data-image="../assets/images/ui1.jpg"
+                            data-alt="Écran des caractéristiques principales">1 · Caractéristiques
+                            principales</button><button type="button" role="tab" aria-selected="false"
+                            data-image="../assets/images/ui2.jpg" data-alt="Écran des détails de l’accident">2 · Détails
+                            de l’accident</button></nav>
+                    <div class="ui-screen"><img id="ui-screen" src="../assets/images/ui1.jpg"
+                            alt="Écran des caractéristiques principales"></div>
+                </div>
+            </section>
+            <section class="ui-status content-inset">
+                <article class="status-card"><span class="panel-label">Services disponibles</span>
+                    <h2><span class="badge">BentoML (remote_api)</span></h2>
+                    <p>Vérifier la version du modèle servi lors de la démonstration.</p>
+                </article>
+                <article class="status-card"><span class="panel-label">Services non démarrés</span>
+                    <h2><span class="badge">Moteur d’Urgence Fallback</span></h2>
+                    <p>La capture illustre ce mode, pas une inférence par le champion.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <script src="../js/presentation.js"></script>
+</body>
+
+</html>

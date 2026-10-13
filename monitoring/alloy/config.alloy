@@ -1,0 +1,41 @@
+// Docker Compose adds stable project and service labels. The Docker API
+// combines repeated label filters with AND, so selection happens below in a
+// single relabel rule rather than through several mutually exclusive filters.
+discovery.docker "accidents_apis" {
+  host = "unix:///var/run/docker.sock"
+}
+
+// Keep only explicitly labelled active APIs, then convert the service
+// metadata into a low-cardinality Loki label. Do not promote request data,
+// credentials, container IDs, or image digests to labels.
+discovery.relabel "accidents_api_logs" {
+  targets = discovery.docker.accidents_apis.targets
+
+  rule {
+    action        = "keep"
+    source_labels = [
+      "__meta_docker_container_label_org_accidents_stack",
+      "__meta_docker_container_label_com_docker_compose_service",
+    ]
+    separator = "/"
+    regex     = "api/(auth-api|pull-data-api|train-api|predict-api)"
+  }
+
+  rule {
+    source_labels = ["__meta_docker_container_label_com_docker_compose_service"]
+    target_label  = "service"
+  }
+}
+
+loki.source.docker "accidents_apis" {
+  host          = "unix:///var/run/docker.sock"
+  targets       = discovery.relabel.accidents_api_logs.output
+  labels        = {project = "accidents-mlops", source = "docker"}
+  forward_to    = [loki.write.local.receiver]
+}
+
+loki.write "local" {
+  endpoint {
+    url = "http://loki:3100/loki/api/v1/push"
+  }
+}

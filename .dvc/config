@@ -1,0 +1,7 @@
+[core]
+    remote = dagshub
+['remote "local_storage"']
+    url = ../../dvc_remote_accidents
+['remote "dagshub"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/Sacha3198/projet_accidents_MLOps.s3

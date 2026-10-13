@@ -1,0 +1,28 @@
+{
+  "environment_keys": 50,
+  "environment_order_matches_local": true,
+  "environment_example_contains_safe_placeholders": true,
+  "local_environment_changes": [
+    "TRAIN_API_URL host renamed",
+    "PREDICT_API_URL host renamed"
+  ],
+  "compose_files_validated_with_example": 4,
+  "docker_contexts_checked_with_non_secret_sentinel": [
+    "root",
+    "interface",
+    "auth_api",
+    "pull_data_api",
+    "predict_api",
+    "inital_train",
+    "airflow_dags"
+  ],
+  "required_build_files_present": true,
+  "git_secret_and_cache_exclusions": "passed",
+  "dvc_runtime_exclusions": "passed",
+  "dvc_pipeline_datasets_and_manifest_preserved": true,
+  "configuration_tests_passed": 11,
+  "runtime_validation": "validation-8.json",
+  "commits_created": false,
+  "running_containers_after_shutdown": 0,
+  "missing_preexisting_volumes": []
+}

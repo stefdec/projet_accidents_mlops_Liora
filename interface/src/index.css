@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #f1f5f9;
+    --text-base: #0f172a;
+    /* Lignes verticales en fond : BLEU FONCÉ discret en mode clair */
+    --grid-line: rgba(30, 58, 138, 0.08);
+  }
+
+  .dark {
+    --bg-base: #0a0f1d;
+    --text-base: #f8fafc;
+    /* Lignes verticales discrètes blanches en mode sombre */
+    --grid-line: rgba(255, 255, 255, 0.04);
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-base);
+    background-image: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 47px,
+      var(--grid-line) 47px,
+      var(--grid-line) 48px
+    );
+    background-attachment: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+/* Les 4 zones distinctes : fond plein qui masque les rayures verticales d'arrière-plan */
+.zone-caract {
+  background-color: rgba(254, 242, 242, 0.95);
+  box-shadow: 0 4px 15px -3px rgba(239, 68, 68, 0.08);
+}
+.dark .zone-caract {
+  background-color: rgba(153, 27, 27, 0.15);
+  box-shadow: none;
+}
+
+.zone-lieux {
+  background-color: rgba(255, 251, 235, 0.95);
+  box-shadow: 0 4px 15px -3px rgba(245, 158, 11, 0.08);
+}
+.dark .zone-lieux {
+  background-color: rgba(180, 83, 9, 0.15);
+  box-shadow: none;
+}
+
+.zone-vehicules {
+  background-color: rgba(239, 246, 255, 0.95);
+  box-shadow: 0 4px 15px -3px rgba(59, 130, 246, 0.08);
+}
+.dark .zone-vehicules {
+  background-color: rgba(29, 78, 216, 0.15);
+  box-shadow: none;
+}
+
+.zone-usagers {
+  background-color: rgba(236, 253, 245, 0.95);
+  box-shadow: 0 4px 15px -3px rgba(16, 185, 129, 0.08);
+}
+.dark .zone-usagers {
+  background-color: rgba(6, 95, 70, 0.15);
+  box-shadow: none;
+}
+
+/* Cartes de saisie */
+.card-caract {
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+.dark .card-caract {
+  border-color: rgba(239, 68, 68, 0.45);
+  background-color: rgba(15, 23, 42, 0.95);
+  color: #f8fafc;
+}
+
+.card-lieux {
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+.dark .card-lieux {
+  border-color: rgba(245, 158, 11, 0.45);
+  background-color: rgba(15, 23, 42, 0.95);
+  color: #f8fafc;
+}
+
+.card-vehicules {
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+.dark .card-vehicules {
+  border-color: rgba(59, 130, 246, 0.45);
+  background-color: rgba(15, 23, 42, 0.95);
+  color: #f8fafc;
+}
+
+.card-usagers {
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+.dark .card-usagers {
+  border-color: rgba(16, 185, 129, 0.45);
+  background-color: rgba(15, 23, 42, 0.95);
+  color: #f8fafc;
+}
+
+select, input {
+  transition: all 0.15s ease-in-out;
+}
+select:focus, input:focus {
+  outline: none;
+  ring: 2px;
+}
+
+@keyframes pingCustom {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}

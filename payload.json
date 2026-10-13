@@ -1,0 +1,14 @@
+{
+  "input_data": {
+    "Num_Acc": 202400000001,
+    "place": 1.0, "catu": 1, "sexe": 1.0, "trajet": 1.0,
+    "locp": 0.0, "actp": 0.0, "etatp": 1.0, "manv": 1.0,
+    "catr": 3, "circ": 2.0, "vosp": 0.0, "prof": 1.0, "surf": 1.0,
+    "infra": 0.0, "situ": 1.0, "mois": 6, "lum": 1.0, "agg": 2, "atm": 1.0,
+    "col": 6.0, "lat": 48.85, "long": 2.35, "year": 2025,
+    "secu1": 1.0, "secu2": 0.0, "secu3": 0.0, "motor": 1.0, "vma": 50.0,
+    "jour_semaine": 2, "heure": 14, "periode_journee": 2,
+    "age_conducteur": 35.0, "categorie_vehicule": 1, "type_choc": 3,
+    "presence_obstacle_fixe": 0, "type_obstacle": 2, "type_collision": 1
+  }
+}

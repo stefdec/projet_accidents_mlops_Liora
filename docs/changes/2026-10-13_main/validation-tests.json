@@ -1,0 +1,19 @@
+{
+  "linux": {
+    "passed": 261,
+    "skipped": 1,
+    "warnings": 46,
+    "skip_reason": "make absent de l’image runtime"
+  },
+  "local_architecture_smoke": {
+    "passed": 8
+  },
+  "local_ml_collection": {
+    "status": "blocked",
+    "reason": "bibliothèque OpenMP absente sur macOS"
+  },
+  "configured_linter": null,
+  "make_help": "passed",
+  "make_stack_up": "passed",
+  "weekly_dag": "success"
+}

@@ -1,0 +1,59 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments & Node dependencies
+.venv
+node_modules/
+.vite/
+
+# Local service configuration and MLflow fallback stores
+.env
+.env.*
+!.env.example
+mlruns/
+mlartifacts/
+
+# Local archives (may contain secrets or DVC credentials)
+*.tar
+*.tar.gz
+*.tgz
+
+/logs/
+*.log
+/src/airflow_dags/logs/
+/data/backups/
+/data/train-api-v2/artifacts/
+
+.DS_Store
+
+# Legacy snapshots are migrated to data/backups, ignored above.
+# Keep these rules so an old workstation cannot publish them accidentally.
+*_old*
+reports/backups/
+monitoring/drift/reference_data.csv
+monitoring/drift/current_data.csv
+
+# Monitoring runtime outputs
+monitoring/drift/drift_results.json
+monitoring/ml/model_performance.json
+
+
+# Artefacts frontend et runtime locaux
+/interface/dist/
+/.pytest_cache/
+/data/train-api-v2/state/
+
+/reports/carbon/
+
+# Configuration Airflow générée/localement personnalisée, potentiellement sensible
+/src/airflow_dags/config/airflow.cfg
+
+# Caches de développement et configuration AWS locale
+.ruff_cache/
+.mypy_cache/
+.aws/

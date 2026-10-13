@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accidents MLOps | Architecture et lancement</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context"><span>01 / 08</span><i></i><span>Fondations</span></div>
+                    <h1 class="slide-title">Une plateforme modulaire, du signal terrain à la décision</h1>
+                    <p class="slide-lead">Transformer un modèle LightGBM binaire en un service automatisé, traçable et observable.</p>
+                </div>
+            </header>
+            <div class="page-workbench workbench workbench--spacious content-inset">
+                <div class="service-stack tone-stack">
+                    <div class="service-card"><span class="panel-label">Orchestration</span>
+                        <h2>Airflow</h2>
+                        <p>Automatise la chaîne hebdomadaire.</p>
+                    </div>
+                    <div class="service-card"><span class="panel-label">Cycle ML</span>
+                        <h2>MLflow Registry</h2>
+                        <p>Compare un candidat au champion.</p>
+                    </div>
+                    <div class="service-card"><span class="panel-label">Prédiction</span>
+                        <h2>Predict API</h2>
+                        <p>Sert le champion BentoML en production.</p>
+                    </div>
+                </div>
+                <div class="architecture-graph diagram-surface" role="img" aria-label="Flux du signal terrain à la décision">
+                    <img class="image-fit-height" src="../assets/images/archi.png" alt="Flux du signal terrain à la décision" />
+                </div>
+            </div>
+            <div class="metric-grid content-inset">
+                <article class="metric-card"><span class="panel-label">Démarrage
+                        complet</span><strong>Make File &amp; Docker Compose</strong>
+                    <p>Stack, entraînement, publication puis Airflow.</p>
+                </article>
+                <article class="metric-card"><span
+                        class="panel-label">Sécurité</span><strong>Auth API + JWT</strong>
+                    <p>Limite chaque accès à son usage.</p>
+                </article>
+                <article class="metric-card"><span
+                        class="panel-label">Observabilité</span><strong>Prometheus + Loki + Grafana</strong>
+                    <p>Mesure, centralise et alerte.</p>
+                </article>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

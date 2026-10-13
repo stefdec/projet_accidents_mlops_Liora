@@ -1,0 +1,6 @@
+outs:
+- md5: 75520d571086c1d02929220e12ceb28f
+  size: 76259
+  hash: md5
+  path: accidents_2024_w11.parquet
+  isexec: true

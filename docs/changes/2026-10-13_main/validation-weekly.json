@@ -1,0 +1,12 @@
+{
+  "dag": "pull_weekly",
+  "status": "success",
+  "executor": "CeleryExecutor",
+  "week": 1,
+  "mlflow_run_id": "e0e4a0aa003a4e3d8da8d0c098bc2b19",
+  "training_duration_seconds": 146.408,
+  "branch": "skip_deployment",
+  "dvc_object_pushed_locally": true,
+  "git_publication_disabled_in_validation_copy": true,
+  "remote_publication_tested": false
+}

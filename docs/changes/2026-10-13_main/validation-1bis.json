@@ -1,0 +1,189 @@
+{
+  "MLflow": 200,
+  "auth": 200,
+  "pull": 200,
+  "train": 200,
+  "predict": 200,
+  "Grafana": 200,
+  "Prometheus": 200,
+  "drift": 200,
+  "carbon": 200,
+  "ML exporter": 200,
+  "Streamlit": 200,
+  "Airflow": 200,
+  "interface": 200,
+  "interface login": 200,
+  "predict authenticated": 200,
+  "interface prediction": 200,
+  "interface source": "remote_api",
+  "train unauthenticated": 401,
+  "pull unauthenticated": 401,
+  "interface predict unauthenticated": 401,
+  "Prometheus targets": 200,
+  "targets": {
+    "cadvisor": "up",
+    "drift_monitoring": "up",
+    "ml_monitoring": "up",
+    "node_exporter": "up",
+    "predict_api_v2": "up",
+    "sustainability": "up"
+  },
+  "query container_memory_usage_bytes{name!=\"\"}": 200,
+  "container_memory_usage_bytes{name!=\"\"}": 0,
+  "query container_cpu_usage_seconds_total{name!=\"\"}": 200,
+  "container_cpu_usage_seconds_total{name!=\"\"}": 0,
+  "Loki services": [
+    "auth-api",
+    "predict-api-v2",
+    "pull-data-api",
+    "train-api-v2"
+  ],
+  "Loki recent streams": 1,
+  "interface auth secrets absent from logs": true,
+  "containers": [
+    {
+      "name": "accidents-cadvisor",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-monitoring-drift-exporter-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-monitoring-ml-exporter-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-monitoring-sustainability-exporter-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-airflow-worker-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-airflow-dag-processor-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-airflow-triggerer-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-airflow-apiserver-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-airflow-scheduler-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-postgres-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "airflow_dags-redis-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accident_train_api_v2",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "projet_accidents_mlops_liora-predict-api-v2-1",
+      "status": "running",
+      "health": null,
+      "restarts": 0
+    },
+    {
+      "name": "projet_accidents_mlops_liora-pull-data-api-1",
+      "status": "running",
+      "health": null,
+      "restarts": 0
+    },
+    {
+      "name": "projet_accidents_mlops_liora-auth-api-1",
+      "status": "running",
+      "health": null,
+      "restarts": 0
+    },
+    {
+      "name": "accidents-grafana",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-prometheus",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-alloy",
+      "status": "running",
+      "health": null,
+      "restarts": 0
+    },
+    {
+      "name": "accidents-loki",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-node-exporter",
+      "status": "running",
+      "health": null,
+      "restarts": 0
+    },
+    {
+      "name": "accident_emergency_interface",
+      "status": "running",
+      "health": null,
+      "restarts": 0
+    },
+    {
+      "name": "accidents-mlops-mlflow-server-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-mlops-mlflow-db-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    }
+  ],
+  "Loki services with recent logs": [
+    "auth-api",
+    "predict-api-v2",
+    "pull-data-api",
+    "train-api-v2"
+  ]
+}

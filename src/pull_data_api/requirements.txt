@@ -1,0 +1,8 @@
+anyio==4.14.2
+fastapi==0.141.1
+pandas
+pyarrow
+PyJWT==2.13.0
+requests
+starlette==1.6.0
+uvicorn==0.52.4

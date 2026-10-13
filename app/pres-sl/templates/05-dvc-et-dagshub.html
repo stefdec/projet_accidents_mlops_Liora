@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidents MLOps | DVC et DagsHub</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context"><span>05 / 08</span><i></i><span>Reproductibilité</span></div>
+                    <h1 class="slide-title">DVC garantit la reproductibilité des données semaine après semaine</h1>
+                    <p class="slide-lead">Le lot est versionné avant le training ; Git porte le pointeur et DagsHub
+                        conserve le contenu.</p>
+                </div>
+            </header>
+
+            <section class="dvc-workbench workbench content-inset" aria-label="DVC, DagsHub et lineage ML">
+                <div class="dvc-stack">
+                    <article class="dvc-card">
+                        <div><span class="panel-label">Fichier métier</span>
+                            <h2>accidents_2024_wNN.parquet</h2>
+                        </div>
+                        <p>lot hebdomadaire déterministe</p>
+                    </article>
+                    <article class="dvc-card">
+                        <div><span class="panel-label">Métadonnée Git</span>
+                            <h2>accidents_2024_wNN.parquet.dvc</h2>
+                        </div>
+                        <p>empreinte et adresse du contenu</p>
+                    </article>
+                    <article class="dvc-card">
+                        <div><span class="panel-label">Stockage distant</span>
+                            <h2>Remote DVC · DagsHub</h2>
+                        </div>
+                        <p>donnée récupérable depuis un autre poste</p>
+                    </article>
+                    <article class="dvc-card">
+                        <div><span class="panel-label">Lineage ML</span>
+                            <h2>dataset_digest · MLflow</h2>
+                        </div>
+                        <p>relie le run aux données réellement lues</p>
+                    </article>
+                </div>
+                <div class="dvc-image-panel">
+                    <div class="dvc-image">
+                        <img class="image-fit-height" src="../assets/images/dagshub2.jpg"
+                            alt="Interface MLflow retraçant les exécutions du modèle">
+                    </div>
+                </div>
+            </section>
+
+            <section class="dvc-takeaway takeaway content-inset">
+                <span class="panel-label">Répartition des responsabilités</span>
+                <strong>DVC versionne le lot · Train API construit son snapshot runtime · MLflow trace le
+                    digest</strong>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

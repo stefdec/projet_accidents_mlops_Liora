@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidents MLOps | Authentification et JWT</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context"><span>02 / 08</span><i></i><span>Sécurité</span></div>
+                    <h1 class="slide-title">Un jeton distinct pour chaque responsabilité</h1>
+                    <p class="slide-lead">L'Auth API authentifie l'utilisateur puis délivre un JWT limité à l'opération
+                        demandée.</p>
+                </div>
+            </header>
+
+            <div class="security-workbench workbench workbench--spacious content-inset">
+                <section class="security-stack tone-stack">
+                    <article class="security-card"><strong>Moindre privilège</strong></article>
+                    <article class="security-card rule-card">
+                        <p><strong>3 secrets de signature distincts</strong><span>Login, pull et train.</span></p>
+                    </article>
+                    <article class="security-card rule-card">
+                        <p><strong>Expiration à 60 minutes</strong><span>Pour limiter la durée d'exposition.</span></p>
+                    </article>
+                    <article class="security-card rule-card">
+                        <p><strong>Listes d'utilisateurs autorisés</strong><span>Pour les rôles pull et train.</span>
+                        </p>
+                    </article>
+                    <article class="security-card rule-card">
+                        <p><strong>Bearer token</strong><span>Présenté uniquement à l'API concernée.</span></p>
+                    </article>
+                </section>
+
+                <div class="security-graph diagram-surface">
+                    <img class="image-fit-height" src="../assets/images/auth.png" alt="Flux d'authentification JWT">
+                </div>
+            </div>
+
+            <section class="takeaway content-inset">
+                <span class="panel-label">À retenir</span>
+                <strong>Un token, un contexte, une responsabilité.</strong>
+                <p>Chaque service vérifie l'identité avant de laisser circuler une donnée ou une prédiction.</p>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

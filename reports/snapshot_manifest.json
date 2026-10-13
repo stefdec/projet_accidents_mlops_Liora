@@ -1,0 +1,16 @@
+{
+  "weeks_2024": 0,
+  "history_start": "2019-01-01",
+  "start_2024": "2024-01-01",
+  "cutoff_exclusive": "2024-01-01",
+  "last_included_calendar_date": "2023-12-31",
+  "rows": 626572,
+  "history_rows": 626572,
+  "rows_2024": 0,
+  "accidents": 267007,
+  "actual_min_date": "2019-01-01",
+  "actual_max_date": "2023-12-31",
+  "target_non_null_rows": 626572,
+  "weekly_parquet_count": 0,
+  "weekly_parquet_source": "data/incoming"
+}

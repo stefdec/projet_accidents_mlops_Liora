@@ -1,0 +1,34 @@
+# Add patterns of files dvc should ignore, which could improve
+# the performance. Learn more at
+# https://dvc.org/doc/user-guide/dvcignore
+
+# MLflow persiste ici sa base PostgreSQL et ses artefacts. Ces fichiers sont
+# sauvegardés par l'exploitation MLflow, mais ne font pas partie du pipeline DVC.
+/data/mlflow/
+
+# Sauvegardes locales écrasables, hors du versionnement des datasets.
+/data/backups/
+
+# Secrets, dépendances et caches locaux, hors versionnement des datasets.
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.agents/
+.codex/
+.impeccable/
+.aws/
+
+# États applicatifs et sorties de monitoring ; préserver les sorties dvc.yaml.
+/data/train-api-v2/
+/src/airflow_dags/logs/
+/src/airflow_dags/config/airflow.cfg
+/reports/carbon/
+/monitoring/drift/drift_results.json
+/monitoring/ml/model_performance.json

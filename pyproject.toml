@@ -1,0 +1,53 @@
+[project]
+name = "projet-accidents-mlops"
+version = "0.1.0"
+description = "Stack MLOps de prédiction de gravité des accidents BAAC"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anyio==4.14.2",
+    "codecarbon>=3.3.0",
+    "dvc[s3]>=3.67.1",
+    "fastapi==0.141.1",
+    "joblib>=1.5.3",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.10.0",
+    "mlflow==3.15.2",
+    "numpy>=2.5.2",
+    "pyjwt>=2.13.0",
+    "python-dotenv>=1.2.2",
+    "pandas>=2.2.3,<3",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.9.0",
+    "streamlit>=1.61.1",
+    "starlette==1.6.0",
+    "uvicorn==0.52.4",
+    "prometheus-client>=0.26.0",
+    "bentoml==1.4.39",
+    "setuptools<70.0.0",
+    "pydantic<2.10.0",
+    "requests>=2.34.2",
+]
+
+[project.optional-dependencies]
+monitoring = [
+    "evidently==0.7.21",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "projet_accidents_mlops"
+module-root = "src/train_api/utils"
+
+[dependency-groups]
+exporters = ["fastapi", "uvicorn", "pandas", "prometheus-client"]
+dev = [
+    "httpx2",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src/train_api/utils"]

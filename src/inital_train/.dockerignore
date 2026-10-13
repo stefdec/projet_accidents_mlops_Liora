@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Secrets, dépendances, caches et logs locaux hors contexte de build.
+**/.env
+**/.env.*
+!**/.env.example
+.git/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv/
+**/node_modules/
+**/*.log
+**/.DS_Store

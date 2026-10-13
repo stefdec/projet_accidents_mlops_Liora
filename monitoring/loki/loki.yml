@@ -1,0 +1,44 @@
+# Single-instance Loki for the local Docker monitoring stack.
+# All paths live beneath /loki, which will be backed by a named Docker volume.
+auth_enabled: false
+
+server:
+  http_listen_port: 3100
+  grpc_listen_port: 9096
+
+common:
+  path_prefix: /loki
+  replication_factor: 1
+  ring:
+    kvstore:
+      store: inmemory
+
+# TSDB is the recommended index type for new Loki installations.  The date is
+# deliberately in the past because this instance starts with an empty store.
+schema_config:
+  configs:
+    - from: "2024-01-01"
+      store: tsdb
+      object_store: filesystem
+      schema: v13
+      index:
+        prefix: index_
+        period: 24h
+
+storage_config:
+  filesystem:
+    directory: /loki/chunks
+
+# Keep log storage bounded on the local Docker host. Retention is enforced by
+# the singleton compactor below; filesystem capacity must still be monitored.
+limits_config:
+  retention_period: 720h
+
+compactor:
+  working_directory: /loki/retention
+  compaction_interval: 10m
+  retention_enabled: true
+  delete_request_store: filesystem
+
+analytics:
+  reporting_enabled: false

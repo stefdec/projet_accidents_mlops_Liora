@@ -1,0 +1,5 @@
+anyio==4.14.2
+fastapi==0.141.1
+PyJWT==2.13.0
+starlette==1.6.0
+uvicorn==0.52.4

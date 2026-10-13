@@ -1,0 +1,90 @@
+schema: '2.0'
+stages:
+  clean:
+    cmd: uv run python pipeline/01_clean.py
+    deps:
+    - path: data/raw/accidents_2017_2024.csv
+      hash: md5
+      md5: c558c98bd357ea15205a03fc185b8ec0
+      size: 299313168
+    - path: pipeline/01_clean.py
+      hash: md5
+      md5: 53570e5a3ac0f99de21097f685f9c1a4
+      size: 4327
+    outs:
+    - path: data/processed/accidents_2019_2024_cleaned.csv
+      hash: md5
+      md5: 1e5eb932ce5b300c6bdb5e09e6125e47
+      size: 203089855
+  prepare:
+    cmd: uv run python pipeline/02_prepare.py
+    deps:
+    - path: data/processed/accidents_2019_2024_cleaned.csv
+      hash: md5
+      md5: 1e5eb932ce5b300c6bdb5e09e6125e47
+      size: 203089855
+    - path: pipeline/02_prepare.py
+      hash: md5
+      md5: 4dc2ca746f53332332df8dab7152f9f2
+      size: 8183
+    outs:
+    - path: data/processed/accidents_2019_2024_prepared.csv
+      hash: md5
+      md5: 84e8855ec95fd6422684fd769faf101d
+      size: 186327959
+  features:
+    cmd: uv run python pipeline/03_features.py
+    deps:
+    - path: data/processed/accidents_2019_2024_prepared.csv
+      hash: md5
+      md5: 84e8855ec95fd6422684fd769faf101d
+      size: 186327959
+    - path: pipeline/03_features.py
+      hash: md5
+      md5: a44f30b354876a473fbb87139226a01f
+      size: 1621
+    outs:
+    - path: data/features/data_final_binaire.csv
+      hash: md5
+      md5: 548de86443bc9cee7ed6f112a37d2755
+      size: 184773111
+  snapshot:
+    cmd: uv run python pipeline/04_snapshot.py
+    deps:
+    - path: data/features/data_final_binaire.csv
+      hash: md5
+      md5: 548de86443bc9cee7ed6f112a37d2755
+      size: 184773111
+    - path: data/incoming
+      hash: md5
+      md5: cf5c33400e68e13acc77a44d7c54ad0b.dir
+      size: 140311
+      nfiles: 5
+    - path: pipeline/04_snapshot.py
+      hash: md5
+      md5: d02170c768b4d70ead2e309bd0b4480c
+      size: 1631
+    - path: src/train_api/utils/projet_accidents_mlops/weekly_data.py
+      hash: md5
+      md5: ee2219a1b96eb6fe89fc2a4351b3c214
+      size: 10160
+    params:
+      params.yaml:
+        retraining:
+          mode: initial
+          protocol_version: weekly-v1
+          weeks_2024: 0
+          history_start: '2019-01-01'
+          initial_validation_start: '2023-01-01'
+          start_2024: '2024-01-01'
+          end_2024: '2025-01-01'
+          evaluation_days: 7
+    outs:
+    - path: data/features/training_snapshot.csv
+      hash: md5
+      md5: 308139f92a139d56095d054beeded611
+      size: 148900051
+    - path: reports/snapshot_manifest.json
+      hash: md5
+      md5: 8c0c5346953448025d4296aee4dee8e9
+      size: 429

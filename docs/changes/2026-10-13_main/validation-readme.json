@@ -1,0 +1,28 @@
+{
+  "files_checked": [
+    "README.md",
+    "docs/README.md"
+  ],
+  "local_links": "passed",
+  "make_targets": "passed",
+  "make_help": "passed",
+  "dry_runs": [
+    "presentation",
+    "install",
+    "predict-smoke"
+  ],
+  "configuration_sources_reviewed": [
+    "Makefile",
+    ".env.example",
+    "docker-compose.apis.yml",
+    "src/airflow_dags/docker-compose.yaml",
+    "dvc.yaml",
+    ".gitignore",
+    ".dockerignore",
+    ".dvcignore"
+  ],
+  "runtime_changes": false,
+  "runtime_tests_rerun": false,
+  "runtime_evidence": "validation-8.json",
+  "commits_created": false
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "Makefile",
+    "status": "modified",
+    "before_sha256": "f696b86744d85affd75fc0e594724bce512884964f8841425408ceea18c68339",
+    "after_sha256": "d9aa6c4472389fc73cc8da1db5f93b9d8e402d4829a57f6d7e2ee438eeb744da"
+  },
+  {
+    "path": "tests/train_api/test_auth.py",
+    "status": "modified",
+    "before_sha256": "ef3190b9a91137ef682deb8fcc1985d42e11b6977b0d792b60ab60fa12da2ce0",
+    "after_sha256": "287b562490c349222e4de9a9345aad2cda2128a2c5b2ee2557f96726ff9fdd4b"
+  }
+]

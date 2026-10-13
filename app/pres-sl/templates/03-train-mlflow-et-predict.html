@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accidents MLOps | Train, MLflow et Predict</title>
+    <link rel="stylesheet" href="../css/presentation.css">
+</head>
+
+<body class="reference-page">
+    <main class="slide-main">
+        <div class="slide-content">
+            <header class="slide-header">
+                <div class="slide-header-inner">
+                    <div class="slide-context"><span>03 / 08</span><i></i><span>Cycle de vie ML</span></div>
+                    <h1 class="slide-title">Du candidat au champion, puis à la prédiction</h1>
+                    <p class="slide-lead">La Train API pilote un cycle reproductible ; MLflow décide de la référence et
+                        BentoML la sert.</p>
+                </div>
+            </header>
+
+            <section class="ml-flow content-inset" aria-label="Cycle de vie ML">
+                <article class="ml-step"><span class="ml-step-number">1</span><span
+                        class="ml-step-copy"><strong>Snapshot temporel</strong><small>Historique + W01…WNN, sans
+                            fuite</small></span></article>
+                <span class="ml-chevron" aria-hidden="true">›</span>
+                <article class="ml-step"><span class="ml-step-number">2</span><span class="ml-step-copy"><strong>Train
+                            API</strong><small>Initial / weekly + idempotence</small></span></article>
+                <span class="ml-chevron" aria-hidden="true">›</span>
+                <article class="ml-step"><span class="ml-step-number">3</span><span class="ml-step-copy"><strong>MLflow
+                            Registry</strong><small>Run, candidat, alias champion</small></span></article>
+                <span class="ml-chevron" aria-hidden="true">›</span>
+                <article class="ml-step"><span class="ml-step-number">4</span><span class="ml-step-copy"><strong>BentoML
+                            + Predict</strong><small>Publication et reload sans redémarrage</small></span></article>
+            </section>
+
+            <section class="ml-workbench workbench content-inset">
+                <div class="ml-trace-stack tone-stack">
+                    <article class="ml-trace-card"><strong>Ce que trace MLflow</strong></article>
+                    <article class="ml-trace-card rule-card"><strong>Paramètres et métriques du candidat</strong>
+                    </article>
+                    <article class="ml-trace-card rule-card"><strong>Signature et exemple d'entrée</strong></article>
+                    <article class="ml-trace-card rule-card"><strong>Digest du dataset et lineage du code</strong>
+                    </article>
+                    <article class="ml-trace-card rule-card"><strong>Modèle, rapports et manifeste du snapshot</strong>
+                    </article>
+                </div>
+                <div class="ml-image diagram-surface">
+                    <img class="image-fit-height" src="../assets/images/mlflow.jpeg" alt="Interface MLflow">
+                </div>
+            </section>
+
+            <section class="ml-results content-inset">
+                <article class="ml-result"><span class="panel-label">01 · Promotion</span>
+                    <h2>Règle de promotion</h2>
+                    <p>PR AUC candidat − PR AUC champion<br>&gt; gain minimal<br>Comparaison sur la même fenêtre
+                        temporelle.</p>
+                </article>
+                <article class="ml-result"><span class="panel-label">02 · Train</span>
+                    <h2>Réponse Train</h2>
+                    <p>new_model · mlflow_run_id · candidate_version<br>champion_version · promotion_reason</p>
+                </article>
+                <article class="ml-result"><span class="panel-label">03 · Predict</span>
+                    <h2>Réponse Predict</h2>
+                    <p>prediction · probability · model_version</p>
+                </article>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

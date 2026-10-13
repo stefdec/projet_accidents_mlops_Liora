@@ -1,0 +1,75 @@
+[
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "before_sha256": "c495b91768162ae0664e3c2d1813a35b32adf4b9c8fd2cd572a968cb3e997914",
+    "after_sha256": "386b2504dd69c6b4d48acb9b1b51c50b6f4210afd7c86e316da396e5510fa7d8"
+  },
+  {
+    "path": ".dockerignore",
+    "status": "modified",
+    "before_sha256": "8ad3dacf21751731a3650e131002f972591b20352fb4c0ae0b9baaff8a707fdd",
+    "after_sha256": "a05d815bffcf79905d8e730506ee91074471b385e75017cbb49afcdfa692628f"
+  },
+  {
+    "path": ".gitignore",
+    "status": "modified",
+    "before_sha256": "109cf59ed8e8142a0609b8e86d63ee45fe0b1b5219479bbb4fb6317ea3d404a7",
+    "after_sha256": "01f357b7ce9377fda0b04b331c1c0bb4c24d34a8f19b7948e50ae85a7dfc4ede"
+  },
+  {
+    "path": ".dvcignore",
+    "status": "modified",
+    "before_sha256": "1d8fab086da72676386465c4138f22ad6d71c9932a68ef203d1e307e9c3daa1b",
+    "after_sha256": "60280a187b3821aa7be9fead4657862b0f7b62c0171c86e04f49109609b5828c"
+  },
+  {
+    "path": "src/train_api/.dockerignore",
+    "status": "modified",
+    "before_sha256": "09e0a63cb2ea926ab87c841f1fa70598c8debf8a3bd3722739807b1e88d9ddee",
+    "after_sha256": "ed5193446a417cd0ffea36bcf9f29b4916fb488b986cee519cd103cd4319695f"
+  },
+  {
+    "path": "src/inital_train/.dockerignore",
+    "status": "modified",
+    "before_sha256": "333c0f93892d8878e2246624216bd1853e14a4dcca80edebd9dabd8431aa3872",
+    "after_sha256": "348ef3ff780e822c81e89cb851807dcfd2177f53757081d41b13138b05c10ebc"
+  },
+  {
+    "path": "interface/.dockerignore",
+    "status": "modified",
+    "before_sha256": "5985ba75c332d6ce36a2033c285af89089cab26078cbc83d6c903103ed61ecb0",
+    "after_sha256": "1e6801b699fb70751f48009db93bd405354069ddbd7bf16187ef89501f74abc4"
+  },
+  {
+    "path": "src/auth_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "a156225f2ca2ce7e71a6a9abd16b47496f8a2dc43109022d1cd3a289abee34f7"
+  },
+  {
+    "path": "src/pull_data_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "a156225f2ca2ce7e71a6a9abd16b47496f8a2dc43109022d1cd3a289abee34f7"
+  },
+  {
+    "path": "src/predict_api/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "a156225f2ca2ce7e71a6a9abd16b47496f8a2dc43109022d1cd3a289abee34f7"
+  },
+  {
+    "path": "src/airflow_dags/.dockerignore",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "bba97bb0a388255e59b13da106f12bd8ba24813d8d61da60d2fe2d62deca3d3b"
+  },
+  {
+    "path": ".env",
+    "status": "modified-local-ignored",
+    "before_sha256": "44b85c5cccadad4e77afe0193defb171308e1e200451ec459a99efd9708092f9",
+    "after_sha256": "ef965294d8155c9ce3587ea441999a5a31b68b6a6964281afd1309d79f9918ac",
+    "change": "Noms DNS train-api/predict-api uniquement ; secrets inchangés."
+  }
+]

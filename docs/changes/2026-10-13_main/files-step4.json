@@ -1,0 +1,272 @@
+[
+  {
+    "path": "README_PIPELINE.md",
+    "status": "modified",
+    "before_sha256": "1438d5adb76dcbd42994559ddfe5a0a66b181a5bcf7519ed19c8f531125a6a89",
+    "after_sha256": "e2de3f3bbe33c3e49a3277c59a15f6fb7359e72a0ecdc52a7350aa2104051530"
+  },
+  {
+    "path": "monitoring/drift/prepare_drift_data.py",
+    "status": "deleted",
+    "before_sha256": "bad5b40fac85d675041bee3cda628e78a07cda9c522785dbf22c6fbabd36f1cd",
+    "after_sha256": null
+  },
+  {
+    "path": "monitoring/drift/run_drift.py",
+    "status": "deleted",
+    "before_sha256": "d2d6b9b24caec0a901b68a66a5fbfa08e2fdb55f269e3b7fc7bb8252254fbf26",
+    "after_sha256": null
+  },
+  {
+    "path": "monitoring/drift/run_monitoring.py",
+    "status": "deleted",
+    "before_sha256": "6bb6408c7ca6250e0f614648576fb035870a2f2288a6c8be3791bc05e6d4d47b",
+    "after_sha256": null
+  },
+  {
+    "path": "monitoring/ml/run_model_performance.py",
+    "status": "deleted",
+    "before_sha256": "8a3f21f45341917574d70311b333cdd02bca4cda4672cb768e04f5493bf694e8",
+    "after_sha256": null
+  },
+  {
+    "path": "pipeline/04_train.py",
+    "status": "deleted",
+    "before_sha256": "d39da29e8611d6e2cb039c3786aa2c4cfc26df6b7698db44af902b21ca4e50d7",
+    "after_sha256": null
+  },
+  {
+    "path": "pipeline/05_predict.py",
+    "status": "deleted",
+    "before_sha256": "37e2a38c8655073ee10d3a538ad0ad8a5d8a000117f4d0b34a2acc26a3af88a3",
+    "after_sha256": null
+  },
+  {
+    "path": "pipeline/run_pipeline.py",
+    "status": "deleted",
+    "before_sha256": "ee280ede1497d95540622f2bc1098eea4bcdbdb42e88e643293f1038902102ca",
+    "after_sha256": null
+  },
+  {
+    "path": "scripts/migrate_legacy_backups.sh",
+    "status": "deleted",
+    "before_sha256": "6bfdfba92e4fddec8cc23c77b37734aacc310b22c64405c7433482aca449bcfb",
+    "after_sha256": null
+  },
+  {
+    "path": "scripts/migrate_mlflow_storage.sh",
+    "status": "deleted",
+    "before_sha256": "ef0746c76938bdf560d555a5283c6a12e5c1450d8fcec2810fff018d7264f771",
+    "after_sha256": null
+  },
+  {
+    "path": "src/airflow_dags/dags/accidents_workflow.py",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "4f579d57fb93c98a6be7bbbbd3de56c41b17befc493a78a3951747536bed7999"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_train.py",
+    "status": "modified",
+    "before_sha256": "59ab2913a1ab000007962882b13593b69cbdcfed55324f6558e2ea5d43847563",
+    "after_sha256": "d287d028cbdfa410275fe353c7319dbad39c55e96c85e5439b5ea72af2c4762c"
+  },
+  {
+    "path": "src/airflow_dags/dags/pull_weekly.py",
+    "status": "modified",
+    "before_sha256": "e5013f2debbf412fa74ef718a4ca38aca0c933256d58673fc1fd90c4e973e9c1",
+    "after_sha256": "b977c1feeca84acd74245a5c2c1a397452c99903561129b7377a64a201a04d55"
+  },
+  {
+    "path": "src/airflow_dags/tests/test_pull_train.py",
+    "status": "modified",
+    "before_sha256": "7f26dca8e5f3b1f66bf1a92f844c143db9339b8fc7c70ba4d8511645dc42df13",
+    "after_sha256": "42eea537bbc63d8fca78f5dacdc0124df17d68255cb25cb47b9a9f6ecb5e7dc3"
+  },
+  {
+    "path": "src/predict_api/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "d4bec5fe654ca9ec5a805e33f2916ccf9b1b410f9e9d5f3861bf863fc8b8b38f",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api/bentofile.yml",
+    "status": "deleted",
+    "before_sha256": "26b1ad3c988702194cc7d7692db3f1b21851327a3a8fa784ec0593760605ce2e",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api/exemple/service.py",
+    "status": "deleted",
+    "before_sha256": "b2c115301acdc03e8854396249552b7a4cabe308d70a9572c3e2b666c0c9de93",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api/sample.json",
+    "status": "deleted",
+    "before_sha256": "d4a2518c45f5a781bd739575991b2d8507c4c82d86d0f4c31e8b82c995005ecc",
+    "after_sha256": null
+  },
+  {
+    "path": "src/predict_api/service.py",
+    "status": "deleted",
+    "before_sha256": "6518bcc3f5e35d21ecc0f408b2973f3da91b7467d5df02eb976bd097f9b2f962",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/Dockerfile",
+    "status": "deleted",
+    "before_sha256": "3af8882da778a916a142a7f44925fedf47c4afc33779c41735cdb08c604b3191",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/Dockerfile.dockerignore",
+    "status": "deleted",
+    "before_sha256": "331bd201a313b1c38ea870a8651e74f788c80ed15574535aa9661413267031f3",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/main.py",
+    "status": "deleted",
+    "before_sha256": "fdadfd668c9e4ca566fac57e21fa4283f09a1fa3a843f4af283edfb53e6a35c6",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/requirements.txt",
+    "status": "deleted",
+    "before_sha256": "82658ef4016a549ca15d297c18ee10b8706c72533e662c3c1fb98f5785dc8801",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/__init__.py",
+    "status": "modified",
+    "before_sha256": "785f4c5259cd2261b34e7bd5ad852af92eb2216c71a7c0cf27e371b00dbd5cd8",
+    "after_sha256": "a09937a2ff8f9524c3fc8c4bdad981bc28e277299e922d8c853aa669884ab8a8"
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/inference.py",
+    "status": "deleted",
+    "before_sha256": "41d91b9138b7de6eadd3769ddedb5eb19d161e64c016134960cc4c117f907072",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/mlflow_admin.py",
+    "status": "deleted",
+    "before_sha256": "c8013d3d674e4877ac4ea53c7a848098b462e3794f582c68089f644376a83196",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/registry.py",
+    "status": "deleted",
+    "before_sha256": "907f60de41f48b094dfa3ff6f6b0bab87a496d0a6649b33e9a8b6af808215d36",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/retraining.py",
+    "status": "deleted",
+    "before_sha256": "f2447acbecffb075122dc39d79eac3e281d60838e0953f9800af944ad2ab2d01",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/sustainability.py",
+    "status": "deleted",
+    "before_sha256": "c6ccb9f525ae0164ea4f9672b5e7f88c90d4f9e9ea9c51859572d29be209caa3",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/temporal.py",
+    "status": "deleted",
+    "before_sha256": "65aed33bdcaa061df6a80278ce2457fe727414e658f922719e59eedebca70bd2",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/tracking.py",
+    "status": "deleted",
+    "before_sha256": "808edcd6db680cad1e54dbbe3e048827c386a52a70dfde7567c4d709ae963368",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/training_cli.py",
+    "status": "deleted",
+    "before_sha256": "e76564bb99b8129ac1e1852684abfee94b9e34081be9e07e08e8c11237eacf32",
+    "after_sha256": null
+  },
+  {
+    "path": "src/train_api/utils/projet_accidents_mlops/training_contract.py",
+    "status": "deleted",
+    "before_sha256": "e1a51a7e9775d6cd1a7de641db614903a9f729dcb2521b2a30b5c85492a58170",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/conftest.py",
+    "status": "deleted",
+    "before_sha256": "afa5385aeb01bef3e9335388d4cca2b729108e15e1cc76691fb1ab348b6c1058",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_docker_architecture.py",
+    "status": "modified",
+    "before_sha256": "6e70e70e67c434c7db4045ec5c7b457c38e2c789045a9de08d1a213b1fa22ed9",
+    "after_sha256": "eb5875bbc4b66d7bbe6e96fb857c92f32ee54f630b4679285db484f707a098fa"
+  },
+  {
+    "path": "tests/test_inference.py",
+    "status": "deleted",
+    "before_sha256": "21a78b9f3a90f1a13f9eb0487885bfaa6b0c981666daa6c9de4f554e89410fa2",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_mlflow_admin.py",
+    "status": "deleted",
+    "before_sha256": "23310f46717df5e32d7509db232f75d687901705e2ae4eb64fee0766b4e95634",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_predict_service.py",
+    "status": "deleted",
+    "before_sha256": "bf5e21ef2cd3ca4f801c148220eb79cedfe9195b31555e41aaeddf60fe29d8bf",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_registry.py",
+    "status": "deleted",
+    "before_sha256": "d5604ba7342cf0250074a372e248b9346f82ad59524e65a051289f50fbf36ba2",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_retraining.py",
+    "status": "deleted",
+    "before_sha256": "115cc72a90df59652b147465ff4158f2241f0aea5ded833d38bb3a087f89f0ba",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_temporal.py",
+    "status": "deleted",
+    "before_sha256": "50d70699868f750688e0e9c39608cb5f6b08b390b2705d72f961fb13a80ddff8",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_tracking.py",
+    "status": "deleted",
+    "before_sha256": "e56310cf2bb186295a1e5aaf9f2b9e765e3f658a07a9541155574f64872050ab",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_train_api.py",
+    "status": "deleted",
+    "before_sha256": "a0c80b580d213ffded21cd5051801380ab1766c0637f7e34e9c293410b9b6364",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_training_cli.py",
+    "status": "deleted",
+    "before_sha256": "ec54d10ac3c0b9259b61689c9f4cff445519fd06910058b19744956193f33537",
+    "after_sha256": null
+  },
+  {
+    "path": "tests/test_training_contract.py",
+    "status": "deleted",
+    "before_sha256": "f82ca3bab0d37665dddabbefe701655865ef8d7f8372d155841a41b1ff22daee",
+    "after_sha256": null
+  }
+]

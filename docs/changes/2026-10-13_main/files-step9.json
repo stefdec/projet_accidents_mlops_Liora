@@ -1,0 +1,14 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "e1d40860aa459e080f936fd09ada8e8f47571e32620c9737eccd9c2fb370e1e5",
+    "after_sha256": "9e3e9c5c3e250998c227d1b79e6fb9008fc62c69d3b0cec116c8fca7643ba2a7"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "modified",
+    "before_sha256": "d5acffcada533fc43a701887e7abb362e17edeec73eaeabb00caf00f3323734e",
+    "after_sha256": "17473b628f29c8b7d1a38da93bb3121fdf9b4e2dd00f505cd87d02e936380100"
+  }
+]

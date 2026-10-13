@@ -1,0 +1,260 @@
+[
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "79da3a431942e94c84e007ad97a763f7512c7456ea8fe94a52ec19c44a9e337d",
+    "after_sha256": "e1d40860aa459e080f936fd09ada8e8f47571e32620c9737eccd9c2fb370e1e5"
+  },
+  {
+    "path": "README_monitoring.md",
+    "status": "modified",
+    "before_sha256": "abe15dddef7c0388c5a667ee08600604f44f6051ccfa73d2244a93a08d88c621",
+    "after_sha256": "802e63161bfb8bcbeba7d5d92a7622002f4bda487b3f529e3c555ad424665c6c"
+  },
+  {
+    "path": "app/pres-sl/README.md",
+    "status": "modified",
+    "before_sha256": "da9c880ea6b0e463f10ac59a9e651e2cc9c23e577e5c4e4f75ea507f4712c054",
+    "after_sha256": "48655e2e8d91ccfb417eb8c9ed6ed9392002e94f1371f5fb7068dc5a2c4ededc"
+  },
+  {
+    "path": "app/pres-sl/templates/07-demonstration-ui.html",
+    "status": "modified",
+    "before_sha256": "9ab7b7e12b2bddb0ac1460d9babccd6db9876da3a0e3fcfbbecd533164b6a348",
+    "after_sha256": "13bd8db99c3fbe774ec1be6bb30f5e1be30e20253c34ed443fff8fd108d5ff05"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "modified",
+    "before_sha256": "3b049d6cf03a6871cc52d55b4700077f797d1ecf179504af9ddb6e47ef3c1b58",
+    "after_sha256": "d5acffcada533fc43a701887e7abb362e17edeec73eaeabb00caf00f3323734e"
+  },
+  {
+    "path": "docs/airflow/process.md",
+    "status": "modified",
+    "before_sha256": "8e6372e996c3ef39c0de59231ff19618e296ca91e675c7b8072df24044788c48",
+    "after_sha256": "eb669f3728a265903650d1e065dd30d8726eeffbda910626196cb5cf1ac068dd"
+  },
+  {
+    "path": "docs/airflow/process_draft1.md",
+    "status": "deleted",
+    "before_sha256": "b94cd91b0255cdf131cfdd57ca38c139b1a14a06323b55dc9c68e2e3e94877e7",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/api/README.md",
+    "status": "modified",
+    "before_sha256": "afa7741d73ebd64a4b4d31b6e8e0a13273b8445706e96bbde87f95c3055e23bc",
+    "after_sha256": "1d80c6241271535508671879e5176769d0dacf70423e47ac4de78b925b5b3d55"
+  },
+  {
+    "path": "docs/api/train-api.md",
+    "status": "deleted",
+    "before_sha256": "e0c6463597810037d079d32a5b768d008c075e25a1d4dde3ab70fe48da18e431",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/applications/guide-interface-urgence-112-18.md",
+    "status": "modified",
+    "before_sha256": "2c002430caf3f68fa9a180d95016df4a17bdb1fee5c068159411837ee6ff85d0",
+    "after_sha256": "01e7ed32563aaf8729df372e35f941a3af426141b9048b36b0b62013bb4043d8"
+  },
+  {
+    "path": "docs/audit-yann.md",
+    "status": "deleted",
+    "before_sha256": "fd9d1f1b219ca7ff4090893dec012883bb485aea02911d80c8919b2afa8f5b73",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/loki/README.md",
+    "status": "modified",
+    "before_sha256": "4950bd8af5d1fa90ae8637907d5de6a572e216832e57878031e13d0fc944b23a",
+    "after_sha256": "6b9f2907eab06e3c20143693e4784055faa6592314774c6a82286f6738793d7a"
+  },
+  {
+    "path": "docs/ml/GUIDE_ARCHITECTURE_TESTS_MLOPS.md",
+    "status": "deleted",
+    "before_sha256": "fcc85b1c9b14f38af293aa70dc19fcbbf9eaccd6878f1816d2aa7762eae600f3",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/ml/README.md",
+    "status": "modified",
+    "before_sha256": "36f0957a929c8447d7abf5f16122c561f6c595a493083683fc540229771a64db",
+    "after_sha256": "80e0a2207e954b5023ad12506287bd9d5ccc008c43a9ac59457d073d14fe3349"
+  },
+  {
+    "path": "docs/ml/README_MLFLOW.md",
+    "status": "deleted",
+    "before_sha256": "a23ae1886a0e43ba40ab2223b0171169d5c6f59d012b661ba8625e45da3ead5c",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/ml/dvc.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "0bc27f71e65be49f0b191594646bbf5103c1b6a01a25b201ce3dc04410d8b02e"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "modified",
+    "before_sha256": "f3f2d4c9cb989e35c2a576b3d355e2674245c06d36f6f9f2dbbcaf2f6374d6f5",
+    "after_sha256": "d8963d3fe1b4d3de9b6f28c7fb0aad2ac43039939a2b05a2c36255dfd286eece"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "status": "modified",
+    "before_sha256": "91916eb3d1de141384fe5baf27bedd7a0ef879c4ffd252d1db1e91f920855fa0",
+    "after_sha256": "c00c26628d1c2b0e5ba2fc9cae110190a5b1851ef4602c2e22434ba1e5ba415b"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "status": "modified",
+    "before_sha256": "85330aedb0c744d788b522fa3cd47f06fdb76e819a8389a72ad413465d832302",
+    "after_sha256": "af8c52bcbd795fe5516517d1b9a9be95d243f4dbb7e552e0ee7615a721762ee3"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "status": "modified",
+    "before_sha256": "6976d19fc900140b0fe013d1af45279372fa1ebb3e116edf299b927bc2f164f0",
+    "after_sha256": "5bd129b4aa8483c645bfe56e1955f9962142380f3c96c2ac70b861adaff47dc3"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "status": "modified",
+    "before_sha256": "b036b7e117f43fcdcd5651d0e66f6f80623ade9fa6d166b7d516208991137c80",
+    "after_sha256": "1093a3fd8126948ee1f4d19c062efe5cdfd72e9c926b553cd35d06e00712f16b"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "status": "modified",
+    "before_sha256": "52cbda350a2c06cbc593d454aace7c6cc2e9b0fd317615aea3a2b5b0568d49c0",
+    "after_sha256": "1f3b3b063416ba6fcf9c6ceaeac32848d2c52d086a4cfcefb0ffc7f3590be10d"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "status": "modified",
+    "before_sha256": "b3c68487ca707409f70b51a55131f4cc2f667b663a69f42f0bebd561000f0aae",
+    "after_sha256": "77bf22f1d2f023e667987fd818e73cd2de5389813181c48ae1cff66624dc192a"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "status": "deleted",
+    "before_sha256": "d723153313e04aa8895ad4f58a02fe65b181243262d8f433c6b538a44571f11d",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/operations/orchestration.md",
+    "status": "added",
+    "before_sha256": null,
+    "after_sha256": "7d30a184844ef9a0ff620c1ca7439a328b4c027d7f6f55b21a597d40da2fc448"
+  },
+  {
+    "path": "docs/operations/predict-api.md",
+    "status": "modified",
+    "before_sha256": "3e852783655ca6b352cdb429e9ebcb0cb1b70b2f27720f57ae11ead82d45cf91",
+    "after_sha256": "f7ebe06b1fd9aa56494befdda3a559cd5f25183ef17ce080b0d65222ae364da0"
+  },
+  {
+    "path": "docs/operations/pull-data-api.md",
+    "status": "modified",
+    "before_sha256": "7e6e7964f16bb8d3cc34a3cb7bd990f1aca5d9d7ba7d016a6f3fbf1fcaaa50d3",
+    "after_sha256": "742d5624a51c659f479faea5720616f05749e6319b1a316985586dff9a64973b"
+  },
+  {
+    "path": "docs/operations/train-api.md",
+    "status": "modified",
+    "before_sha256": "36503518a4e396b50a77eb3dc7947328ebd8e4d8368e13971bd0aaf50435370f",
+    "after_sha256": "e0ffcd26cc61565a8dd8812eec1d7be87f878bb0eea8c79dcc46676075d6bf06"
+  },
+  {
+    "path": "docs/refactor/initial_train/plan_developpement.md",
+    "status": "deleted",
+    "before_sha256": "79eba21ceb6a4f0b1f80b064e5ae735916eb2c541c0d09b2505689b12c18de21",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/pull_train/plan_implementation.md",
+    "status": "deleted",
+    "before_sha256": "7047c94e3803aa5dcf679b40030832c0d6b2630115edbde386785c5f1dbab1df",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/pull_train/progress.md",
+    "status": "deleted",
+    "before_sha256": "7b9073c17f9ea481014d7807cb2a853217d78288f2ec2afa9353decc1469cb22",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/00_agent_instructions.md",
+    "status": "deleted",
+    "before_sha256": "3225c8239adfd0f5b44bbf1d4983cd7d53a047b588c3de648cebb9cd317e55e6",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/01_refactor_report.md",
+    "status": "deleted",
+    "before_sha256": "fbab0cf5337ed3bf17cbfb5688570aaadaa54112f92ba85d2ee503c81db2c0a9",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/03_refactor_plan.md",
+    "status": "deleted",
+    "before_sha256": "2763dd761e9a18efef30ab537644d4d11fea479bb8576de86cda8225cc9fa275",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/04_dev_plan.md",
+    "status": "deleted",
+    "before_sha256": "f79289d660169219b6b27ca736ca556856e99721235d0704f9ba161f4ca0d2c2",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/README.md",
+    "status": "deleted",
+    "before_sha256": "ed853c94ca83c2f9249d1f57d6a92f906eb56d0c91428e9a25981a273f723683",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/operations.md",
+    "status": "deleted",
+    "before_sha256": "c2037adec349b3183cfd5f2ed8f1f8fe0c3027e563a71ddab9ef13f24ca61b64",
+    "after_sha256": null
+  },
+  {
+    "path": "docs/refactor/train_api/progress.md",
+    "status": "deleted",
+    "before_sha256": "2e68f47065212ea1463a1a91be852300907cafced04dfadcaf82a30773e3dd99",
+    "after_sha256": null
+  },
+  {
+    "path": "interface/rapport.md",
+    "status": "modified",
+    "before_sha256": "ac1f4db9669af17525b9786417178580393edea8eaf3b3c8c73d4fbd57f8c5a2",
+    "after_sha256": "9a3e7c5a937d18b16480c4a8ae4119e815ab20ff89cda9c9b91183c0cf1b7304"
+  },
+  {
+    "path": "src/airflow_dags/dags/accidents_workflow.py",
+    "status": "modified",
+    "before_sha256": "f8c376483fea468d8ea004cda7ce1c84e98e4b0fadeba8b33a91eef5ef5a4a66",
+    "after_sha256": "2a8b72ce3739b8bb7df92a33a3b554ac39bdc25fc655aff9a79b77b4ee609eb1"
+  },
+  {
+    "path": "src/infra/mlflow/README.md",
+    "status": "modified",
+    "before_sha256": "1d4dc4bd27b405d6cf011eea9dffcd0f4dcd6617912db7e36b457428cc68371e",
+    "after_sha256": "47d847d0cf7c53c3966a63f001357c074ef58ee31957a4d655ac44ef4a29482a"
+  },
+  {
+    "path": "src/inital_train/main.py",
+    "status": "modified",
+    "before_sha256": "0e265689aa5019176dc08f3f2da177cebc03cff4e4750a4b48f614b3f002baa0",
+    "after_sha256": "ab10ba27de938f49eaaa01b5274f38f67e208da22cc6301c11b48fb92dd0a0c6"
+  },
+  {
+    "path": "src/train_api/main.py",
+    "status": "modified",
+    "before_sha256": "c7009d7f79a1210c93de4cfc61529d788bf6072131393f07eba53c52ce4b7654",
+    "after_sha256": "12c16a6049983b3b500c4f4ee5cbc00dca75fb0baa79e36ab94f13c193396ad3"
+  }
+]

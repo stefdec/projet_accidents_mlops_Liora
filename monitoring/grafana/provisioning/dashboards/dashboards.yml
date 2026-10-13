@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "Accidents Dashboards"
+    orgId: 1
+    folder: "Accidents"
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards

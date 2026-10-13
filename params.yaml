@@ -1,0 +1,9 @@
+retraining:
+  mode: initial
+  protocol_version: weekly-v1
+  weeks_2024: 0
+  history_start: '2019-01-01'
+  initial_validation_start: '2023-01-01'
+  start_2024: '2024-01-01'
+  end_2024: '2025-01-01'
+  evaluation_days: 7

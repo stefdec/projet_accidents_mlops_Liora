@@ -1,0 +1,140 @@
+[
+  {
+    "path": "Makefile",
+    "status": "modified",
+    "before_sha256": "1d480a6af58f1354aef238faa05f8e42604352dea2b21f3cb61e389c76b6be30",
+    "after_sha256": "ce3acde9768dc42774a9291b5dbd3336ce493bede9086ee1d17ea1d3d6c23ab6"
+  },
+  {
+    "path": "makefile2.mk",
+    "status": "deleted",
+    "before_sha256": "782de052f7fedc6dff73776ffedf681fd5e87797efddce914adfb904f484c81c",
+    "after_sha256": null
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "before_sha256": "7e6f02df446a181968d758111650cf28ad710b4487e6b4e118aba1723bf99bde",
+    "after_sha256": "5b3e5acd2934e514cdfd7798d749f5e1b5069522edf0906b76bf7eaae224164f"
+  },
+  {
+    "path": "README_monitoring.md",
+    "status": "modified",
+    "before_sha256": "ef87fba7393d048c6025a7ac157388c2ef1aa8703eb88b957c9115a8a8804c81",
+    "after_sha256": "69906140fdcb2d63cd9cfe2b287eb2f86103572bcb95f73c3e11da2c6d4c4201"
+  },
+  {
+    "path": "app/soutenance/pages/deck.py",
+    "status": "modified",
+    "before_sha256": "48c313f83f46cfb615d4f0fff2c80f1582f7a6c955293778ff88ad9613ca208a",
+    "after_sha256": "73f8997dadbc0f3b176e8204d3abedce22153a419b39ed484ff5f5385378ca0b"
+  },
+  {
+    "path": "app/presentation/pages/architecture.py",
+    "status": "modified",
+    "before_sha256": "327153c06d4a015771e77131e2f421162fbe4ee767e71f49f620fa306bd40b29",
+    "after_sha256": "97a65ad6616e8e4d8136e46bc619e2d011049ac9fc377f25067c459efd8a5849"
+  },
+  {
+    "path": "tests/train_api_v2/test_compose_service.py",
+    "status": "modified",
+    "before_sha256": "66be3ba6adfa1281ca80f44a8be5fcf016a85bd2ddfd83bbc4fe3c70e58859cc",
+    "after_sha256": "c0c43fbc05ce33b76d7bb05d3e47ccd391920e3b64ebbbdb6335531b178de6f0"
+  },
+  {
+    "path": "docs/audit-yann.md",
+    "status": "modified",
+    "before_sha256": "3ba8455b5ec44987bdc88a75f63618b6d64871cab9aa7f72d8fb45b805149ef4",
+    "after_sha256": "fd9d1f1b219ca7ff4090893dec012883bb485aea02911d80c8919b2afa8f5b73"
+  },
+  {
+    "path": "docs/loki/README.md",
+    "status": "modified",
+    "before_sha256": "32c485a95c72beed05e819bd0ad07bb16772a13711e2002f164745a046e3db07",
+    "after_sha256": "99eff978776fe392bccd7e4b0899d6a038b3697a3deee44a4926e37feb6afffa"
+  },
+  {
+    "path": "docs/operations/initial-training.md",
+    "status": "modified",
+    "before_sha256": "beb0f9c28cfde5bf7c6157ca00f01c5d06aadee40bbf467e13d9a6ef9536c855",
+    "after_sha256": "6c456ba55ef8860ee89b0c3e1f3dd13320d1d282ce3d2a0362abf3266f64ab59"
+  },
+  {
+    "path": "docs/operations/local-validation.md",
+    "status": "modified",
+    "before_sha256": "5c5bb93cbfdcf45f6a147262c5a12f403fe37dcf09f226b75c57128c6fdc24e1",
+    "after_sha256": "e1391d7cf98191489e35889c158027df40b8cf2915289eeb13205f88892da02b"
+  },
+  {
+    "path": "docs/operations/metrics-prometheus.md",
+    "status": "modified",
+    "before_sha256": "5c0fd673dd74b1fb38fd8f5b5a82bd27c576fabda6d349fc437dcba58f26fce0",
+    "after_sha256": "bee69713d2405a4633be6241647d721afed8737c4d2ba5711acf7c624d53afa0"
+  },
+  {
+    "path": "docs/operations/orchestration-makefile-v2.md",
+    "status": "modified",
+    "before_sha256": "d2feb33d159edb249fa03e99b826f67dd127cb37f8014ef8be21eaa34ab22527",
+    "after_sha256": "8ce6077fe037af3b2038bdb5de4c2b7dc3a48a6661df1777a528a4349c2f5d8e"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "modified",
+    "before_sha256": "a0bc63cadc36eadba9f5ea6e59b08e14c11ac7ff3c18d3282592efc0444684b9",
+    "after_sha256": "009cde13d19b7d5674ef1990f1d3064133acae3ccc7e94d09a9e6adf48357204"
+  },
+  {
+    "path": "docs/operations/mlflow.md",
+    "status": "modified",
+    "before_sha256": "e53b7dbfd2d7be95f3c1360e002974a90bd60d5146b1b5cbe616f984460c0c7f",
+    "after_sha256": "a589cfb8fe7db5d4e4ec923659f86cd01b83c6b12a514d0acc2a7279cf741c12"
+  },
+  {
+    "path": "docs/operations/logs-loki-alloy.md",
+    "status": "modified",
+    "before_sha256": "a4ce0275c9a999953489258934281c18750e98b936201f224e115ef5fdfdc6e0",
+    "after_sha256": "2ef4b12f7968ab6def4e808183cc9ca50e1b630d680102ffb6f912e797fd54ea"
+  },
+  {
+    "path": "docs/operations/grafana.md",
+    "status": "modified",
+    "before_sha256": "8445052b7647d44bbcfbfdb9f06048ca34c0026e1c83d256f394b864a170528d",
+    "after_sha256": "6e4ea80333c209e7409cd2bd364f793399b326516d5620d015c183cc2957e9e2"
+  },
+  {
+    "path": "docs/operations/auth-api.md",
+    "status": "modified",
+    "before_sha256": "d6f5ebf0825e9656eb5b82d4372008eb35cdd342857a292486e63577de67c2a8",
+    "after_sha256": "9a43dbdeefd23342ae4f8c09c3f76e9518858189a682321a0e364913db8a3380"
+  },
+  {
+    "path": "docs/refactor/train_api/operations.md",
+    "status": "modified",
+    "before_sha256": "74bd438e83c2ede42ebaea125eb918097b32b651232e9a0120ce656d30a4e66e",
+    "after_sha256": "c2037adec349b3183cfd5f2ed8f1f8fe0c3027e563a71ddab9ef13f24ca61b64"
+  },
+  {
+    "path": "docs/refactor/train_api/progress.md",
+    "status": "modified",
+    "before_sha256": "e4bfb37361d5ad3eb2b944bc260ebc8a3a0dffbccdeb75e9fbd17e8884f4ce46",
+    "after_sha256": "2e68f47065212ea1463a1a91be852300907cafced04dfadcaf82a30773e3dd99"
+  },
+  {
+    "path": "docs/refactor/train_api/README.md",
+    "status": "modified",
+    "before_sha256": "30287c5374f314b93dc678a14f1847a3aa03f5b2632d422e54e962502c54a58c",
+    "after_sha256": "ed853c94ca83c2f9249d1f57d6a92f906eb56d0c91428e9a25981a273f723683"
+  },
+  {
+    "path": "docs/refactor/train_api/04_dev_plan.md",
+    "status": "modified",
+    "before_sha256": "4718178b818287a0314cd1c2f35a0c3219e0a0e2ec2634a284b3059070d167cc",
+    "after_sha256": "f79289d660169219b6b27ca736ca556856e99721235d0704f9ba161f4ca0d2c2"
+  },
+  {
+    "path": "scripts/predict_api_smoke_test.py",
+    "status": "modified",
+    "before_sha256": "d7b09cc2c1fc29f466f18778fda0ee9bf4bcc3a63506328ad7d25d592fe16064",
+    "after_sha256": "0dbbeafc48ea17219c4c4ab2c449b2c7581a394db5739eb1988e46e4a16ea512"
+  }
+]

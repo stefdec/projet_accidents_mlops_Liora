@@ -1,0 +1,183 @@
+{
+  "MLflow": 200,
+  "auth": 200,
+  "pull": 200,
+  "train": 200,
+  "predict": 200,
+  "Grafana": 200,
+  "Prometheus": 200,
+  "drift": 200,
+  "carbon": 200,
+  "ML exporter": 200,
+  "Streamlit": 200,
+  "Airflow": 200,
+  "interface": 200,
+  "interface login": 200,
+  "predict authenticated": 200,
+  "interface prediction": 200,
+  "interface source": "remote_api",
+  "train unauthenticated": 401,
+  "pull unauthenticated": 401,
+  "interface predict unauthenticated": 401,
+  "Prometheus targets": 200,
+  "targets": {
+    "cadvisor": "up",
+    "drift_monitoring": "up",
+    "ml_monitoring": "up",
+    "node_exporter": "up",
+    "predict_api": "up",
+    "sustainability": "up"
+  },
+  "query container_memory_usage_bytes{name!=\"\"}": 200,
+  "container_memory_usage_bytes{name!=\"\"}": 0,
+  "query container_cpu_usage_seconds_total{name!=\"\"}": 200,
+  "container_cpu_usage_seconds_total{name!=\"\"}": 0,
+  "Loki services": [
+    "auth-api",
+    "predict-api",
+    "pull-data-api",
+    "train-api"
+  ],
+  "Loki recent streams": 5,
+  "containers": [
+    {
+      "name": "accidents-validation-airflow-airflow-worker-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-airflow-airflow-triggerer-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-airflow-airflow-scheduler-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-airflow-airflow-apiserver-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-airflow-airflow-dag-processor-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-airflow-postgres-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-airflow-redis-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "validation_emergency_interface",
+      "status": "running",
+      "health": "none",
+      "restarts": 0
+    },
+    {
+      "name": "validation_train_api",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-api-predict-api-1",
+      "status": "running",
+      "health": "none",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-api-auth-api-1",
+      "status": "running",
+      "health": "none",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-api-pull-data-api-1",
+      "status": "running",
+      "health": "none",
+      "restarts": 0
+    },
+    {
+      "name": "validation-accidents-grafana",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "validation-accidents-alloy",
+      "status": "running",
+      "health": "none",
+      "restarts": 0
+    },
+    {
+      "name": "validation-accidents-prometheus",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "validation-accidents-loki",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-monitoring-drift-exporter-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-monitoring-ml-exporter-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-monitoring-sustainability-exporter-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "validation-accidents-cadvisor",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "validation-accidents-node-exporter",
+      "status": "running",
+      "health": "none",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-mlflow-mlflow-server-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    },
+    {
+      "name": "accidents-validation-mlflow-mlflow-db-1",
+      "status": "running",
+      "health": "healthy",
+      "restarts": 0
+    }
+  ],
+  "Airflow import errors": 0
+}
